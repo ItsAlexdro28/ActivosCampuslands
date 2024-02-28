@@ -16,7 +16,7 @@ def activosAdd(data:dict):
             hold[keys[i]] = value
         hold['Historial'] = []
         new[hold['CodCampus']] = hold
-        data.update(new)
+        data['Activos'].update(new)
     except ValueError as e:
         print(f"Error: El valor de la llave '{e}' no es valido.")
 

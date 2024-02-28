@@ -1,5 +1,6 @@
 from tabulate import tabulate
-
+import modules.add as add
+import main as main 
 titulo = """
         +**********************+
         |       OPCIONES       |
@@ -42,7 +43,7 @@ def menuactivos():
     opcion = input("\n>> ")
     
     if opcion == "1":
-        pass 
+       add.activosAdd(main.data)
     elif opcion == "2":
         pass
     elif opcion == "3":
