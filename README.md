@@ -4,7 +4,7 @@ a continuacion se presenta la lista de cosas pendientes y finalizadas
 
 data.json
 - importar (✓)
-- exportar 
+- exportar (✓)
 - activos (✓)
 - personas
 - zonas
@@ -24,7 +24,7 @@ acciones
 - editar (activos, personal, zonas) (0,0,0)
 - eliminar (activos, personal, zonas) (libres de asignaciones) (0,0,0)
 - buscar (activos, personal, zonas)
-- nueva asignacion (excluir dados de baja/garantia)
+- nueva asignacion (excluir dados de baja/garantia/verificar datos completos)
 - añadir historial (nuevo id, asignar a los activos)
 - buscar asignacion
 - retornar activo
