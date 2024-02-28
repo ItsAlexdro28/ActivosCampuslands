@@ -1,10 +1,10 @@
 import csv
 import json
 data = {
-    'Activos':{},
     'Personal': {},
     'Zonas': {},
-    'Asignacion': {}
+    'Asignacion': {},
+    'Activos':{}
 }
 
 DIR = 'data/'

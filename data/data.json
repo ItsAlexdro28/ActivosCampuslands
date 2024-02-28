@@ -1,4 +1,7 @@
 {
+    "Personal": {},
+    "Zonas": {},
+    "Asignacion": {},
     "Activos": {
         "CPU001": {
             "CodTransaccion": "327",
@@ -8,7 +11,7 @@
             "Categoria": "Equipo de computo",
             "Tipo": "Cpu",
             "ValUnid": "",
-            "Proveedor": "Compumax Computer",
+            "Proveedor": "Compumax Computer ",
             "NroSerial": "400SN39173",
             "EmpresaResponsable": "Campuslands",
             "Estado": "0",
@@ -6888,7 +6891,5 @@
             "Estado": "0",
             "Historial": []
         }
-    },
-    "Personal": {},
-    "Zonas": {}
+    }
 }
