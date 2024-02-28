@@ -1,4 +1,5 @@
 {
+    "Activos": {
     "CPU001": {
         "CodTransaccion": "327",
         "NroFormulario": "966217823",
@@ -7,11 +8,11 @@
         "Categoria": "Equipo de computo",
         "Tipo": "Cpu",
         "ValUnid": "",
-        "Proveedor": "Compumax Computer ",
+            "Proveedor": "Compumax Computer",
         "NroSerial": "400SN39173",
         "EmpresaResponsable": "Campuslands",
         "Estado": "0",
-        "Historial": "[]"
+            "Historial": []
     },
     "MON001": {
         "CodTransaccion": "327",
@@ -25,7 +26,7 @@
         "NroSerial": "COM2024CM21070723",
         "EmpresaResponsable": "Campuslands",
         "Estado": "0",
-        "Historial": "[]"
+            "Historial": []
     },
     "TEC001": {
         "CodTransaccion": "327",
@@ -39,7 +40,7 @@
         "NroSerial": "KBM130091706",
         "EmpresaResponsable": "Campuslands",
         "Estado": "0",
-        "Historial": "[]"
+            "Historial": []
     },
     "MOU001": {
         "CodTransaccion": "327",
@@ -53,7 +54,7 @@
         "NroSerial": "Sin serial ",
         "EmpresaResponsable": "Campuslands",
         "Estado": "0",
-        "Historial": "[]"
+            "Historial": []
     },
     "CPU002": {
         "CodTransaccion": "327",
@@ -67,7 +68,7 @@
         "NroSerial": "400SN39208",
         "EmpresaResponsable": "Campuslands",
         "Estado": "0",
-        "Historial": "[]"
+            "Historial": []
     },
     "MON002": {
         "CodTransaccion": "327",
@@ -81,7 +82,7 @@
         "NroSerial": "COM2024CM21070880",
         "EmpresaResponsable": "Campuslands",
         "Estado": "0",
-        "Historial": "[]"
+            "Historial": []
     },
     "TEC002": {
         "CodTransaccion": "327",
@@ -95,7 +96,7 @@
         "NroSerial": "KBM130090718",
         "EmpresaResponsable": "Campuslands",
         "Estado": "0",
-        "Historial": "[]"
+            "Historial": []
     },
     "MOU002": {
         "CodTransaccion": "327",
@@ -109,7 +110,7 @@
         "NroSerial": "Sin serial ",
         "EmpresaResponsable": "Campuslands",
         "Estado": "0",
-        "Historial": "[]"
+            "Historial": []
     },
     "CPU003": {
         "CodTransaccion": "327",
@@ -123,7 +124,7 @@
         "NroSerial": "400SN39182",
         "EmpresaResponsable": "Campuslands",
         "Estado": "0",
-        "Historial": "[]"
+            "Historial": []
     },
     "MON003": {
         "CodTransaccion": "327",
@@ -137,7 +138,7 @@
         "NroSerial": "COM2024CM21070018",
         "EmpresaResponsable": "Campuslands",
         "Estado": "0",
-        "Historial": "[]"
+            "Historial": []
     },
     "TEC003": {
         "CodTransaccion": "327",
@@ -151,7 +152,7 @@
         "NroSerial": "KBM130090717",
         "EmpresaResponsable": "Campuslands",
         "Estado": "0",
-        "Historial": "[]"
+            "Historial": []
     },
     "MOU003": {
         "CodTransaccion": "327",
@@ -165,7 +166,7 @@
         "NroSerial": "Sin serial ",
         "EmpresaResponsable": "Campuslands",
         "Estado": "0",
-        "Historial": "[]"
+            "Historial": []
     },
     "CPU004": {
         "CodTransaccion": "327",
@@ -179,7 +180,7 @@
         "NroSerial": "400SN39190",
         "EmpresaResponsable": "Campuslands",
         "Estado": "0",
-        "Historial": "[]"
+            "Historial": []
     },
     "MON004": {
         "CodTransaccion": "327",
@@ -193,7 +194,7 @@
         "NroSerial": "COM2024CM21070876",
         "EmpresaResponsable": "Campuslands",
         "Estado": "0",
-        "Historial": "[]"
+            "Historial": []
     },
     "TEC004": {
         "CodTransaccion": "327",
@@ -207,7 +208,7 @@
         "NroSerial": "KBM130090719",
         "EmpresaResponsable": "Campuslands",
         "Estado": "0",
-        "Historial": "[]"
+            "Historial": []
     },
     "MOU004": {
         "CodTransaccion": "327",
@@ -221,7 +222,7 @@
         "NroSerial": "Sin serial ",
         "EmpresaResponsable": "Campuslands",
         "Estado": "0",
-        "Historial": "[]"
+            "Historial": []
     },
     "CPU005": {
         "CodTransaccion": "327",
@@ -235,7 +236,7 @@
         "NroSerial": "400SN39186",
         "EmpresaResponsable": "Campuslands",
         "Estado": "0",
-        "Historial": "[]"
+            "Historial": []
     },
     "MON005": {
         "CodTransaccion": "327",
@@ -249,7 +250,7 @@
         "NroSerial": "COM2024CM21070838",
         "EmpresaResponsable": "Campuslands",
         "Estado": "0",
-        "Historial": "[]"
+            "Historial": []
     },
     "TEC005": {
         "CodTransaccion": "327",
@@ -263,7 +264,7 @@
         "NroSerial": "KBM130091718",
         "EmpresaResponsable": "Campuslands",
         "Estado": "0",
-        "Historial": "[]"
+            "Historial": []
     },
     "MOU005": {
         "CodTransaccion": "327",
@@ -277,7 +278,7 @@
         "NroSerial": "Sin serial ",
         "EmpresaResponsable": "Campuslands",
         "Estado": "0",
-        "Historial": "[]"
+            "Historial": []
     },
     "CPU006": {
         "CodTransaccion": "327",
@@ -291,7 +292,7 @@
         "NroSerial": "400SN39198",
         "EmpresaResponsable": "Campuslands",
         "Estado": "0",
-        "Historial": "[]"
+            "Historial": []
     },
     "MON006": {
         "CodTransaccion": "327",
@@ -305,7 +306,7 @@
         "NroSerial": "COM2024CM21070638",
         "EmpresaResponsable": "Campuslands",
         "Estado": "0",
-        "Historial": "[]"
+            "Historial": []
     },
     "TEC006": {
         "CodTransaccion": "327",
@@ -319,7 +320,7 @@
         "NroSerial": "KBM130091719",
         "EmpresaResponsable": "Campuslands",
         "Estado": "0",
-        "Historial": "[]"
+            "Historial": []
     },
     "MOU006": {
         "CodTransaccion": "327",
@@ -333,7 +334,7 @@
         "NroSerial": "Sin serial ",
         "EmpresaResponsable": "Campuslands",
         "Estado": "0",
-        "Historial": "[]"
+            "Historial": []
     },
     "CPU007": {
         "CodTransaccion": "327",
@@ -347,7 +348,7 @@
         "NroSerial": "102SN55107",
         "EmpresaResponsable": "Campuslands",
         "Estado": "0",
-        "Historial": "[]"
+            "Historial": []
     },
     "MON007": {
         "CodTransaccion": "327",
@@ -361,7 +362,7 @@
         "NroSerial": "COM2024CM21070037",
         "EmpresaResponsable": "Campuslands",
         "Estado": "0",
-        "Historial": "[]"
+            "Historial": []
     },
     "TEC007": {
         "CodTransaccion": "327",
@@ -375,7 +376,7 @@
         "NroSerial": "KBM130091731",
         "EmpresaResponsable": "Campuslands",
         "Estado": "0",
-        "Historial": "[]"
+            "Historial": []
     },
     "MOU007": {
         "CodTransaccion": "327",
@@ -389,7 +390,7 @@
         "NroSerial": "Sin serial ",
         "EmpresaResponsable": "Campuslands",
         "Estado": "0",
-        "Historial": "[]"
+            "Historial": []
     },
     "CPU008": {
         "CodTransaccion": "327",
@@ -403,7 +404,7 @@
         "NroSerial": "102SN55106",
         "EmpresaResponsable": "Campuslands",
         "Estado": "0",
-        "Historial": "[]"
+            "Historial": []
     },
     "MON008": {
         "CodTransaccion": "327",
@@ -417,7 +418,7 @@
         "NroSerial": "COM2024CM21070115",
         "EmpresaResponsable": "Campuslands",
         "Estado": "0",
-        "Historial": "[]"
+            "Historial": []
     },
     "TEC008": {
         "CodTransaccion": "327",
@@ -431,7 +432,7 @@
         "NroSerial": "KBM130091732",
         "EmpresaResponsable": "Campuslands",
         "Estado": "0",
-        "Historial": "[]"
+            "Historial": []
     },
     "MOU008": {
         "CodTransaccion": "327",
@@ -445,7 +446,7 @@
         "NroSerial": "Sin serial ",
         "EmpresaResponsable": "Campuslands",
         "Estado": "0",
-        "Historial": "[]"
+            "Historial": []
     },
     "CPU009": {
         "CodTransaccion": "327",
@@ -459,7 +460,7 @@
         "NroSerial": "400SN39204",
         "EmpresaResponsable": "Campuslands",
         "Estado": "0",
-        "Historial": "[]"
+            "Historial": []
     },
     "MON009": {
         "CodTransaccion": "327",
@@ -473,7 +474,7 @@
         "NroSerial": "COM2024CM21070874",
         "EmpresaResponsable": "Campuslands",
         "Estado": "0",
-        "Historial": "[]"
+            "Historial": []
     },
     "TEC009": {
         "CodTransaccion": "327",
@@ -487,7 +488,7 @@
         "NroSerial": "KBM130090731",
         "EmpresaResponsable": "Campuslands",
         "Estado": "0",
-        "Historial": "[]"
+            "Historial": []
     },
     "MOU009": {
         "CodTransaccion": "327",
@@ -501,7 +502,7 @@
         "NroSerial": "Sin serial ",
         "EmpresaResponsable": "Campuslands",
         "Estado": "0",
-        "Historial": "[]"
+            "Historial": []
     },
     "CPU010": {
         "CodTransaccion": "327",
@@ -515,7 +516,7 @@
         "NroSerial": "400SN39214",
         "EmpresaResponsable": "Campuslands",
         "Estado": "0",
-        "Historial": "[]"
+            "Historial": []
     },
     "MON010": {
         "CodTransaccion": "327",
@@ -529,7 +530,7 @@
         "NroSerial": "COM2024CM21070105",
         "EmpresaResponsable": "Campuslands",
         "Estado": "0",
-        "Historial": "[]"
+            "Historial": []
     },
     "TEC010": {
         "CodTransaccion": "327",
@@ -543,7 +544,7 @@
         "NroSerial": "KBM130090732",
         "EmpresaResponsable": "Campuslands",
         "Estado": "0",
-        "Historial": "[]"
+            "Historial": []
     },
     "MOU010": {
         "CodTransaccion": "327",
@@ -557,7 +558,7 @@
         "NroSerial": "Sin serial ",
         "EmpresaResponsable": "Campuslands",
         "Estado": "0",
-        "Historial": "[]"
+            "Historial": []
     },
     "CPU011": {
         "CodTransaccion": "327",
@@ -571,7 +572,7 @@
         "NroSerial": "400SN39189",
         "EmpresaResponsable": "Campuslands",
         "Estado": "0",
-        "Historial": "[]"
+            "Historial": []
     },
     "MON011": {
         "CodTransaccion": "327",
@@ -585,7 +586,7 @@
         "NroSerial": "COM2024CM21070010",
         "EmpresaResponsable": "Campuslands",
         "Estado": "0",
-        "Historial": "[]"
+            "Historial": []
     },
     "TEC011": {
         "CodTransaccion": "327",
@@ -599,7 +600,7 @@
         "NroSerial": "KBM130091733",
         "EmpresaResponsable": "Campuslands",
         "Estado": "0",
-        "Historial": "[]"
+            "Historial": []
     },
     "MOU011": {
         "CodTransaccion": "327",
@@ -613,7 +614,7 @@
         "NroSerial": "Sin serial ",
         "EmpresaResponsable": "Campuslands",
         "Estado": "0",
-        "Historial": "[]"
+            "Historial": []
     },
     "CPU012": {
         "CodTransaccion": "327",
@@ -627,7 +628,7 @@
         "NroSerial": "400SN39223",
         "EmpresaResponsable": "Campuslands",
         "Estado": "0",
-        "Historial": "[]"
+            "Historial": []
     },
     "MON012": {
         "CodTransaccion": "327",
@@ -641,7 +642,7 @@
         "NroSerial": "COM2024CM21070109",
         "EmpresaResponsable": "Campuslands",
         "Estado": "0",
-        "Historial": "[]"
+            "Historial": []
     },
     "TEC012": {
         "CodTransaccion": "327",
@@ -655,7 +656,7 @@
         "NroSerial": "KBM130090703",
         "EmpresaResponsable": "Campuslands",
         "Estado": "0",
-        "Historial": "[]"
+            "Historial": []
     },
     "MOU012": {
         "CodTransaccion": "327",
@@ -669,7 +670,7 @@
         "NroSerial": "Sin serial ",
         "EmpresaResponsable": "Campuslands",
         "Estado": "0",
-        "Historial": "[]"
+            "Historial": []
     },
     "CPU013": {
         "CodTransaccion": "327",
@@ -683,7 +684,7 @@
         "NroSerial": "400SN39229",
         "EmpresaResponsable": "Campuslands",
         "Estado": "0",
-        "Historial": "[]"
+            "Historial": []
     },
     "MON013": {
         "CodTransaccion": "327",
@@ -697,7 +698,7 @@
         "NroSerial": "COM2024CM21070502",
         "EmpresaResponsable": "Campuslands",
         "Estado": "0",
-        "Historial": "[]"
+            "Historial": []
     },
     "TEC013": {
         "CodTransaccion": "327",
@@ -711,7 +712,7 @@
         "NroSerial": "KBM130090708",
         "EmpresaResponsable": "Campuslands",
         "Estado": "0",
-        "Historial": "[]"
+            "Historial": []
     },
     "MOU013": {
         "CodTransaccion": "327",
@@ -725,7 +726,7 @@
         "NroSerial": "Sin serial ",
         "EmpresaResponsable": "Campuslands",
         "Estado": "0",
-        "Historial": "[]"
+            "Historial": []
     },
     "CPU014": {
         "CodTransaccion": "327",
@@ -739,7 +740,7 @@
         "NroSerial": "400SN39178",
         "EmpresaResponsable": "Campuslands",
         "Estado": "0",
-        "Historial": "[]"
+            "Historial": []
     },
     "MON014": {
         "CodTransaccion": "327",
@@ -753,7 +754,7 @@
         "NroSerial": "COM2024CM21070136",
         "EmpresaResponsable": "Campuslands",
         "Estado": "0",
-        "Historial": "[]"
+            "Historial": []
     },
     "TEC014": {
         "CodTransaccion": "327",
@@ -767,7 +768,7 @@
         "NroSerial": "KBM130091708",
         "EmpresaResponsable": "Campuslands",
         "Estado": "0",
-        "Historial": "[]"
+            "Historial": []
     },
     "MOU014": {
         "CodTransaccion": "327",
@@ -781,7 +782,7 @@
         "NroSerial": "Sin serial ",
         "EmpresaResponsable": "Campuslands",
         "Estado": "0",
-        "Historial": "[]"
+            "Historial": []
     },
     "CPU015": {
         "CodTransaccion": "327",
@@ -795,7 +796,7 @@
         "NroSerial": "400SN39196",
         "EmpresaResponsable": "Campuslands",
         "Estado": "0",
-        "Historial": "[]"
+            "Historial": []
     },
     "MON015": {
         "CodTransaccion": "327",
@@ -809,7 +810,7 @@
         "NroSerial": "COM2024CM21070001",
         "EmpresaResponsable": "Campuslands",
         "Estado": "0",
-        "Historial": "[]"
+            "Historial": []
     },
     "TEC015": {
         "CodTransaccion": "327",
@@ -823,7 +824,7 @@
         "NroSerial": "KBM130091707",
         "EmpresaResponsable": "Campuslands",
         "Estado": "0",
-        "Historial": "[]"
+            "Historial": []
     },
     "MOU015": {
         "CodTransaccion": "327",
@@ -837,7 +838,7 @@
         "NroSerial": "Sin serial ",
         "EmpresaResponsable": "Campuslands",
         "Estado": "0",
-        "Historial": "[]"
+            "Historial": []
     },
     "CPU016": {
         "CodTransaccion": "327",
@@ -851,7 +852,7 @@
         "NroSerial": "102SN55081",
         "EmpresaResponsable": "Campuslands",
         "Estado": "0",
-        "Historial": "[]"
+            "Historial": []
     },
     "MON016": {
         "CodTransaccion": "327",
@@ -865,7 +866,7 @@
         "NroSerial": "COM2024CM21070846",
         "EmpresaResponsable": "Campuslands",
         "Estado": "0",
-        "Historial": "[]"
+            "Historial": []
     },
     "TEC016": {
         "CodTransaccion": "327",
@@ -879,7 +880,7 @@
         "NroSerial": "KBM130090709",
         "EmpresaResponsable": "Campuslands",
         "Estado": "0",
-        "Historial": "[]"
+            "Historial": []
     },
     "MOU016": {
         "CodTransaccion": "327",
@@ -893,7 +894,7 @@
         "NroSerial": "Sin serial ",
         "EmpresaResponsable": "Campuslands",
         "Estado": "0",
-        "Historial": "[]"
+            "Historial": []
     },
     "CPU017": {
         "CodTransaccion": "327",
@@ -907,7 +908,7 @@
         "NroSerial": "400SN39183",
         "EmpresaResponsable": "Campuslands",
         "Estado": "0",
-        "Historial": "[]"
+            "Historial": []
     },
     "MON017": {
         "CodTransaccion": "327",
@@ -921,7 +922,7 @@
         "NroSerial": "COM2024CM21070211",
         "EmpresaResponsable": "Campuslands",
         "Estado": "0",
-        "Historial": "[]"
+            "Historial": []
     },
     "TEC017": {
         "CodTransaccion": "327",
@@ -935,7 +936,7 @@
         "NroSerial": "KBM130091709",
         "EmpresaResponsable": "Campuslands",
         "Estado": "0",
-        "Historial": "[]"
+            "Historial": []
     },
     "MOU017": {
         "CodTransaccion": "327",
@@ -949,7 +950,7 @@
         "NroSerial": "Sin serial ",
         "EmpresaResponsable": "Campuslands",
         "Estado": "0",
-        "Historial": "[]"
+            "Historial": []
     },
     "CPU018": {
         "CodTransaccion": "327",
@@ -963,7 +964,7 @@
         "NroSerial": "102SN55098",
         "EmpresaResponsable": "Campuslands",
         "Estado": "0",
-        "Historial": "[]"
+            "Historial": []
     },
     "MON018": {
         "CodTransaccion": "327",
@@ -977,7 +978,7 @@
         "NroSerial": "COM2024CM21070733",
         "EmpresaResponsable": "Campuslands",
         "Estado": "0",
-        "Historial": "[]"
+            "Historial": []
     },
     "TEC018": {
         "CodTransaccion": "327",
@@ -991,7 +992,7 @@
         "NroSerial": "KBM130090710",
         "EmpresaResponsable": "Campuslands",
         "Estado": "0",
-        "Historial": "[]"
+            "Historial": []
     },
     "MOU018": {
         "CodTransaccion": "327",
@@ -1005,7 +1006,7 @@
         "NroSerial": "Sin serial ",
         "EmpresaResponsable": "Campuslands",
         "Estado": "0",
-        "Historial": "[]"
+            "Historial": []
     },
     "CPU019": {
         "CodTransaccion": "327",
@@ -1019,7 +1020,7 @@
         "NroSerial": "102SN55108",
         "EmpresaResponsable": "Campuslands",
         "Estado": "0",
-        "Historial": "[]"
+            "Historial": []
     },
     "MON019": {
         "CodTransaccion": "327",
@@ -1033,7 +1034,7 @@
         "NroSerial": "COM2024CM21070287",
         "EmpresaResponsable": "Campuslands",
         "Estado": "0",
-        "Historial": "[]"
+            "Historial": []
     },
     "TEC019": {
         "CodTransaccion": "327",
@@ -1047,7 +1048,7 @@
         "NroSerial": "KBM130091748",
         "EmpresaResponsable": "Campuslands",
         "Estado": "0",
-        "Historial": "[]"
+            "Historial": []
     },
     "MOU019": {
         "CodTransaccion": "327",
@@ -1061,7 +1062,7 @@
         "NroSerial": "Sin serial ",
         "EmpresaResponsable": "Campuslands",
         "Estado": "0",
-        "Historial": "[]"
+            "Historial": []
     },
     "CPU020": {
         "CodTransaccion": "327",
@@ -1075,7 +1076,7 @@
         "NroSerial": "400SN39224",
         "EmpresaResponsable": "Campuslands",
         "Estado": "0",
-        "Historial": "[]"
+            "Historial": []
     },
     "MON020": {
         "CodTransaccion": "327",
@@ -1089,7 +1090,7 @@
         "NroSerial": "COM2024CM21070629",
         "EmpresaResponsable": "Campuslands",
         "Estado": "0",
-        "Historial": "[]"
+            "Historial": []
     },
     "TEC020": {
         "CodTransaccion": "327",
@@ -1103,7 +1104,7 @@
         "NroSerial": "KBM130090748",
         "EmpresaResponsable": "Campuslands",
         "Estado": "0",
-        "Historial": "[]"
+            "Historial": []
     },
     "MOU020": {
         "CodTransaccion": "327",
@@ -1117,7 +1118,7 @@
         "NroSerial": "",
         "EmpresaResponsable": "Campuslands",
         "Estado": "0",
-        "Historial": "[]"
+            "Historial": []
     },
     "CPU021": {
         "CodTransaccion": "327",
@@ -1131,7 +1132,7 @@
         "NroSerial": "400SN39179",
         "EmpresaResponsable": "Campuslands",
         "Estado": "0",
-        "Historial": "[]"
+            "Historial": []
     },
     "MON021": {
         "CodTransaccion": "327",
@@ -1145,7 +1146,7 @@
         "NroSerial": "COM2024CM21070188",
         "EmpresaResponsable": "Campuslands",
         "Estado": "0",
-        "Historial": "[]"
+            "Historial": []
     },
     "TEC021": {
         "CodTransaccion": "327",
@@ -1159,7 +1160,7 @@
         "NroSerial": "KBM130090749",
         "EmpresaResponsable": "Campuslands",
         "Estado": "0",
-        "Historial": "[]"
+            "Historial": []
     },
     "MOU021": {
         "CodTransaccion": "327",
@@ -1173,7 +1174,7 @@
         "NroSerial": "Sin serial ",
         "EmpresaResponsable": "Campuslands",
         "Estado": "0",
-        "Historial": "[]"
+            "Historial": []
     },
     "CPU022": {
         "CodTransaccion": "327",
@@ -1187,7 +1188,7 @@
         "NroSerial": "102SN55092",
         "EmpresaResponsable": "Campuslands",
         "Estado": "0",
-        "Historial": "[]"
+            "Historial": []
     },
     "MON022": {
         "CodTransaccion": "327",
@@ -1201,7 +1202,7 @@
         "NroSerial": "COM2024CM21070050",
         "EmpresaResponsable": "Campuslands",
         "Estado": "0",
-        "Historial": "[]"
+            "Historial": []
     },
     "TEC022": {
         "CodTransaccion": "327",
@@ -1215,7 +1216,7 @@
         "NroSerial": "KBM130090705",
         "EmpresaResponsable": "Campuslands",
         "Estado": "0",
-        "Historial": "[]"
+            "Historial": []
     },
     "MOU022": {
         "CodTransaccion": "327",
@@ -1229,7 +1230,7 @@
         "NroSerial": "Sin serial ",
         "EmpresaResponsable": "Campuslands",
         "Estado": "0",
-        "Historial": "[]"
+            "Historial": []
     },
     "CPU023": {
         "CodTransaccion": "327",
@@ -1243,7 +1244,7 @@
         "NroSerial": "400SN39187",
         "EmpresaResponsable": "Campuslands",
         "Estado": "0",
-        "Historial": "[]"
+            "Historial": []
     },
     "MON023": {
         "CodTransaccion": "327",
@@ -1257,7 +1258,7 @@
         "NroSerial": "COM2024CM21070663",
         "EmpresaResponsable": "Campuslands",
         "Estado": "0",
-        "Historial": "[]"
+            "Historial": []
     },
     "TEC023": {
         "CodTransaccion": "327",
@@ -1271,7 +1272,7 @@
         "NroSerial": "KBM130090733",
         "EmpresaResponsable": "Campuslands",
         "Estado": "0",
-        "Historial": "[]"
+            "Historial": []
     },
     "MOU023": {
         "CodTransaccion": "327",
@@ -1285,7 +1286,7 @@
         "NroSerial": "Sin serial ",
         "EmpresaResponsable": "Campuslands",
         "Estado": "0",
-        "Historial": "[]"
+            "Historial": []
     },
     "CPU024": {
         "CodTransaccion": "327",
@@ -1299,7 +1300,7 @@
         "NroSerial": "400SN39200",
         "EmpresaResponsable": "Campuslands",
         "Estado": "0",
-        "Historial": "[]"
+            "Historial": []
     },
     "MON024": {
         "CodTransaccion": "327",
@@ -1313,7 +1314,7 @@
         "NroSerial": "COM2024CM21070705",
         "EmpresaResponsable": "Campuslands",
         "Estado": "0",
-        "Historial": "[]"
+            "Historial": []
     },
     "TEC024": {
         "CodTransaccion": "327",
@@ -1327,7 +1328,7 @@
         "NroSerial": "KBM130091705",
         "EmpresaResponsable": "Campuslands",
         "Estado": "0",
-        "Historial": "[]"
+            "Historial": []
     },
     "MOU024": {
         "CodTransaccion": "327",
@@ -1341,7 +1342,7 @@
         "NroSerial": "Sin serial ",
         "EmpresaResponsable": "Campuslands",
         "Estado": "0",
-        "Historial": "[]"
+            "Historial": []
     },
     "CPU025": {
         "CodTransaccion": "327",
@@ -1355,7 +1356,7 @@
         "NroSerial": "102SN55091",
         "EmpresaResponsable": "Campuslands",
         "Estado": "0",
-        "Historial": "[]"
+            "Historial": []
     },
     "MON025": {
         "CodTransaccion": "327",
@@ -1369,7 +1370,7 @@
         "NroSerial": "COM2024CM21070754",
         "EmpresaResponsable": "Campuslands",
         "Estado": "0",
-        "Historial": "[]"
+            "Historial": []
     },
     "TEC025": {
         "CodTransaccion": "327",
@@ -1383,7 +1384,7 @@
         "NroSerial": "KBM130091701",
         "EmpresaResponsable": "Campuslands",
         "Estado": "0",
-        "Historial": "[]"
+            "Historial": []
     },
     "MOU025": {
         "CodTransaccion": "327",
@@ -1397,7 +1398,7 @@
         "NroSerial": "Sin serial ",
         "EmpresaResponsable": "Campuslands",
         "Estado": "0",
-        "Historial": "[]"
+            "Historial": []
     },
     "CPU026": {
         "CodTransaccion": "327",
@@ -1411,7 +1412,7 @@
         "NroSerial": "400SN39237",
         "EmpresaResponsable": "Campuslands",
         "Estado": "0",
-        "Historial": "[]"
+            "Historial": []
     },
     "MON026": {
         "CodTransaccion": "327",
@@ -1425,7 +1426,7 @@
         "NroSerial": "COM2024CM21070394",
         "EmpresaResponsable": "Campuslands",
         "Estado": "0",
-        "Historial": "[]"
+            "Historial": []
     },
     "TEC026": {
         "CodTransaccion": "327",
@@ -1439,7 +1440,7 @@
         "NroSerial": "KBM130091751",
         "EmpresaResponsable": "Campuslands",
         "Estado": "0",
-        "Historial": "[]"
+            "Historial": []
     },
     "MOU026": {
         "CodTransaccion": "327",
@@ -1453,7 +1454,7 @@
         "NroSerial": "Sin serial ",
         "EmpresaResponsable": "Campuslands",
         "Estado": "0",
-        "Historial": "[]"
+            "Historial": []
     },
     "CPU027": {
         "CodTransaccion": "327",
@@ -1467,7 +1468,7 @@
         "NroSerial": "102SN55099",
         "EmpresaResponsable": "Campuslands",
         "Estado": "0",
-        "Historial": "[]"
+            "Historial": []
     },
     "MON027": {
         "CodTransaccion": "327",
@@ -1481,7 +1482,7 @@
         "NroSerial": "COM2024CM21070683",
         "EmpresaResponsable": "Campuslands",
         "Estado": "0",
-        "Historial": "[]"
+            "Historial": []
     },
     "TEC027": {
         "CodTransaccion": "327",
@@ -1495,7 +1496,7 @@
         "NroSerial": "KBM130090751",
         "EmpresaResponsable": "Campuslands",
         "Estado": "0",
-        "Historial": "[]"
+            "Historial": []
     },
     "MOU027": {
         "CodTransaccion": "327",
@@ -1509,7 +1510,7 @@
         "NroSerial": "Sin serial ",
         "EmpresaResponsable": "Campuslands",
         "Estado": "0",
-        "Historial": "[]"
+            "Historial": []
     },
     "CPU028": {
         "CodTransaccion": "327",
@@ -1523,7 +1524,7 @@
         "NroSerial": "400SN39184",
         "EmpresaResponsable": "Campuslands",
         "Estado": "0",
-        "Historial": "[]"
+            "Historial": []
     },
     "MON028": {
         "CodTransaccion": "327",
@@ -1537,7 +1538,7 @@
         "NroSerial": "COM2024CM21070520",
         "EmpresaResponsable": "Campuslands",
         "Estado": "0",
-        "Historial": "[]"
+            "Historial": []
     },
     "TEC028": {
         "CodTransaccion": "327",
@@ -1551,7 +1552,7 @@
         "NroSerial": "KBM130091717",
         "EmpresaResponsable": "Campuslands",
         "Estado": "0",
-        "Historial": "[]"
+            "Historial": []
     },
     "MOU028": {
         "CodTransaccion": "327",
@@ -1565,7 +1566,7 @@
         "NroSerial": "Sin serial ",
         "EmpresaResponsable": "Campuslands",
         "Estado": "0",
-        "Historial": "[]"
+            "Historial": []
     },
     "CPU029": {
         "CodTransaccion": "327",
@@ -1579,7 +1580,7 @@
         "NroSerial": "400SN39180",
         "EmpresaResponsable": "Campuslands",
         "Estado": "0",
-        "Historial": "[]"
+            "Historial": []
     },
     "MON029": {
         "CodTransaccion": "327",
@@ -1593,7 +1594,7 @@
         "NroSerial": "COM2024CM21070374",
         "EmpresaResponsable": "Campuslands",
         "Estado": "0",
-        "Historial": "[]"
+            "Historial": []
     },
     "TEC029": {
         "CodTransaccion": "327",
@@ -1607,7 +1608,7 @@
         "NroSerial": "KBM130090704",
         "EmpresaResponsable": "Campuslands",
         "Estado": "0",
-        "Historial": "[]"
+            "Historial": []
     },
     "MOU029": {
         "CodTransaccion": "327",
@@ -1621,7 +1622,7 @@
         "NroSerial": "Sin serial ",
         "EmpresaResponsable": "Campuslands",
         "Estado": "0",
-        "Historial": "[]"
+            "Historial": []
     },
     "CPU030": {
         "CodTransaccion": "327",
@@ -1635,7 +1636,7 @@
         "NroSerial": "400SN39199",
         "EmpresaResponsable": "Campuslands",
         "Estado": "0",
-        "Historial": "[]"
+            "Historial": []
     },
     "MON030": {
         "CodTransaccion": "327",
@@ -1649,7 +1650,7 @@
         "NroSerial": "COM2024CM21070711",
         "EmpresaResponsable": "Campuslands",
         "Estado": "0",
-        "Historial": "[]"
+            "Historial": []
     },
     "TEC030": {
         "CodTransaccion": "327",
@@ -1663,7 +1664,7 @@
         "NroSerial": "KBM130091715",
         "EmpresaResponsable": "Campuslands",
         "Estado": "0",
-        "Historial": "[]"
+            "Historial": []
     },
     "MOU030": {
         "CodTransaccion": "327",
@@ -1677,7 +1678,7 @@
         "NroSerial": "Sin serial ",
         "EmpresaResponsable": "Campuslands",
         "Estado": "0",
-        "Historial": "[]"
+            "Historial": []
     },
     "CPU031": {
         "CodTransaccion": "327",
@@ -1691,7 +1692,7 @@
         "NroSerial": "102SN55105",
         "EmpresaResponsable": "Campuslands",
         "Estado": "0",
-        "Historial": "[]"
+            "Historial": []
     },
     "MON031": {
         "CodTransaccion": "327",
@@ -1705,7 +1706,7 @@
         "NroSerial": "COM2024CM21070043",
         "EmpresaResponsable": "Campuslands",
         "Estado": "0",
-        "Historial": "[]"
+            "Historial": []
     },
     "TEC031": {
         "CodTransaccion": "327",
@@ -1719,7 +1720,7 @@
         "NroSerial": "UD18J2C00169",
         "EmpresaResponsable": "Campuslands",
         "Estado": "0",
-        "Historial": "[]"
+            "Historial": []
     },
     "MOU031": {
         "CodTransaccion": "327",
@@ -1733,7 +1734,7 @@
         "NroSerial": "Sin serial ",
         "EmpresaResponsable": "Campuslands",
         "Estado": "0",
-        "Historial": "[]"
+            "Historial": []
     },
     "CPU032": {
         "CodTransaccion": "327",
@@ -1747,7 +1748,7 @@
         "NroSerial": "102SN55097",
         "EmpresaResponsable": "Campuslands",
         "Estado": "0",
-        "Historial": "[]"
+            "Historial": []
     },
     "MON032": {
         "CodTransaccion": "327",
@@ -1761,7 +1762,7 @@
         "NroSerial": "COM2024CM21070151",
         "EmpresaResponsable": "Campuslands",
         "Estado": "0",
-        "Historial": "[]"
+            "Historial": []
     },
     "TEC032": {
         "CodTransaccion": "327",
@@ -1775,7 +1776,7 @@
         "NroSerial": "KBM130090716",
         "EmpresaResponsable": "Campuslands",
         "Estado": "0",
-        "Historial": "[]"
+            "Historial": []
     },
     "MOU032": {
         "CodTransaccion": "327",
@@ -1789,7 +1790,7 @@
         "NroSerial": "Sin serial ",
         "EmpresaResponsable": "Campuslands",
         "Estado": "0",
-        "Historial": "[]"
+            "Historial": []
     },
     "CPU033": {
         "CodTransaccion": "327",
@@ -1803,7 +1804,7 @@
         "NroSerial": "102SN55104",
         "EmpresaResponsable": "Campuslands",
         "Estado": "0",
-        "Historial": "[]"
+            "Historial": []
     },
     "MON033": {
         "CodTransaccion": "327",
@@ -1817,7 +1818,7 @@
         "NroSerial": "COM2024CM21070127",
         "EmpresaResponsable": "Campuslands",
         "Estado": "0",
-        "Historial": "[]"
+            "Historial": []
     },
     "TEC033": {
         "CodTransaccion": "327",
@@ -1831,7 +1832,7 @@
         "NroSerial": "KBM130090715",
         "EmpresaResponsable": "Campuslands",
         "Estado": "0",
-        "Historial": "[]"
+            "Historial": []
     },
     "MOU033": {
         "CodTransaccion": "327",
@@ -1845,7 +1846,7 @@
         "NroSerial": "Sin serial ",
         "EmpresaResponsable": "Campuslands",
         "Estado": "0",
-        "Historial": "[]"
+            "Historial": []
     },
     "CPU034": {
         "CodTransaccion": "327",
@@ -1859,7 +1860,7 @@
         "NroSerial": "102SN55084",
         "EmpresaResponsable": "Campuslands",
         "Estado": "0",
-        "Historial": "[]"
+            "Historial": []
     },
     "MON034": {
         "CodTransaccion": "327",
@@ -1873,7 +1874,7 @@
         "NroSerial": "COM2024CM21070029",
         "EmpresaResponsable": "Campuslands",
         "Estado": "0",
-        "Historial": "[]"
+            "Historial": []
     },
     "TEC034": {
         "CodTransaccion": "327",
@@ -1887,7 +1888,7 @@
         "NroSerial": "KBM130091714",
         "EmpresaResponsable": "Campuslands",
         "Estado": "0",
-        "Historial": "[]"
+            "Historial": []
     },
     "MOU034": {
         "CodTransaccion": "327",
@@ -1901,7 +1902,7 @@
         "NroSerial": "Sin serial ",
         "EmpresaResponsable": "Campuslands",
         "Estado": "0",
-        "Historial": "[]"
+            "Historial": []
     },
     "CPU035": {
         "CodTransaccion": "327",
@@ -1915,7 +1916,7 @@
         "NroSerial": "400SN39194",
         "EmpresaResponsable": "Campuslands",
         "Estado": "0",
-        "Historial": "[]"
+            "Historial": []
     },
     "MON035": {
         "CodTransaccion": "327",
@@ -1929,7 +1930,7 @@
         "NroSerial": "COM2024CM21070135",
         "EmpresaResponsable": "Campuslands",
         "Estado": "0",
-        "Historial": "[]"
+            "Historial": []
     },
     "TEC035": {
         "CodTransaccion": "327",
@@ -1943,7 +1944,7 @@
         "NroSerial": "KBM130090714",
         "EmpresaResponsable": "Campuslands",
         "Estado": "0",
-        "Historial": "[]"
+            "Historial": []
     },
     "MOU035": {
         "CodTransaccion": "327",
@@ -1957,7 +1958,7 @@
         "NroSerial": "Sin serial ",
         "EmpresaResponsable": "Campuslands",
         "Estado": "0",
-        "Historial": "[]"
+            "Historial": []
     },
     "CPU036": {
         "CodTransaccion": "327",
@@ -1971,7 +1972,7 @@
         "NroSerial": "Sin serial ",
         "EmpresaResponsable": "Campuslands",
         "Estado": "0",
-        "Historial": "[]"
+            "Historial": []
     },
     "MON036": {
         "CodTransaccion": "327",
@@ -1985,7 +1986,7 @@
         "NroSerial": "400SN39175",
         "EmpresaResponsable": "Campuslands",
         "Estado": "0",
-        "Historial": "[]"
+            "Historial": []
     },
     "TEC036": {
         "CodTransaccion": "327",
@@ -1999,7 +2000,7 @@
         "NroSerial": "COM2024CM21070257",
         "EmpresaResponsable": "Campuslands",
         "Estado": "0",
-        "Historial": "[]"
+            "Historial": []
     },
     "MOU036": {
         "CodTransaccion": "327",
@@ -2013,7 +2014,7 @@
         "NroSerial": "KBM130091739",
         "EmpresaResponsable": "Campuslands",
         "Estado": "0",
-        "Historial": "[]"
+            "Historial": []
     },
     "CPU037": {
         "CodTransaccion": "327",
@@ -2027,7 +2028,7 @@
         "NroSerial": "Sin serial ",
         "EmpresaResponsable": "Campuslands",
         "Estado": "0",
-        "Historial": "[]"
+            "Historial": []
     },
     "MON037": {
         "CodTransaccion": "327",
@@ -2041,7 +2042,7 @@
         "NroSerial": "400SN39206",
         "EmpresaResponsable": "Campuslands",
         "Estado": "0",
-        "Historial": "[]"
+            "Historial": []
     },
     "TEC037": {
         "CodTransaccion": "327",
@@ -2055,7 +2056,7 @@
         "NroSerial": "COM2024CM21070609",
         "EmpresaResponsable": "Campuslands",
         "Estado": "0",
-        "Historial": "[]"
+            "Historial": []
     },
     "MOU037": {
         "CodTransaccion": "327",
@@ -2069,7 +2070,7 @@
         "NroSerial": "KBM130091743",
         "EmpresaResponsable": "Campuslands",
         "Estado": "0",
-        "Historial": "[]"
+            "Historial": []
     },
     "CPU038": {
         "CodTransaccion": "327",
@@ -2083,7 +2084,7 @@
         "NroSerial": "Sin serial ",
         "EmpresaResponsable": "Campuslands",
         "Estado": "0",
-        "Historial": "[]"
+            "Historial": []
     },
     "MON038": {
         "CodTransaccion": "327",
@@ -2097,7 +2098,7 @@
         "NroSerial": "400SN39212",
         "EmpresaResponsable": "Campuslands",
         "Estado": "0",
-        "Historial": "[]"
+            "Historial": []
     },
     "TEC038": {
         "CodTransaccion": "327",
@@ -2111,7 +2112,7 @@
         "NroSerial": "COM2024CM21070778",
         "EmpresaResponsable": "Campuslands",
         "Estado": "0",
-        "Historial": "[]"
+            "Historial": []
     },
     "MOU038": {
         "CodTransaccion": "327",
@@ -2125,7 +2126,7 @@
         "NroSerial": "KBM130090742",
         "EmpresaResponsable": "Campuslands",
         "Estado": "0",
-        "Historial": "[]"
+            "Historial": []
     },
     "CPU039": {
         "CodTransaccion": "327",
@@ -2139,7 +2140,7 @@
         "NroSerial": "Sin serial ",
         "EmpresaResponsable": "Campuslands",
         "Estado": "0",
-        "Historial": "[]"
+            "Historial": []
     },
     "MON039": {
         "CodTransaccion": "327",
@@ -2153,7 +2154,7 @@
         "NroSerial": "400SN39217",
         "EmpresaResponsable": "Campuslands",
         "Estado": "0",
-        "Historial": "[]"
+            "Historial": []
     },
     "TEC039": {
         "CodTransaccion": "327",
@@ -2167,7 +2168,7 @@
         "NroSerial": "COM2024CM21070069",
         "EmpresaResponsable": "Campuslands",
         "Estado": "0",
-        "Historial": "[]"
+            "Historial": []
     },
     "MOU039": {
         "CodTransaccion": "327",
@@ -2181,7 +2182,7 @@
         "NroSerial": "KBM130091742",
         "EmpresaResponsable": "Campuslands",
         "Estado": "0",
-        "Historial": "[]"
+            "Historial": []
     },
     "CPU040": {
         "CodTransaccion": "327",
@@ -2195,7 +2196,7 @@
         "NroSerial": "Sin serial ",
         "EmpresaResponsable": "Campuslands",
         "Estado": "0",
-        "Historial": "[]"
+            "Historial": []
     },
     "MON040": {
         "CodTransaccion": "327",
@@ -2209,7 +2210,7 @@
         "NroSerial": "400SN39203",
         "EmpresaResponsable": "Campuslands",
         "Estado": "0",
-        "Historial": "[]"
+            "Historial": []
     },
     "TEC040": {
         "CodTransaccion": "327",
@@ -2223,7 +2224,7 @@
         "NroSerial": "COM2024CM21070349",
         "EmpresaResponsable": "Campuslands",
         "Estado": "0",
-        "Historial": "[]"
+            "Historial": []
     },
     "MOU040": {
         "CodTransaccion": "327",
@@ -2237,7 +2238,7 @@
         "NroSerial": "KBM130090743",
         "EmpresaResponsable": "Campuslands",
         "Estado": "0",
-        "Historial": "[]"
+            "Historial": []
     },
     "CPU041": {
         "CodTransaccion": "327",
@@ -2251,7 +2252,7 @@
         "NroSerial": "Sin serial ",
         "EmpresaResponsable": "Campuslands",
         "Estado": "0",
-        "Historial": "[]"
+            "Historial": []
     },
     "MON041": {
         "CodTransaccion": "327",
@@ -2265,7 +2266,7 @@
         "NroSerial": "400SN39201",
         "EmpresaResponsable": "Campuslands",
         "Estado": "0",
-        "Historial": "[]"
+            "Historial": []
     },
     "TEC041": {
         "CodTransaccion": "327",
@@ -2279,7 +2280,7 @@
         "NroSerial": "COM2024CM21070004",
         "EmpresaResponsable": "Campuslands",
         "Estado": "0",
-        "Historial": "[]"
+            "Historial": []
     },
     "MOU041": {
         "CodTransaccion": "327",
@@ -2293,7 +2294,7 @@
         "NroSerial": "KBM130091710",
         "EmpresaResponsable": "Campuslands",
         "Estado": "0",
-        "Historial": "[]"
+            "Historial": []
     },
     "CPU042": {
         "CodTransaccion": "327",
@@ -2307,7 +2308,7 @@
         "NroSerial": "Sin serial ",
         "EmpresaResponsable": "Campuslands",
         "Estado": "0",
-        "Historial": "[]"
+            "Historial": []
     },
     "MON042": {
         "CodTransaccion": "327",
@@ -2321,7 +2322,7 @@
         "NroSerial": "400SN39207",
         "EmpresaResponsable": "Campuslands",
         "Estado": "0",
-        "Historial": "[]"
+            "Historial": []
     },
     "TEC042": {
         "CodTransaccion": "327",
@@ -2335,7 +2336,7 @@
         "NroSerial": "COM2024CM21070727",
         "EmpresaResponsable": "Campuslands",
         "Estado": "0",
-        "Historial": "[]"
+            "Historial": []
     },
     "MOU042": {
         "CodTransaccion": "327",
@@ -2349,7 +2350,7 @@
         "NroSerial": "KBM130090728",
         "EmpresaResponsable": "Campuslands",
         "Estado": "0",
-        "Historial": "[]"
+            "Historial": []
     },
     "CPU043": {
         "CodTransaccion": "327",
@@ -2363,7 +2364,7 @@
         "NroSerial": "Sin serial ",
         "EmpresaResponsable": "Campuslands",
         "Estado": "0",
-        "Historial": "[]"
+            "Historial": []
     },
     "MON043": {
         "CodTransaccion": "327",
@@ -2377,7 +2378,7 @@
         "NroSerial": "400SN39170",
         "EmpresaResponsable": "Campuslands",
         "Estado": "0",
-        "Historial": "[]"
+            "Historial": []
     },
     "TEC043": {
         "CodTransaccion": "327",
@@ -2391,7 +2392,7 @@
         "NroSerial": "COM2024CM21070063",
         "EmpresaResponsable": "Campuslands",
         "Estado": "0",
-        "Historial": "[]"
+            "Historial": []
     },
     "MOU043": {
         "CodTransaccion": "327",
@@ -2405,7 +2406,7 @@
         "NroSerial": "KBM130090729",
         "EmpresaResponsable": "Campuslands",
         "Estado": "0",
-        "Historial": "[]"
+            "Historial": []
     },
     "CPU044": {
         "CodTransaccion": "327",
@@ -2419,7 +2420,7 @@
         "NroSerial": "Sin serial ",
         "EmpresaResponsable": "Campuslands",
         "Estado": "0",
-        "Historial": "[]"
+            "Historial": []
     },
     "MON044": {
         "CodTransaccion": "327",
@@ -2433,7 +2434,7 @@
         "NroSerial": "400SN39193",
         "EmpresaResponsable": "Campuslands",
         "Estado": "0",
-        "Historial": "[]"
+            "Historial": []
     },
     "TEC044": {
         "CodTransaccion": "327",
@@ -2447,7 +2448,7 @@
         "NroSerial": "COM2024CM21070203",
         "EmpresaResponsable": "Campuslands",
         "Estado": "0",
-        "Historial": "[]"
+            "Historial": []
     },
     "MOU044": {
         "CodTransaccion": "327",
@@ -2461,7 +2462,7 @@
         "NroSerial": "KBM130091734",
         "EmpresaResponsable": "Campuslands",
         "Estado": "0",
-        "Historial": "[]"
+            "Historial": []
     },
     "CPU045": {
         "CodTransaccion": "327",
@@ -2475,7 +2476,7 @@
         "NroSerial": "Sin serial ",
         "EmpresaResponsable": "Campuslands",
         "Estado": "0",
-        "Historial": "[]"
+            "Historial": []
     },
     "MON045": {
         "CodTransaccion": "327",
@@ -2489,7 +2490,7 @@
         "NroSerial": "400SN39213",
         "EmpresaResponsable": "Campuslands",
         "Estado": "0",
-        "Historial": "[]"
+            "Historial": []
     },
     "TEC045": {
         "CodTransaccion": "327",
@@ -2503,7 +2504,7 @@
         "NroSerial": "COM2024CM21070517",
         "EmpresaResponsable": "Campuslands",
         "Estado": "0",
-        "Historial": "[]"
+            "Historial": []
     },
     "MOU045": {
         "CodTransaccion": "327",
@@ -2517,7 +2518,7 @@
         "NroSerial": "KBM130090735",
         "EmpresaResponsable": "Campuslands",
         "Estado": "0",
-        "Historial": "[]"
+            "Historial": []
     },
     "CPU046": {
         "CodTransaccion": "327",
@@ -2531,7 +2532,7 @@
         "NroSerial": "Sin serial ",
         "EmpresaResponsable": "Campuslands",
         "Estado": "0",
-        "Historial": "[]"
+            "Historial": []
     },
     "MON046": {
         "CodTransaccion": "327",
@@ -2545,7 +2546,7 @@
         "NroSerial": "400SN39197",
         "EmpresaResponsable": "Campuslands",
         "Estado": "0",
-        "Historial": "[]"
+            "Historial": []
     },
     "TEC046": {
         "CodTransaccion": "327",
@@ -2559,7 +2560,7 @@
         "NroSerial": "COM2024CM21070007",
         "EmpresaResponsable": "Campuslands",
         "Estado": "0",
-        "Historial": "[]"
+            "Historial": []
     },
     "MOU046": {
         "CodTransaccion": "327",
@@ -2573,7 +2574,7 @@
         "NroSerial": "KBM130090734",
         "EmpresaResponsable": "Campuslands",
         "Estado": "0",
-        "Historial": "[]"
+            "Historial": []
     },
     "CPU047": {
         "CodTransaccion": "327",
@@ -2587,7 +2588,7 @@
         "NroSerial": "Sin serial ",
         "EmpresaResponsable": "Campuslands",
         "Estado": "0",
-        "Historial": "[]"
+            "Historial": []
     },
     "MON047": {
         "CodTransaccion": "327",
@@ -2601,7 +2602,7 @@
         "NroSerial": "102SN55078",
         "EmpresaResponsable": "Campuslands",
         "Estado": "0",
-        "Historial": "[]"
+            "Historial": []
     },
     "TEC047": {
         "CodTransaccion": "327",
@@ -2615,7 +2616,7 @@
         "NroSerial": "COM2024CM21070008",
         "EmpresaResponsable": "Campuslands",
         "Estado": "0",
-        "Historial": "[]"
+            "Historial": []
     },
     "MOU047": {
         "CodTransaccion": "327",
@@ -2629,7 +2630,7 @@
         "NroSerial": "KBM130090750",
         "EmpresaResponsable": "Campuslands",
         "Estado": "0",
-        "Historial": "[]"
+            "Historial": []
     },
     "CPU048": {
         "CodTransaccion": "327",
@@ -2643,7 +2644,7 @@
         "NroSerial": "Sin serial ",
         "EmpresaResponsable": "Campuslands",
         "Estado": "0",
-        "Historial": "[]"
+            "Historial": []
     },
     "MON048": {
         "CodTransaccion": "327",
@@ -2657,7 +2658,7 @@
         "NroSerial": "102SN55085",
         "EmpresaResponsable": "Campuslands",
         "Estado": "0",
-        "Historial": "[]"
+            "Historial": []
     },
     "TEC048": {
         "CodTransaccion": "327",
@@ -2671,7 +2672,7 @@
         "NroSerial": "COM2024CM21070117",
         "EmpresaResponsable": "Campuslands",
         "Estado": "0",
-        "Historial": "[]"
+            "Historial": []
     },
     "MOU048": {
         "CodTransaccion": "327",
@@ -2685,7 +2686,7 @@
         "NroSerial": "KBM130091713",
         "EmpresaResponsable": "Campuslands",
         "Estado": "0",
-        "Historial": "[]"
+            "Historial": []
     },
     "CPU049": {
         "CodTransaccion": "327",
@@ -2699,7 +2700,7 @@
         "NroSerial": "Sin serial ",
         "EmpresaResponsable": "Campuslands",
         "Estado": "0",
-        "Historial": "[]"
+            "Historial": []
     },
     "MON049": {
         "CodTransaccion": "327",
@@ -2713,7 +2714,7 @@
         "NroSerial": "400SN39233",
         "EmpresaResponsable": "Campuslands",
         "Estado": "0",
-        "Historial": "[]"
+            "Historial": []
     },
     "TEC049": {
         "CodTransaccion": "327",
@@ -2727,7 +2728,7 @@
         "NroSerial": "COM2024CM21070277",
         "EmpresaResponsable": "Campuslands",
         "Estado": "0",
-        "Historial": "[]"
+            "Historial": []
     },
     "MOU049": {
         "CodTransaccion": "327",
@@ -2741,7 +2742,7 @@
         "NroSerial": "KBM130090713",
         "EmpresaResponsable": "Campuslands",
         "Estado": "0",
-        "Historial": "[]"
+            "Historial": []
     },
     "CPU050": {
         "CodTransaccion": "327",
@@ -2755,7 +2756,7 @@
         "NroSerial": "Sin serial ",
         "EmpresaResponsable": "Campuslands",
         "Estado": "0",
-        "Historial": "[]"
+            "Historial": []
     },
     "MON050": {
         "CodTransaccion": "327",
@@ -2769,7 +2770,7 @@
         "NroSerial": "102SN55082",
         "EmpresaResponsable": "Campuslands",
         "Estado": "0",
-        "Historial": "[]"
+            "Historial": []
     },
     "TEC050": {
         "CodTransaccion": "327",
@@ -2783,7 +2784,7 @@
         "NroSerial": "COM2024CM21070406",
         "EmpresaResponsable": "Campuslands",
         "Estado": "0",
-        "Historial": "[]"
+            "Historial": []
     },
     "MOU050": {
         "CodTransaccion": "327",
@@ -2797,7 +2798,7 @@
         "NroSerial": "KBM130091712",
         "EmpresaResponsable": "Campuslands",
         "Estado": "0",
-        "Historial": "[]"
+            "Historial": []
     },
     "CPU051": {
         "CodTransaccion": "327",
@@ -2811,7 +2812,7 @@
         "NroSerial": "Sin serial ",
         "EmpresaResponsable": "Campuslands",
         "Estado": "0",
-        "Historial": "[]"
+            "Historial": []
     },
     "MON051": {
         "CodTransaccion": "327",
@@ -2825,7 +2826,7 @@
         "NroSerial": "102SN55101",
         "EmpresaResponsable": "Campuslands",
         "Estado": "0",
-        "Historial": "[]"
+            "Historial": []
     },
     "TEC051": {
         "CodTransaccion": "327",
@@ -2839,7 +2840,7 @@
         "NroSerial": "COM2024CM21070557",
         "EmpresaResponsable": "Campuslands",
         "Estado": "0",
-        "Historial": "[]"
+            "Historial": []
     },
     "MOU051": {
         "CodTransaccion": "327",
@@ -2853,7 +2854,7 @@
         "NroSerial": "KBM130091711",
         "EmpresaResponsable": "Campuslands",
         "Estado": "0",
-        "Historial": "[]"
+            "Historial": []
     },
     "CPU052": {
         "CodTransaccion": "327",
@@ -2867,7 +2868,7 @@
         "NroSerial": "Sin serial ",
         "EmpresaResponsable": "Campuslands",
         "Estado": "0",
-        "Historial": "[]"
+            "Historial": []
     },
     "MON052": {
         "CodTransaccion": "327",
@@ -2881,7 +2882,7 @@
         "NroSerial": "400SN39192",
         "EmpresaResponsable": "Campuslands",
         "Estado": "0",
-        "Historial": "[]"
+            "Historial": []
     },
     "TEC052": {
         "CodTransaccion": "327",
@@ -2895,7 +2896,7 @@
         "NroSerial": "COM2024CM21070853",
         "EmpresaResponsable": "Campuslands",
         "Estado": "0",
-        "Historial": "[]"
+            "Historial": []
     },
     "MOU052": {
         "CodTransaccion": "327",
@@ -2909,7 +2910,7 @@
         "NroSerial": "KBM130090712",
         "EmpresaResponsable": "Campuslands",
         "Estado": "0",
-        "Historial": "[]"
+            "Historial": []
     },
     "CPU053": {
         "CodTransaccion": "327",
@@ -2923,7 +2924,7 @@
         "NroSerial": "Sin serial ",
         "EmpresaResponsable": "Campuslands",
         "Estado": "0",
-        "Historial": "[]"
+            "Historial": []
     },
     "MON053": {
         "CodTransaccion": "327",
@@ -2937,7 +2938,7 @@
         "NroSerial": "400SN39181",
         "EmpresaResponsable": "Campuslands",
         "Estado": "0",
-        "Historial": "[]"
+            "Historial": []
     },
     "TEC053": {
         "CodTransaccion": "327",
@@ -2951,7 +2952,7 @@
         "NroSerial": "COM2024CM21070893",
         "EmpresaResponsable": "Campuslands",
         "Estado": "0",
-        "Historial": "[]"
+            "Historial": []
     },
     "MOU053": {
         "CodTransaccion": "327",
@@ -2965,7 +2966,7 @@
         "NroSerial": "KBM130090711",
         "EmpresaResponsable": "Campuslands",
         "Estado": "0",
-        "Historial": "[]"
+            "Historial": []
     },
     "CPU054": {
         "CodTransaccion": "327",
@@ -2979,7 +2980,7 @@
         "NroSerial": "Sin serial ",
         "EmpresaResponsable": "Campuslands",
         "Estado": "0",
-        "Historial": "[]"
+            "Historial": []
     },
     "MON054": {
         "CodTransaccion": "327",
@@ -2993,7 +2994,7 @@
         "NroSerial": "400SN39195",
         "EmpresaResponsable": "Campuslands",
         "Estado": "0",
-        "Historial": "[]"
+            "Historial": []
     },
     "TEC054": {
         "CodTransaccion": "327",
@@ -3007,7 +3008,7 @@
         "NroSerial": "COM2024CM21070898",
         "EmpresaResponsable": "Campuslands",
         "Estado": "0",
-        "Historial": "[]"
+            "Historial": []
     },
     "MOU054": {
         "CodTransaccion": "327",
@@ -3021,7 +3022,7 @@
         "NroSerial": "KBM130091741",
         "EmpresaResponsable": "Campuslands",
         "Estado": "0",
-        "Historial": "[]"
+            "Historial": []
     },
     "CPU055": {
         "CodTransaccion": "327",
@@ -3035,7 +3036,7 @@
         "NroSerial": "Sin serial ",
         "EmpresaResponsable": "Campuslands",
         "Estado": "0",
-        "Historial": "[]"
+            "Historial": []
     },
     "MON055": {
         "CodTransaccion": "327",
@@ -3049,7 +3050,7 @@
         "NroSerial": "400SN39232",
         "EmpresaResponsable": "Campuslands",
         "Estado": "0",
-        "Historial": "[]"
+            "Historial": []
     },
     "TEC055": {
         "CodTransaccion": "327",
@@ -3063,7 +3064,7 @@
         "NroSerial": "COM2024CM21070400",
         "EmpresaResponsable": "Campuslands",
         "Estado": "0",
-        "Historial": "[]"
+            "Historial": []
     },
     "MOU055": {
         "CodTransaccion": "327",
@@ -3077,7 +3078,7 @@
         "NroSerial": "KBM130091740",
         "EmpresaResponsable": "Campuslands",
         "Estado": "0",
-        "Historial": "[]"
+            "Historial": []
     },
     "CPU056": {
         "CodTransaccion": "327",
@@ -3091,7 +3092,7 @@
         "NroSerial": "Sin serial ",
         "EmpresaResponsable": "Campuslands",
         "Estado": "0",
-        "Historial": "[]"
+            "Historial": []
     },
     "MON056": {
         "CodTransaccion": "327",
@@ -3105,7 +3106,7 @@
         "NroSerial": "400SN39231",
         "EmpresaResponsable": "Campuslands",
         "Estado": "0",
-        "Historial": "[]"
+            "Historial": []
     },
     "TEC056": {
         "CodTransaccion": "327",
@@ -3119,7 +3120,7 @@
         "NroSerial": "COM2024CM21070761",
         "EmpresaResponsable": "Campuslands",
         "Estado": "0",
-        "Historial": "[]"
+            "Historial": []
     },
     "MOU056": {
         "CodTransaccion": "327",
@@ -3133,7 +3134,7 @@
         "NroSerial": "KBM130090739",
         "EmpresaResponsable": "Campuslands",
         "Estado": "0",
-        "Historial": "[]"
+            "Historial": []
     },
     "CPU057": {
         "CodTransaccion": "327",
@@ -3147,7 +3148,7 @@
         "NroSerial": "Sin serial ",
         "EmpresaResponsable": "Campuslands",
         "Estado": "0",
-        "Historial": "[]"
+            "Historial": []
     },
     "MON057": {
         "CodTransaccion": "327",
@@ -3161,7 +3162,7 @@
         "NroSerial": "400SN39171",
         "EmpresaResponsable": "Campuslands",
         "Estado": "0",
-        "Historial": "[]"
+            "Historial": []
     },
     "TEC057": {
         "CodTransaccion": "327",
@@ -3175,7 +3176,7 @@
         "NroSerial": "COM2024CM21070534",
         "EmpresaResponsable": "Campuslands",
         "Estado": "0",
-        "Historial": "[]"
+            "Historial": []
     },
     "MOU057": {
         "CodTransaccion": "327",
@@ -3189,7 +3190,7 @@
         "NroSerial": "KBM130090741",
         "EmpresaResponsable": "Campuslands",
         "Estado": "0",
-        "Historial": "[]"
+            "Historial": []
     },
     "CPU058": {
         "CodTransaccion": "327",
@@ -3203,7 +3204,7 @@
         "NroSerial": "Sin serial ",
         "EmpresaResponsable": "Campuslands",
         "Estado": "0",
-        "Historial": "[]"
+            "Historial": []
     },
     "MON058": {
         "CodTransaccion": "327",
@@ -3217,7 +3218,7 @@
         "NroSerial": "400SN39220",
         "EmpresaResponsable": "Campuslands",
         "Estado": "0",
-        "Historial": "[]"
+            "Historial": []
     },
     "TEC058": {
         "CodTransaccion": "327",
@@ -3231,7 +3232,7 @@
         "NroSerial": "COM2024CM21070017",
         "EmpresaResponsable": "Campuslands",
         "Estado": "0",
-        "Historial": "[]"
+            "Historial": []
     },
     "MOU058": {
         "CodTransaccion": "327",
@@ -3245,7 +3246,7 @@
         "NroSerial": "KBM130091750",
         "EmpresaResponsable": "Campuslands",
         "Estado": "0",
-        "Historial": "[]"
+            "Historial": []
     },
     "CPU059": {
         "CodTransaccion": "327",
@@ -3259,7 +3260,7 @@
         "NroSerial": "Sin serial ",
         "EmpresaResponsable": "Campuslands",
         "Estado": "0",
-        "Historial": "[]"
+            "Historial": []
     },
     "MON059": {
         "CodTransaccion": "327",
@@ -3273,7 +3274,7 @@
         "NroSerial": "102SN55100",
         "EmpresaResponsable": "Campuslands",
         "Estado": "0",
-        "Historial": "[]"
+            "Historial": []
     },
     "TEC059": {
         "CodTransaccion": "327",
@@ -3287,7 +3288,7 @@
         "NroSerial": "COM2024CM21070281",
         "EmpresaResponsable": "Campuslands",
         "Estado": "0",
-        "Historial": "[]"
+            "Historial": []
     },
     "MOU059": {
         "CodTransaccion": "327",
@@ -3301,7 +3302,7 @@
         "NroSerial": "KBM130091749",
         "EmpresaResponsable": "Campuslands",
         "Estado": "0",
-        "Historial": "[]"
+            "Historial": []
     },
     "CPU060": {
         "CodTransaccion": "327",
@@ -3315,7 +3316,7 @@
         "NroSerial": "Sin serial ",
         "EmpresaResponsable": "Campuslands",
         "Estado": "0",
-        "Historial": "[]"
+            "Historial": []
     },
     "MON060": {
         "CodTransaccion": "327",
@@ -3329,7 +3330,7 @@
         "NroSerial": "400SN39236",
         "EmpresaResponsable": "Campuslands",
         "Estado": "0",
-        "Historial": "[]"
+            "Historial": []
     },
     "TEC060": {
         "CodTransaccion": "327",
@@ -3343,7 +3344,7 @@
         "NroSerial": "COM2024CM21070205",
         "EmpresaResponsable": "Campuslands",
         "Estado": "0",
-        "Historial": "[]"
+            "Historial": []
     },
     "MOU060": {
         "CodTransaccion": "327",
@@ -3357,7 +3358,7 @@
         "NroSerial": "KBM130090740",
         "EmpresaResponsable": "Campuslands",
         "Estado": "0",
-        "Historial": "[]"
+            "Historial": []
     },
     "CPU061": {
         "CodTransaccion": "327",
@@ -3371,7 +3372,7 @@
         "NroSerial": "Sin serial ",
         "EmpresaResponsable": "Campuslands",
         "Estado": "0",
-        "Historial": "[]"
+            "Historial": []
     },
     "MON061": {
         "CodTransaccion": "327",
@@ -3385,7 +3386,7 @@
         "NroSerial": "400SN39216",
         "EmpresaResponsable": "Campuslands",
         "Estado": "0",
-        "Historial": "[]"
+            "Historial": []
     },
     "TEC061": {
         "CodTransaccion": "327",
@@ -3399,7 +3400,7 @@
         "NroSerial": "COM2024CM21070041",
         "EmpresaResponsable": "Campuslands",
         "Estado": "0",
-        "Historial": "[]"
+            "Historial": []
     },
     "MOU061": {
         "CodTransaccion": "327",
@@ -3413,7 +3414,7 @@
         "NroSerial": "KBM130091728",
         "EmpresaResponsable": "Campuslands",
         "Estado": "0",
-        "Historial": "[]"
+            "Historial": []
     },
     "CPU062": {
         "CodTransaccion": "327",
@@ -3427,7 +3428,7 @@
         "NroSerial": "Sin serial ",
         "EmpresaResponsable": "Campuslands",
         "Estado": "0",
-        "Historial": "[]"
+            "Historial": []
     },
     "MON062": {
         "CodTransaccion": "327",
@@ -3441,7 +3442,7 @@
         "NroSerial": "400SN39176",
         "EmpresaResponsable": "Campuslands",
         "Estado": "0",
-        "Historial": "[]"
+            "Historial": []
     },
     "TEC062": {
         "CodTransaccion": "327",
@@ -3455,7 +3456,7 @@
         "NroSerial": "COM2024CM21070712",
         "EmpresaResponsable": "Campuslands",
         "Estado": "0",
-        "Historial": "[]"
+            "Historial": []
     },
     "MOU062": {
         "CodTransaccion": "327",
@@ -3469,7 +3470,7 @@
         "NroSerial": "KBM130090727",
         "EmpresaResponsable": "Campuslands",
         "Estado": "0",
-        "Historial": "[]"
+            "Historial": []
     },
     "CPU063": {
         "CodTransaccion": "327",
@@ -3483,7 +3484,7 @@
         "NroSerial": "Sin serial ",
         "EmpresaResponsable": "Campuslands",
         "Estado": "0",
-        "Historial": "[]"
+            "Historial": []
     },
     "MON063": {
         "CodTransaccion": "327",
@@ -3497,7 +3498,7 @@
         "NroSerial": "102SN55077",
         "EmpresaResponsable": "Campuslands",
         "Estado": "0",
-        "Historial": "[]"
+            "Historial": []
     },
     "TEC063": {
         "CodTransaccion": "327",
@@ -3511,7 +3512,7 @@
         "NroSerial": "COM2024CM21070129",
         "EmpresaResponsable": "Campuslands",
         "Estado": "0",
-        "Historial": "[]"
+            "Historial": []
     },
     "MOU063": {
         "CodTransaccion": "327",
@@ -3525,7 +3526,7 @@
         "NroSerial": "KBM130091727",
         "EmpresaResponsable": "Campuslands",
         "Estado": "0",
-        "Historial": "[]"
+            "Historial": []
     },
     "CPU064": {
         "CodTransaccion": "327",
@@ -3539,7 +3540,7 @@
         "NroSerial": "Sin serial ",
         "EmpresaResponsable": "Campuslands",
         "Estado": "0",
-        "Historial": "[]"
+            "Historial": []
     },
     "MON064": {
         "CodTransaccion": "327",
@@ -3553,7 +3554,7 @@
         "NroSerial": "400SN39211",
         "EmpresaResponsable": "Campuslands",
         "Estado": "0",
-        "Historial": "[]"
+            "Historial": []
     },
     "TEC064": {
         "CodTransaccion": "327",
@@ -3567,7 +3568,7 @@
         "NroSerial": "COM2024CM21070140",
         "EmpresaResponsable": "Campuslands",
         "Estado": "0",
-        "Historial": "[]"
+            "Historial": []
     },
     "MOU064": {
         "CodTransaccion": "327",
@@ -3581,7 +3582,7 @@
         "NroSerial": "KBM130091726",
         "EmpresaResponsable": "Campuslands",
         "Estado": "0",
-        "Historial": "[]"
+            "Historial": []
     },
     "CPU065": {
         "CodTransaccion": "327",
@@ -3595,7 +3596,7 @@
         "NroSerial": "Sin serial ",
         "EmpresaResponsable": "Campuslands",
         "Estado": "0",
-        "Historial": "[]"
+            "Historial": []
     },
     "MON065": {
         "CodTransaccion": "327",
@@ -3609,7 +3610,7 @@
         "NroSerial": "400SN39219",
         "EmpresaResponsable": "Campuslands",
         "Estado": "0",
-        "Historial": "[]"
+            "Historial": []
     },
     "TEC065": {
         "CodTransaccion": "327",
@@ -3623,7 +3624,7 @@
         "NroSerial": "COM2024CM21070316",
         "EmpresaResponsable": "Campuslands",
         "Estado": "0",
-        "Historial": "[]"
+            "Historial": []
     },
     "MOU065": {
         "CodTransaccion": "327",
@@ -3637,7 +3638,7 @@
         "NroSerial": "KBM130090725",
         "EmpresaResponsable": "Campuslands",
         "Estado": "0",
-        "Historial": "[]"
+            "Historial": []
     },
     "CPU066": {
         "CodTransaccion": "327",
@@ -3651,7 +3652,7 @@
         "NroSerial": "Sin serial ",
         "EmpresaResponsable": "Campuslands",
         "Estado": "0",
-        "Historial": "[]"
+            "Historial": []
     },
     "MON066": {
         "CodTransaccion": "327",
@@ -3665,7 +3666,7 @@
         "NroSerial": "102SN55093",
         "EmpresaResponsable": "Campuslands",
         "Estado": "0",
-        "Historial": "[]"
+            "Historial": []
     },
     "TEC066": {
         "CodTransaccion": "327",
@@ -3679,7 +3680,7 @@
         "NroSerial": "COM2024CM21070153",
         "EmpresaResponsable": "Campuslands",
         "Estado": "0",
-        "Historial": "[]"
+            "Historial": []
     },
     "MOU066": {
         "CodTransaccion": "327",
@@ -3693,7 +3694,7 @@
         "NroSerial": "KBM130090726",
         "EmpresaResponsable": "Campuslands",
         "Estado": "0",
-        "Historial": "[]"
+            "Historial": []
     },
     "CPU067": {
         "CodTransaccion": "327",
@@ -3707,7 +3708,7 @@
         "NroSerial": "Sin serial ",
         "EmpresaResponsable": "Campuslands",
         "Estado": "0",
-        "Historial": "[]"
+            "Historial": []
     },
     "MON067": {
         "CodTransaccion": "327",
@@ -3721,7 +3722,7 @@
         "NroSerial": "400SN39210",
         "EmpresaResponsable": "Campuslands",
         "Estado": "0",
-        "Historial": "[]"
+            "Historial": []
     },
     "TEC067": {
         "CodTransaccion": "327",
@@ -3735,7 +3736,7 @@
         "NroSerial": "COM2024CM21070744",
         "EmpresaResponsable": "Campuslands",
         "Estado": "0",
-        "Historial": "[]"
+            "Historial": []
     },
     "MOU067": {
         "CodTransaccion": "327",
@@ -3749,7 +3750,7 @@
         "NroSerial": "KBM130091752",
         "EmpresaResponsable": "Campuslands",
         "Estado": "0",
-        "Historial": "[]"
+            "Historial": []
     },
     "CPU068": {
         "CodTransaccion": "327",
@@ -3763,7 +3764,7 @@
         "NroSerial": "Sin serial ",
         "EmpresaResponsable": "Campuslands",
         "Estado": "0",
-        "Historial": "[]"
+            "Historial": []
     },
     "MON068": {
         "CodTransaccion": "327",
@@ -3777,7 +3778,7 @@
         "NroSerial": "400SN39168",
         "EmpresaResponsable": "Campuslands",
         "Estado": "0",
-        "Historial": "[]"
+            "Historial": []
     },
     "TEC068": {
         "CodTransaccion": "327",
@@ -3791,7 +3792,7 @@
         "NroSerial": "COM2024CM21070830",
         "EmpresaResponsable": "Campuslands",
         "Estado": "0",
-        "Historial": "[]"
+            "Historial": []
     },
     "MOU068": {
         "CodTransaccion": "327",
@@ -3805,7 +3806,7 @@
         "NroSerial": "KBM130090753",
         "EmpresaResponsable": "Campuslands",
         "Estado": "0",
-        "Historial": "[]"
+            "Historial": []
     },
     "CPU069": {
         "CodTransaccion": "327",
@@ -3819,7 +3820,7 @@
         "NroSerial": "Sin serial ",
         "EmpresaResponsable": "Campuslands",
         "Estado": "0",
-        "Historial": "[]"
+            "Historial": []
     },
     "MON069": {
         "CodTransaccion": "327",
@@ -3833,7 +3834,7 @@
         "NroSerial": "400SN39191",
         "EmpresaResponsable": "Campuslands",
         "Estado": "0",
-        "Historial": "[]"
+            "Historial": []
     },
     "TEC069": {
         "CodTransaccion": "327",
@@ -3847,7 +3848,7 @@
         "NroSerial": "COM2024CM21070407",
         "EmpresaResponsable": "Campuslands",
         "Estado": "0",
-        "Historial": "[]"
+            "Historial": []
     },
     "MOU069": {
         "CodTransaccion": "327",
@@ -3861,7 +3862,7 @@
         "NroSerial": "KBM130091753",
         "EmpresaResponsable": "Campuslands",
         "Estado": "0",
-        "Historial": "[]"
+            "Historial": []
     },
     "CPU070": {
         "CodTransaccion": "327",
@@ -3875,7 +3876,7 @@
         "NroSerial": "Sin serial ",
         "EmpresaResponsable": "Campuslands",
         "Estado": "0",
-        "Historial": "[]"
+            "Historial": []
     },
     "MON070": {
         "CodTransaccion": "327",
@@ -3889,7 +3890,7 @@
         "NroSerial": "102SN55080",
         "EmpresaResponsable": "Campuslands",
         "Estado": "0",
-        "Historial": "[]"
+            "Historial": []
     },
     "TEC070": {
         "CodTransaccion": "327",
@@ -3903,7 +3904,7 @@
         "NroSerial": "COM2024CM21070498",
         "EmpresaResponsable": "Campuslands",
         "Estado": "0",
-        "Historial": "[]"
+            "Historial": []
     },
     "MOU070": {
         "CodTransaccion": "327",
@@ -3917,7 +3918,7 @@
         "NroSerial": "KBM130090722",
         "EmpresaResponsable": "Campuslands",
         "Estado": "0",
-        "Historial": "[]"
+            "Historial": []
     },
     "CPU071": {
         "CodTransaccion": "327",
@@ -3931,7 +3932,7 @@
         "NroSerial": "Sin serial ",
         "EmpresaResponsable": "Campuslands",
         "Estado": "0",
-        "Historial": "[]"
+            "Historial": []
     },
     "MON071": {
         "CodTransaccion": "327",
@@ -3945,7 +3946,7 @@
         "NroSerial": "400SN39221",
         "EmpresaResponsable": "Campuslands",
         "Estado": "0",
-        "Historial": "[]"
+            "Historial": []
     },
     "TEC071": {
         "CodTransaccion": "327",
@@ -3959,7 +3960,7 @@
         "NroSerial": "COM2024CM21070464",
         "EmpresaResponsable": "Campuslands",
         "Estado": "0",
-        "Historial": "[]"
+            "Historial": []
     },
     "MOU071": {
         "CodTransaccion": "327",
@@ -3973,7 +3974,7 @@
         "NroSerial": "KBM130090723",
         "EmpresaResponsable": "Campuslands",
         "Estado": "0",
-        "Historial": "[]"
+            "Historial": []
     },
     "CPU072": {
         "CodTransaccion": "327",
@@ -3987,7 +3988,7 @@
         "NroSerial": "Sin serial ",
         "EmpresaResponsable": "Campuslands",
         "Estado": "0",
-        "Historial": "[]"
+            "Historial": []
     },
     "MON072": {
         "CodTransaccion": "327",
@@ -4001,7 +4002,7 @@
         "NroSerial": "400SN39230",
         "EmpresaResponsable": "Campuslands",
         "Estado": "0",
-        "Historial": "[]"
+            "Historial": []
     },
     "TEC072": {
         "CodTransaccion": "327",
@@ -4015,7 +4016,7 @@
         "NroSerial": "COM2024CM21070504",
         "EmpresaResponsable": "Campuslands",
         "Estado": "0",
-        "Historial": "[]"
+            "Historial": []
     },
     "MOU072": {
         "CodTransaccion": "327",
@@ -4029,7 +4030,7 @@
         "NroSerial": "KBM130091725",
         "EmpresaResponsable": "Campuslands",
         "Estado": "0",
-        "Historial": "[]"
+            "Historial": []
     },
     "CPU073": {
         "CodTransaccion": "327",
@@ -4043,7 +4044,7 @@
         "NroSerial": "Sin serial ",
         "EmpresaResponsable": "Campuslands",
         "Estado": "0",
-        "Historial": "[]"
+            "Historial": []
     },
     "MON073": {
         "CodTransaccion": "327",
@@ -4057,7 +4058,7 @@
         "NroSerial": "102SN55089",
         "EmpresaResponsable": "Campuslands",
         "Estado": "0",
-        "Historial": "[]"
+            "Historial": []
     },
     "TEC073": {
         "CodTransaccion": "327",
@@ -4071,7 +4072,7 @@
         "NroSerial": "COM2024CM21070338",
         "EmpresaResponsable": "Campuslands",
         "Estado": "0",
-        "Historial": "[]"
+            "Historial": []
     },
     "MOU073": {
         "CodTransaccion": "327",
@@ -4085,7 +4086,7 @@
         "NroSerial": "KBM130091737",
         "EmpresaResponsable": "Campuslands",
         "Estado": "0",
-        "Historial": "[]"
+            "Historial": []
     },
     "CPU074": {
         "CodTransaccion": "327",
@@ -4099,7 +4100,7 @@
         "NroSerial": "Sin serial ",
         "EmpresaResponsable": "Campuslands",
         "Estado": "0",
-        "Historial": "[]"
+            "Historial": []
     },
     "MON074": {
         "CodTransaccion": "327",
@@ -4113,7 +4114,7 @@
         "NroSerial": "400SN39202",
         "EmpresaResponsable": "Campuslands",
         "Estado": "0",
-        "Historial": "[]"
+            "Historial": []
     },
     "TEC074": {
         "CodTransaccion": "327",
@@ -4127,7 +4128,7 @@
         "NroSerial": "COM2024CM21070759",
         "EmpresaResponsable": "Campuslands",
         "Estado": "0",
-        "Historial": "[]"
+            "Historial": []
     },
     "MOU074": {
         "CodTransaccion": "327",
@@ -4141,7 +4142,7 @@
         "NroSerial": "KBM130091702",
         "EmpresaResponsable": "Campuslands",
         "Estado": "0",
-        "Historial": "[]"
+            "Historial": []
     },
     "CPU075": {
         "CodTransaccion": "327",
@@ -4155,7 +4156,7 @@
         "NroSerial": "Sin serial ",
         "EmpresaResponsable": "Campuslands",
         "Estado": "0",
-        "Historial": "[]"
+            "Historial": []
     },
     "MON075": {
         "CodTransaccion": "327",
@@ -4169,7 +4170,7 @@
         "NroSerial": "102SN55088",
         "EmpresaResponsable": "Campuslands",
         "Estado": "0",
-        "Historial": "[]"
+            "Historial": []
     },
     "TEC075": {
         "CodTransaccion": "327",
@@ -4183,7 +4184,7 @@
         "NroSerial": "COM2024CM21070817",
         "EmpresaResponsable": "Campuslands",
         "Estado": "0",
-        "Historial": "[]"
+            "Historial": []
     },
     "MOU075": {
         "CodTransaccion": "327",
@@ -4197,7 +4198,7 @@
         "NroSerial": "KBM130090737",
         "EmpresaResponsable": "Campuslands",
         "Estado": "0",
-        "Historial": "[]"
+            "Historial": []
     },
     "CPU076": {
         "CodTransaccion": "327",
@@ -4211,7 +4212,7 @@
         "NroSerial": "Sin serial ",
         "EmpresaResponsable": "Campuslands",
         "Estado": "0",
-        "Historial": "[]"
+            "Historial": []
     },
     "MON076": {
         "CodTransaccion": "327",
@@ -4225,7 +4226,7 @@
         "NroSerial": "400SN39226",
         "EmpresaResponsable": "Campuslands",
         "Estado": "0",
-        "Historial": "[]"
+            "Historial": []
     },
     "TEC076": {
         "CodTransaccion": "327",
@@ -4239,7 +4240,7 @@
         "NroSerial": "COM2024CM21070280",
         "EmpresaResponsable": "Campuslands",
         "Estado": "0",
-        "Historial": "[]"
+            "Historial": []
     },
     "MOU076": {
         "CodTransaccion": "327",
@@ -4253,7 +4254,7 @@
         "NroSerial": "KBM130090706",
         "EmpresaResponsable": "Campuslands",
         "Estado": "0",
-        "Historial": "[]"
+            "Historial": []
     },
     "CPU077": {
         "CodTransaccion": "327",
@@ -4267,7 +4268,7 @@
         "NroSerial": "Sin serial ",
         "EmpresaResponsable": "Campuslands",
         "Estado": "0",
-        "Historial": "[]"
+            "Historial": []
     },
     "MON077": {
         "CodTransaccion": "327",
@@ -4281,7 +4282,7 @@
         "NroSerial": "400SN39235",
         "EmpresaResponsable": "Campuslands",
         "Estado": "0",
-        "Historial": "[]"
+            "Historial": []
     },
     "TEC077": {
         "CodTransaccion": "327",
@@ -4295,7 +4296,7 @@
         "NroSerial": "COM2024CM21070668",
         "EmpresaResponsable": "Campuslands",
         "Estado": "0",
-        "Historial": "[]"
+            "Historial": []
     },
     "MOU077": {
         "CodTransaccion": "327",
@@ -4309,7 +4310,7 @@
         "NroSerial": "KBM130090707",
         "EmpresaResponsable": "Campuslands",
         "Estado": "0",
-        "Historial": "[]"
+            "Historial": []
     },
     "CPU078": {
         "CodTransaccion": "327",
@@ -4323,7 +4324,7 @@
         "NroSerial": "Sin serial ",
         "EmpresaResponsable": "Campuslands",
         "Estado": "0",
-        "Historial": "[]"
+            "Historial": []
     },
     "MON078": {
         "CodTransaccion": "327",
@@ -4337,7 +4338,7 @@
         "NroSerial": "400SN39188",
         "EmpresaResponsable": "Campuslands",
         "Estado": "0",
-        "Historial": "[]"
+            "Historial": []
     },
     "TEC078": {
         "CodTransaccion": "327",
@@ -4351,7 +4352,7 @@
         "NroSerial": "COM2024CM21070138",
         "EmpresaResponsable": "Campuslands",
         "Estado": "0",
-        "Historial": "[]"
+            "Historial": []
     },
     "MOU078": {
         "CodTransaccion": "327",
@@ -4365,7 +4366,7 @@
         "NroSerial": "KBM130091729",
         "EmpresaResponsable": "Campuslands",
         "Estado": "0",
-        "Historial": "[]"
+            "Historial": []
     },
     "CPU079": {
         "CodTransaccion": "327",
@@ -4379,7 +4380,7 @@
         "NroSerial": "Sin serial ",
         "EmpresaResponsable": "Campuslands",
         "Estado": "0",
-        "Historial": "[]"
+            "Historial": []
     },
     "MON079": {
         "CodTransaccion": "327",
@@ -4393,7 +4394,7 @@
         "NroSerial": "400SN39209",
         "EmpresaResponsable": "Campuslands",
         "Estado": "0",
-        "Historial": "[]"
+            "Historial": []
     },
     "TEC079": {
         "CodTransaccion": "327",
@@ -4407,7 +4408,7 @@
         "NroSerial": "COM2024CM21070451",
         "EmpresaResponsable": "Campuslands",
         "Estado": "0",
-        "Historial": "[]"
+            "Historial": []
     },
     "MOU079": {
         "CodTransaccion": "327",
@@ -4421,7 +4422,7 @@
         "NroSerial": "KBM130090730",
         "EmpresaResponsable": "Campuslands",
         "Estado": "0",
-        "Historial": "[]"
+            "Historial": []
     },
     "CPU080": {
         "CodTransaccion": "327",
@@ -4435,7 +4436,7 @@
         "NroSerial": "Sin serial ",
         "EmpresaResponsable": "Campuslands",
         "Estado": "0",
-        "Historial": "[]"
+            "Historial": []
     },
     "MON080": {
         "CodTransaccion": "327",
@@ -4449,7 +4450,7 @@
         "NroSerial": "102SN55110",
         "EmpresaResponsable": "Campuslands",
         "Estado": "0",
-        "Historial": "[]"
+            "Historial": []
     },
     "TEC080": {
         "CodTransaccion": "327",
@@ -4463,7 +4464,7 @@
         "NroSerial": "COM2024CM21070012",
         "EmpresaResponsable": "Campuslands",
         "Estado": "0",
-        "Historial": "[]"
+            "Historial": []
     },
     "MOU080": {
         "CodTransaccion": "327",
@@ -4477,7 +4478,7 @@
         "NroSerial": "KBM130091730",
         "EmpresaResponsable": "Campuslands",
         "Estado": "0",
-        "Historial": "[]"
+            "Historial": []
     },
     "CPU081": {
         "CodTransaccion": "327",
@@ -4491,7 +4492,7 @@
         "NroSerial": "Sin serial ",
         "EmpresaResponsable": "Campuslands",
         "Estado": "0",
-        "Historial": "[]"
+            "Historial": []
     },
     "MON081": {
         "CodTransaccion": "327",
@@ -4505,7 +4506,7 @@
         "NroSerial": "102SN55109",
         "EmpresaResponsable": "Campuslands",
         "Estado": "0",
-        "Historial": "[]"
+            "Historial": []
     },
     "TEC081": {
         "CodTransaccion": "327",
@@ -4519,7 +4520,7 @@
         "NroSerial": "COM2024CM21070786",
         "EmpresaResponsable": "Campuslands",
         "Estado": "0",
-        "Historial": "[]"
+            "Historial": []
     },
     "MOU081": {
         "CodTransaccion": "327",
@@ -4533,7 +4534,7 @@
         "NroSerial": "KBM130090296",
         "EmpresaResponsable": "Campuslands",
         "Estado": "0",
-        "Historial": "[]"
+            "Historial": []
     },
     "CPU082": {
         "CodTransaccion": "327",
@@ -4547,7 +4548,7 @@
         "NroSerial": "Sin serial ",
         "EmpresaResponsable": "Campuslands",
         "Estado": "0",
-        "Historial": "[]"
+            "Historial": []
     },
     "MON082": {
         "CodTransaccion": "327",
@@ -4561,7 +4562,7 @@
         "NroSerial": "102SN55103",
         "EmpresaResponsable": "Campuslands",
         "Estado": "0",
-        "Historial": "[]"
+            "Historial": []
     },
     "TEC082": {
         "CodTransaccion": "327",
@@ -4575,7 +4576,7 @@
         "NroSerial": "COM2024CM21070515",
         "EmpresaResponsable": "Campuslands",
         "Estado": "0",
-        "Historial": "[]"
+            "Historial": []
     },
     "MOU082": {
         "CodTransaccion": "327",
@@ -4589,7 +4590,7 @@
         "NroSerial": "KBM130090724",
         "EmpresaResponsable": "Campuslands",
         "Estado": "0",
-        "Historial": "[]"
+            "Historial": []
     },
     "CPU083": {
         "CodTransaccion": "327",
@@ -4603,7 +4604,7 @@
         "NroSerial": "Sin serial ",
         "EmpresaResponsable": "Campuslands",
         "Estado": "0",
-        "Historial": "[]"
+            "Historial": []
     },
     "MON083": {
         "CodTransaccion": "327",
@@ -4617,7 +4618,7 @@
         "NroSerial": "400SN39222",
         "EmpresaResponsable": "Campuslands",
         "Estado": "0",
-        "Historial": "[]"
+            "Historial": []
     },
     "TEC083": {
         "CodTransaccion": "327",
@@ -4631,7 +4632,7 @@
         "NroSerial": "COM2024CM21070386",
         "EmpresaResponsable": "Campuslands",
         "Estado": "0",
-        "Historial": "[]"
+            "Historial": []
     },
     "MOU083": {
         "CodTransaccion": "327",
@@ -4645,7 +4646,7 @@
         "NroSerial": "KBM130091724",
         "EmpresaResponsable": "Campuslands",
         "Estado": "0",
-        "Historial": "[]"
+            "Historial": []
     },
     "CPU084": {
         "CodTransaccion": "327",
@@ -4659,7 +4660,7 @@
         "NroSerial": "Sin serial ",
         "EmpresaResponsable": "Campuslands",
         "Estado": "0",
-        "Historial": "[]"
+            "Historial": []
     },
     "MON084": {
         "CodTransaccion": "327",
@@ -4673,7 +4674,7 @@
         "NroSerial": "102SN55090",
         "EmpresaResponsable": "Campuslands",
         "Estado": "0",
-        "Historial": "[]"
+            "Historial": []
     },
     "TEC084": {
         "CodTransaccion": "327",
@@ -4687,7 +4688,7 @@
         "NroSerial": "COM2024CM21070777",
         "EmpresaResponsable": "Campuslands",
         "Estado": "0",
-        "Historial": "[]"
+            "Historial": []
     },
     "MOU084": {
         "CodTransaccion": "327",
@@ -4701,7 +4702,7 @@
         "NroSerial": "KBM130091723",
         "EmpresaResponsable": "Campuslands",
         "Estado": "0",
-        "Historial": "[]"
+            "Historial": []
     },
     "CPU085": {
         "CodTransaccion": "327",
@@ -4715,7 +4716,7 @@
         "NroSerial": "Sin serial ",
         "EmpresaResponsable": "Campuslands",
         "Estado": "0",
-        "Historial": "[]"
+            "Historial": []
     },
     "MON085": {
         "CodTransaccion": "327",
@@ -4729,7 +4730,7 @@
         "NroSerial": "102SN55076",
         "EmpresaResponsable": "Campuslands",
         "Estado": "0",
-        "Historial": "[]"
+            "Historial": []
     },
     "TEC085": {
         "CodTransaccion": "327",
@@ -4743,7 +4744,7 @@
         "NroSerial": "COM2024CM21070025",
         "EmpresaResponsable": "Campuslands",
         "Estado": "0",
-        "Historial": "[]"
+            "Historial": []
     },
     "MOU085": {
         "CodTransaccion": "327",
@@ -4757,7 +4758,7 @@
         "NroSerial": "KBM130091720",
         "EmpresaResponsable": "Campuslands",
         "Estado": "0",
-        "Historial": "[]"
+            "Historial": []
     },
     "CPU086": {
         "CodTransaccion": "327",
@@ -4771,7 +4772,7 @@
         "NroSerial": "Sin serial ",
         "EmpresaResponsable": "Campuslands",
         "Estado": "0",
-        "Historial": "[]"
+            "Historial": []
     },
     "MON086": {
         "CodTransaccion": "327",
@@ -4785,7 +4786,7 @@
         "NroSerial": "400SN39225",
         "EmpresaResponsable": "Campuslands",
         "Estado": "0",
-        "Historial": "[]"
+            "Historial": []
     },
     "TEC086": {
         "CodTransaccion": "327",
@@ -4799,7 +4800,7 @@
         "NroSerial": "COM2024CM21070137",
         "EmpresaResponsable": "Campuslands",
         "Estado": "0",
-        "Historial": "[]"
+            "Historial": []
     },
     "MOU086": {
         "CodTransaccion": "327",
@@ -4813,7 +4814,7 @@
         "NroSerial": "KBM130090747",
         "EmpresaResponsable": "Campuslands",
         "Estado": "0",
-        "Historial": "[]"
+            "Historial": []
     },
     "CPU087": {
         "CodTransaccion": "327",
@@ -4827,7 +4828,7 @@
         "NroSerial": "Sin serial ",
         "EmpresaResponsable": "Campuslands",
         "Estado": "0",
-        "Historial": "[]"
+            "Historial": []
     },
     "MON087": {
         "CodTransaccion": "327",
@@ -4841,7 +4842,7 @@
         "NroSerial": "102SN55094",
         "EmpresaResponsable": "Campuslands",
         "Estado": "0",
-        "Historial": "[]"
+            "Historial": []
     },
     "TEC087": {
         "CodTransaccion": "327",
@@ -4855,7 +4856,7 @@
         "NroSerial": "COM2024CM21070565",
         "EmpresaResponsable": "Campuslands",
         "Estado": "0",
-        "Historial": "[]"
+            "Historial": []
     },
     "MOU087": {
         "CodTransaccion": "327",
@@ -4869,7 +4870,7 @@
         "NroSerial": "KBM130091736",
         "EmpresaResponsable": "Campuslands",
         "Estado": "0",
-        "Historial": "[]"
+            "Historial": []
     },
     "CPU088": {
         "CodTransaccion": "327",
@@ -4883,7 +4884,7 @@
         "NroSerial": "Sin serial ",
         "EmpresaResponsable": "Campuslands",
         "Estado": "0",
-        "Historial": "[]"
+            "Historial": []
     },
     "MON088": {
         "CodTransaccion": "327",
@@ -4897,7 +4898,7 @@
         "NroSerial": "400SN39228",
         "EmpresaResponsable": "Campuslands",
         "Estado": "0",
-        "Historial": "[]"
+            "Historial": []
     },
     "TEC088": {
         "CodTransaccion": "327",
@@ -4911,7 +4912,7 @@
         "NroSerial": "COM2024CM21070574",
         "EmpresaResponsable": "Campuslands",
         "Estado": "0",
-        "Historial": "[]"
+            "Historial": []
     },
     "MOU088": {
         "CodTransaccion": "327",
@@ -4925,7 +4926,7 @@
         "NroSerial": "KBM130090721",
         "EmpresaResponsable": "Campuslands",
         "Estado": "0",
-        "Historial": "[]"
+            "Historial": []
     },
     "CPU089": {
         "CodTransaccion": "327",
@@ -4939,7 +4940,7 @@
         "NroSerial": "Sin serial ",
         "EmpresaResponsable": "Campuslands",
         "Estado": "0",
-        "Historial": "[]"
+            "Historial": []
     },
     "MON089": {
         "CodTransaccion": "327",
@@ -4953,7 +4954,7 @@
         "NroSerial": "400SN39205",
         "EmpresaResponsable": "Campuslands",
         "Estado": "0",
-        "Historial": "[]"
+            "Historial": []
     },
     "TEC089": {
         "CodTransaccion": "327",
@@ -4967,7 +4968,7 @@
         "NroSerial": "COM2024CM21070092",
         "EmpresaResponsable": "Campuslands",
         "Estado": "0",
-        "Historial": "[]"
+            "Historial": []
     },
     "MOU089": {
         "CodTransaccion": "327",
@@ -4981,7 +4982,7 @@
         "NroSerial": "KBM130090720",
         "EmpresaResponsable": "Campuslands",
         "Estado": "0",
-        "Historial": "[]"
+            "Historial": []
     },
     "CPU090": {
         "CodTransaccion": "327",
@@ -4995,7 +4996,7 @@
         "NroSerial": "Sin serial ",
         "EmpresaResponsable": "Campuslands",
         "Estado": "0",
-        "Historial": "[]"
+            "Historial": []
     },
     "MON090": {
         "CodTransaccion": "327",
@@ -5009,7 +5010,7 @@
         "NroSerial": "102SN55087",
         "EmpresaResponsable": "Campuslands",
         "Estado": "0",
-        "Historial": "[]"
+            "Historial": []
     },
     "TEC090": {
         "CodTransaccion": "327",
@@ -5023,7 +5024,7 @@
         "NroSerial": "COM2024CM21070318",
         "EmpresaResponsable": "Campuslands",
         "Estado": "0",
-        "Historial": "[]"
+            "Historial": []
     },
     "MOU090": {
         "CodTransaccion": "327",
@@ -5037,7 +5038,7 @@
         "NroSerial": "KBM130091722",
         "EmpresaResponsable": "Campuslands",
         "Estado": "0",
-        "Historial": "[]"
+            "Historial": []
     },
     "CPU091": {
         "CodTransaccion": "327",
@@ -5051,7 +5052,7 @@
         "NroSerial": "Sin serial ",
         "EmpresaResponsable": "Campuslands",
         "Estado": "0",
-        "Historial": "[]"
+            "Historial": []
     },
     "MON091": {
         "CodTransaccion": "327",
@@ -5065,7 +5066,7 @@
         "NroSerial": "400SN39177",
         "EmpresaResponsable": "Campuslands",
         "Estado": "0",
-        "Historial": "[]"
+            "Historial": []
     },
     "TEC091": {
         "CodTransaccion": "327",
@@ -5079,7 +5080,7 @@
         "NroSerial": "COM2024CM21070834",
         "EmpresaResponsable": "Campuslands",
         "Estado": "0",
-        "Historial": "[]"
+            "Historial": []
     },
     "MOU091": {
         "CodTransaccion": "327",
@@ -5093,7 +5094,7 @@
         "NroSerial": "KBM130091721",
         "EmpresaResponsable": "Campuslands",
         "Estado": "0",
-        "Historial": "[]"
+            "Historial": []
     },
     "CPU092": {
         "CodTransaccion": "327",
@@ -5107,7 +5108,7 @@
         "NroSerial": "Sin serial ",
         "EmpresaResponsable": "Campuslands",
         "Estado": "0",
-        "Historial": "[]"
+            "Historial": []
     },
     "MON092": {
         "CodTransaccion": "327",
@@ -5121,7 +5122,7 @@
         "NroSerial": "102SN55102",
         "EmpresaResponsable": "Campuslands",
         "Estado": "0",
-        "Historial": "[]"
+            "Historial": []
     },
     "TEC092": {
         "CodTransaccion": "327",
@@ -5135,7 +5136,7 @@
         "NroSerial": "COM2024CM21070199",
         "EmpresaResponsable": "Campuslands",
         "Estado": "0",
-        "Historial": "[]"
+            "Historial": []
     },
     "MOU092": {
         "CodTransaccion": "327",
@@ -5149,7 +5150,7 @@
         "NroSerial": "KBM130090736",
         "EmpresaResponsable": "Campuslands",
         "Estado": "0",
-        "Historial": "[]"
+            "Historial": []
     },
     "CPU093": {
         "CodTransaccion": "327",
@@ -5163,7 +5164,7 @@
         "NroSerial": "Sin serial ",
         "EmpresaResponsable": "Campuslands",
         "Estado": "0",
-        "Historial": "[]"
+            "Historial": []
     },
     "MON093": {
         "CodTransaccion": "327",
@@ -5177,7 +5178,7 @@
         "NroSerial": "400SN39234",
         "EmpresaResponsable": "Campuslands",
         "Estado": "0",
-        "Historial": "[]"
+            "Historial": []
     },
     "TEC093": {
         "CodTransaccion": "327",
@@ -5191,7 +5192,7 @@
         "NroSerial": "COM2024CM21070503",
         "EmpresaResponsable": "Campuslands",
         "Estado": "0",
-        "Historial": "[]"
+            "Historial": []
     },
     "MOU093": {
         "CodTransaccion": "327",
@@ -5205,7 +5206,7 @@
         "NroSerial": "KBM130091738",
         "EmpresaResponsable": "Campuslands",
         "Estado": "0",
-        "Historial": "[]"
+            "Historial": []
     },
     "CPU094": {
         "CodTransaccion": "327",
@@ -5219,7 +5220,7 @@
         "NroSerial": "Sin serial ",
         "EmpresaResponsable": "Campuslands",
         "Estado": "0",
-        "Historial": "[]"
+            "Historial": []
     },
     "MON094": {
         "CodTransaccion": "327",
@@ -5233,7 +5234,7 @@
         "NroSerial": "400SN39174",
         "EmpresaResponsable": "Campuslands",
         "Estado": "0",
-        "Historial": "[]"
+            "Historial": []
     },
     "TEC094": {
         "CodTransaccion": "327",
@@ -5247,7 +5248,7 @@
         "NroSerial": "COM2024CM21070236",
         "EmpresaResponsable": "Campuslands",
         "Estado": "0",
-        "Historial": "[]"
+            "Historial": []
     },
     "MOU094": {
         "CodTransaccion": "327",
@@ -5261,7 +5262,7 @@
         "NroSerial": "KBM130090702",
         "EmpresaResponsable": "Campuslands",
         "Estado": "0",
-        "Historial": "[]"
+            "Historial": []
     },
     "CPU095": {
         "CodTransaccion": "327",
@@ -5275,7 +5276,7 @@
         "NroSerial": "Sin serial ",
         "EmpresaResponsable": "Campuslands",
         "Estado": "0",
-        "Historial": "[]"
+            "Historial": []
     },
     "MON095": {
         "CodTransaccion": "327",
@@ -5289,7 +5290,7 @@
         "NroSerial": "102SN55095",
         "EmpresaResponsable": "Campuslands",
         "Estado": "0",
-        "Historial": "[]"
+            "Historial": []
     },
     "TEC095": {
         "CodTransaccion": "327",
@@ -5303,7 +5304,7 @@
         "NroSerial": "COM2024CM21070097",
         "EmpresaResponsable": "Campuslands",
         "Estado": "0",
-        "Historial": "[]"
+            "Historial": []
     },
     "MOU095": {
         "CodTransaccion": "327",
@@ -5317,7 +5318,7 @@
         "NroSerial": "KBM130091745",
         "EmpresaResponsable": "Campuslands",
         "Estado": "0",
-        "Historial": "[]"
+            "Historial": []
     },
     "CPU096": {
         "CodTransaccion": "327",
@@ -5331,7 +5332,7 @@
         "NroSerial": "Sin serial ",
         "EmpresaResponsable": "Campuslands",
         "Estado": "0",
-        "Historial": "[]"
+            "Historial": []
     },
     "MON096": {
         "CodTransaccion": "327",
@@ -5345,7 +5346,7 @@
         "NroSerial": "102SN55086",
         "EmpresaResponsable": "Campuslands",
         "Estado": "0",
-        "Historial": "[]"
+            "Historial": []
     },
     "TEC096": {
         "CodTransaccion": "327",
@@ -5359,7 +5360,7 @@
         "NroSerial": "COM2024CM21070239",
         "EmpresaResponsable": "Campuslands",
         "Estado": "0",
-        "Historial": "[]"
+            "Historial": []
     },
     "MOU096": {
         "CodTransaccion": "327",
@@ -5373,7 +5374,7 @@
         "NroSerial": "KBM130090746",
         "EmpresaResponsable": "Campuslands",
         "Estado": "0",
-        "Historial": "[]"
+            "Historial": []
     },
     "CPU097": {
         "CodTransaccion": "327",
@@ -5387,7 +5388,7 @@
         "NroSerial": "Sin serial ",
         "EmpresaResponsable": "Campuslands",
         "Estado": "0",
-        "Historial": "[]"
+            "Historial": []
     },
     "MON097": {
         "CodTransaccion": "327",
@@ -5401,7 +5402,7 @@
         "NroSerial": "400SN39172",
         "EmpresaResponsable": "Campuslands",
         "Estado": "0",
-        "Historial": "[]"
+            "Historial": []
     },
     "TEC097": {
         "CodTransaccion": "327",
@@ -5415,7 +5416,7 @@
         "NroSerial": "COM2024CM21070442",
         "EmpresaResponsable": "Campuslands",
         "Estado": "0",
-        "Historial": "[]"
+            "Historial": []
     },
     "MOU097": {
         "CodTransaccion": "327",
@@ -5429,7 +5430,7 @@
         "NroSerial": "KBM130091746",
         "EmpresaResponsable": "Campuslands",
         "Estado": "0",
-        "Historial": "[]"
+            "Historial": []
     },
     "CPU098": {
         "CodTransaccion": "327",
@@ -5443,7 +5444,7 @@
         "NroSerial": "Sin serial ",
         "EmpresaResponsable": "Campuslands",
         "Estado": "0",
-        "Historial": "[]"
+            "Historial": []
     },
     "MON098": {
         "CodTransaccion": "327",
@@ -5457,7 +5458,7 @@
         "NroSerial": "102SN55083",
         "EmpresaResponsable": "Campuslands",
         "Estado": "0",
-        "Historial": "[]"
+            "Historial": []
     },
     "TEC098": {
         "CodTransaccion": "327",
@@ -5471,7 +5472,7 @@
         "NroSerial": "COM2024CM21070223",
         "EmpresaResponsable": "Campuslands",
         "Estado": "0",
-        "Historial": "[]"
+            "Historial": []
     },
     "MOU098": {
         "CodTransaccion": "327",
@@ -5485,7 +5486,7 @@
         "NroSerial": "KBM130091747",
         "EmpresaResponsable": "Campuslands",
         "Estado": "0",
-        "Historial": "[]"
+            "Historial": []
     },
     "CPU099": {
         "CodTransaccion": "327",
@@ -5499,7 +5500,7 @@
         "NroSerial": "Sin serial ",
         "EmpresaResponsable": "Campuslands",
         "Estado": "0",
-        "Historial": "[]"
+            "Historial": []
     },
     "MON099": {
         "CodTransaccion": "327",
@@ -5513,7 +5514,7 @@
         "NroSerial": "400SN39215",
         "EmpresaResponsable": "Campuslands",
         "Estado": "0",
-        "Historial": "[]"
+            "Historial": []
     },
     "TEC099": {
         "CodTransaccion": "327",
@@ -5527,7 +5528,7 @@
         "NroSerial": "COM2024CM21070482",
         "EmpresaResponsable": "Campuslands",
         "Estado": "0",
-        "Historial": "[]"
+            "Historial": []
     },
     "MOU099": {
         "CodTransaccion": "327",
@@ -5541,7 +5542,7 @@
         "NroSerial": "KBM130091744",
         "EmpresaResponsable": "Campuslands",
         "Estado": "0",
-        "Historial": "[]"
+            "Historial": []
     },
     "CPU100": {
         "CodTransaccion": "327",
@@ -5555,7 +5556,7 @@
         "NroSerial": "Sin serial ",
         "EmpresaResponsable": "Campuslands",
         "Estado": "0",
-        "Historial": "[]"
+            "Historial": []
     },
     "MON100": {
         "CodTransaccion": "327",
@@ -5569,7 +5570,7 @@
         "NroSerial": "400SN39227",
         "EmpresaResponsable": "Campuslands",
         "Estado": "0",
-        "Historial": "[]"
+            "Historial": []
     },
     "TEC100": {
         "CodTransaccion": "327",
@@ -5583,7 +5584,7 @@
         "NroSerial": "COM2024CM21070844",
         "EmpresaResponsable": "Campuslands",
         "Estado": "0",
-        "Historial": "[]"
+            "Historial": []
     },
     "MOU100": {
         "CodTransaccion": "327",
@@ -5597,7 +5598,7 @@
         "NroSerial": "KBM130090744",
         "EmpresaResponsable": "Campuslands",
         "Estado": "0",
-        "Historial": "[]"
+            "Historial": []
     },
     "CPU101": {
         "CodTransaccion": "327",
@@ -5611,7 +5612,7 @@
         "NroSerial": "Sin serial ",
         "EmpresaResponsable": "Campuslands",
         "Estado": "0",
-        "Historial": "[]"
+            "Historial": []
     },
     "MON101": {
         "CodTransaccion": "327",
@@ -5625,7 +5626,7 @@
         "NroSerial": "400SN39169",
         "EmpresaResponsable": "Campuslands",
         "Estado": "0",
-        "Historial": "[]"
+            "Historial": []
     },
     "TEC101": {
         "CodTransaccion": "327",
@@ -5639,7 +5640,7 @@
         "NroSerial": "COM2024CM21070418",
         "EmpresaResponsable": "Campuslands",
         "Estado": "0",
-        "Historial": "[]"
+            "Historial": []
     },
     "MOU101": {
         "CodTransaccion": "327",
@@ -5653,7 +5654,7 @@
         "NroSerial": "KBM130090752",
         "EmpresaResponsable": "Campuslands",
         "Estado": "0",
-        "Historial": "[]"
+            "Historial": []
     },
     "CPU102": {
         "CodTransaccion": "327",
@@ -5667,7 +5668,7 @@
         "NroSerial": "Sin serial ",
         "EmpresaResponsable": "Campuslands",
         "Estado": "0",
-        "Historial": "[]"
+            "Historial": []
     },
     "MON102": {
         "CodTransaccion": "327",
@@ -5681,7 +5682,7 @@
         "NroSerial": "500SN32576",
         "EmpresaResponsable": "Campuslands",
         "Estado": "0",
-        "Historial": "[]"
+            "Historial": []
     },
     "TEC102": {
         "CodTransaccion": "327",
@@ -5695,7 +5696,7 @@
         "NroSerial": "COM2024CM21070597",
         "EmpresaResponsable": "Campuslands",
         "Estado": "0",
-        "Historial": "[]"
+            "Historial": []
     },
     "MOU102": {
         "CodTransaccion": "327",
@@ -5709,7 +5710,7 @@
         "NroSerial": "CK440U-10923",
         "EmpresaResponsable": "Campuslands",
         "Estado": "0",
-        "Historial": "[]"
+            "Historial": []
     },
     "CPU103": {
         "CodTransaccion": "327",
@@ -5723,7 +5724,7 @@
         "NroSerial": "Sin serial ",
         "EmpresaResponsable": "Campuslands",
         "Estado": "0",
-        "Historial": "[]"
+            "Historial": []
     },
     "MON103": {
         "CodTransaccion": "327",
@@ -5737,7 +5738,7 @@
         "NroSerial": "500SN32598",
         "EmpresaResponsable": "Campuslands",
         "Estado": "0",
-        "Historial": "[]"
+            "Historial": []
     },
     "TEC103": {
         "CodTransaccion": "327",
@@ -5751,7 +5752,7 @@
         "NroSerial": "COM2024CM21070864",
         "EmpresaResponsable": "Campuslands",
         "Estado": "0",
-        "Historial": "[]"
+            "Historial": []
     },
     "MOU103": {
         "CodTransaccion": "327",
@@ -5765,7 +5766,7 @@
         "NroSerial": "CK440U-10924",
         "EmpresaResponsable": "Campuslands",
         "Estado": "0",
-        "Historial": "[]"
+            "Historial": []
     },
     "CPU104": {
         "CodTransaccion": "327",
@@ -5779,7 +5780,7 @@
         "NroSerial": "Sin serial ",
         "EmpresaResponsable": "Campuslands",
         "Estado": "0",
-        "Historial": "[]"
+            "Historial": []
     },
     "MON104": {
         "CodTransaccion": "327",
@@ -5793,7 +5794,7 @@
         "NroSerial": "500SN32557",
         "EmpresaResponsable": "Campuslands",
         "Estado": "0",
-        "Historial": "[]"
+            "Historial": []
     },
     "TEC104": {
         "CodTransaccion": "327",
@@ -5807,7 +5808,7 @@
         "NroSerial": "COM2024CM21070602",
         "EmpresaResponsable": "Campuslands",
         "Estado": "0",
-        "Historial": "[]"
+            "Historial": []
     },
     "MOU104": {
         "CodTransaccion": "327",
@@ -5821,7 +5822,7 @@
         "NroSerial": "CK440U-10925",
         "EmpresaResponsable": "Campuslands",
         "Estado": "0",
-        "Historial": "[]"
+            "Historial": []
     },
     "CPU105": {
         "CodTransaccion": "327",
@@ -5835,7 +5836,7 @@
         "NroSerial": "Sin serial ",
         "EmpresaResponsable": "Campuslands",
         "Estado": "0",
-        "Historial": "[]"
+            "Historial": []
     },
     "MON105": {
         "CodTransaccion": "327",
@@ -5849,7 +5850,7 @@
         "NroSerial": "500SN32564",
         "EmpresaResponsable": "Campuslands",
         "Estado": "0",
-        "Historial": "[]"
+            "Historial": []
     },
     "TEC105": {
         "CodTransaccion": "327",
@@ -5863,7 +5864,7 @@
         "NroSerial": "COM2024CM21070823",
         "EmpresaResponsable": "Campuslands",
         "Estado": "0",
-        "Historial": "[]"
+            "Historial": []
     },
     "MOU105": {
         "CodTransaccion": "327",
@@ -5877,7 +5878,7 @@
         "NroSerial": "CK440U-10926",
         "EmpresaResponsable": "Campuslands",
         "Estado": "0",
-        "Historial": "[]"
+            "Historial": []
     },
     "CPU106": {
         "CodTransaccion": "327",
@@ -5891,7 +5892,7 @@
         "NroSerial": "Sin serial ",
         "EmpresaResponsable": "Campuslands",
         "Estado": "0",
-        "Historial": "[]"
+            "Historial": []
     },
     "MON106": {
         "CodTransaccion": "327",
@@ -5905,7 +5906,7 @@
         "NroSerial": "500SN32556",
         "EmpresaResponsable": "Campuslands",
         "Estado": "0",
-        "Historial": "[]"
+            "Historial": []
     },
     "TEC106": {
         "CodTransaccion": "327",
@@ -5919,7 +5920,7 @@
         "NroSerial": "COM2024CM21070855",
         "EmpresaResponsable": "Campuslands",
         "Estado": "0",
-        "Historial": "[]"
+            "Historial": []
     },
     "MOU106": {
         "CodTransaccion": "327",
@@ -5933,7 +5934,7 @@
         "NroSerial": "CK440U-10927",
         "EmpresaResponsable": "Campuslands",
         "Estado": "0",
-        "Historial": "[]"
+            "Historial": []
     },
     "CPU107": {
         "CodTransaccion": "327",
@@ -5947,7 +5948,7 @@
         "NroSerial": "Sin serial ",
         "EmpresaResponsable": "Campuslands",
         "Estado": "0",
-        "Historial": "[]"
+            "Historial": []
     },
     "MON107": {
         "CodTransaccion": "327",
@@ -5961,7 +5962,7 @@
         "NroSerial": "500SN32571",
         "EmpresaResponsable": "Campuslands",
         "Estado": "0",
-        "Historial": "[]"
+            "Historial": []
     },
     "TEC107": {
         "CodTransaccion": "327",
@@ -5975,7 +5976,7 @@
         "NroSerial": "COM2024CM21070180",
         "EmpresaResponsable": "Campuslands",
         "Estado": "0",
-        "Historial": "[]"
+            "Historial": []
     },
     "MOU107": {
         "CodTransaccion": "327",
@@ -5989,7 +5990,7 @@
         "NroSerial": "CK440U-10936",
         "EmpresaResponsable": "Campuslands",
         "Estado": "0",
-        "Historial": "[]"
+            "Historial": []
     },
     "CPU108": {
         "CodTransaccion": "327",
@@ -6003,7 +6004,7 @@
         "NroSerial": "Sin serial ",
         "EmpresaResponsable": "Campuslands",
         "Estado": "0",
-        "Historial": "[]"
+            "Historial": []
     },
     "MON108": {
         "CodTransaccion": "327",
@@ -6017,7 +6018,7 @@
         "NroSerial": "500SN32591",
         "EmpresaResponsable": "Campuslands",
         "Estado": "0",
-        "Historial": "[]"
+            "Historial": []
     },
     "TEC108": {
         "CodTransaccion": "327",
@@ -6031,7 +6032,7 @@
         "NroSerial": "COM2024CM21070122",
         "EmpresaResponsable": "Campuslands",
         "Estado": "0",
-        "Historial": "[]"
+            "Historial": []
     },
     "MOU108": {
         "CodTransaccion": "327",
@@ -6045,7 +6046,7 @@
         "NroSerial": "CK440U-10937",
         "EmpresaResponsable": "Campuslands",
         "Estado": "0",
-        "Historial": "[]"
+            "Historial": []
     },
     "CPU109": {
         "CodTransaccion": "327",
@@ -6059,7 +6060,7 @@
         "NroSerial": "Sin serial ",
         "EmpresaResponsable": "Campuslands",
         "Estado": "0",
-        "Historial": "[]"
+            "Historial": []
     },
     "MON109": {
         "CodTransaccion": "327",
@@ -6073,7 +6074,7 @@
         "NroSerial": "500SN32584",
         "EmpresaResponsable": "Campuslands",
         "Estado": "0",
-        "Historial": "[]"
+            "Historial": []
     },
     "TEC109": {
         "CodTransaccion": "327",
@@ -6087,7 +6088,7 @@
         "NroSerial": "COM2024CM21070784",
         "EmpresaResponsable": "Campuslands",
         "Estado": "0",
-        "Historial": "[]"
+            "Historial": []
     },
     "MOU109": {
         "CodTransaccion": "327",
@@ -6101,7 +6102,7 @@
         "NroSerial": "CK440U-10935",
         "EmpresaResponsable": "Campuslands",
         "Estado": "0",
-        "Historial": "[]"
+            "Historial": []
     },
     "CPU110": {
         "CodTransaccion": "327",
@@ -6115,7 +6116,7 @@
         "NroSerial": "Sin serial ",
         "EmpresaResponsable": "Campuslands",
         "Estado": "0",
-        "Historial": "[]"
+            "Historial": []
     },
     "MON110": {
         "CodTransaccion": "327",
@@ -6129,7 +6130,7 @@
         "NroSerial": "500SN32627",
         "EmpresaResponsable": "Campuslands",
         "Estado": "0",
-        "Historial": "[]"
+            "Historial": []
     },
     "TEC110": {
         "CodTransaccion": "327",
@@ -6143,7 +6144,7 @@
         "NroSerial": "COM2024CM21070095",
         "EmpresaResponsable": "Campuslands",
         "Estado": "0",
-        "Historial": "[]"
+            "Historial": []
     },
     "MOU110": {
         "CodTransaccion": "327",
@@ -6157,7 +6158,7 @@
         "NroSerial": "CK440U-10974",
         "EmpresaResponsable": "Campuslands",
         "Estado": "0",
-        "Historial": "[]"
+            "Historial": []
     },
     "CPU111": {
         "CodTransaccion": "327",
@@ -6171,7 +6172,7 @@
         "NroSerial": "Sin serial ",
         "EmpresaResponsable": "Campuslands",
         "Estado": "0",
-        "Historial": "[]"
+            "Historial": []
     },
     "MON111": {
         "CodTransaccion": "327",
@@ -6185,7 +6186,7 @@
         "NroSerial": "500SN32621",
         "EmpresaResponsable": "Campuslands",
         "Estado": "0",
-        "Historial": "[]"
+            "Historial": []
     },
     "TEC111": {
         "CodTransaccion": "327",
@@ -6199,7 +6200,7 @@
         "NroSerial": "COM2024CM21070221",
         "EmpresaResponsable": "Campuslands",
         "Estado": "0",
-        "Historial": "[]"
+            "Historial": []
     },
     "MOU111": {
         "CodTransaccion": "327",
@@ -6213,7 +6214,7 @@
         "NroSerial": "CK440U-10932",
         "EmpresaResponsable": "Campuslands",
         "Estado": "0",
-        "Historial": "[]"
+            "Historial": []
     },
     "CPU112": {
         "CodTransaccion": "327",
@@ -6227,7 +6228,7 @@
         "NroSerial": "Sin serial ",
         "EmpresaResponsable": "Campuslands",
         "Estado": "0",
-        "Historial": "[]"
+            "Historial": []
     },
     "MON112": {
         "CodTransaccion": "327",
@@ -6241,7 +6242,7 @@
         "NroSerial": "500SN32588",
         "EmpresaResponsable": "Campuslands",
         "Estado": "0",
-        "Historial": "[]"
+            "Historial": []
     },
     "TEC112": {
         "CodTransaccion": "327",
@@ -6255,7 +6256,7 @@
         "NroSerial": "COM2024CM21070836",
         "EmpresaResponsable": "Campuslands",
         "Estado": "0",
-        "Historial": "[]"
+            "Historial": []
     },
     "MOU112": {
         "CodTransaccion": "327",
@@ -6269,7 +6270,7 @@
         "NroSerial": "CK440U-10934",
         "EmpresaResponsable": "Campuslands",
         "Estado": "0",
-        "Historial": "[]"
+            "Historial": []
     },
     "CPU113": {
         "CodTransaccion": "327",
@@ -6283,7 +6284,7 @@
         "NroSerial": "Sin serial ",
         "EmpresaResponsable": "Campuslands",
         "Estado": "0",
-        "Historial": "[]"
+            "Historial": []
     },
     "MON113": {
         "CodTransaccion": "327",
@@ -6297,7 +6298,7 @@
         "NroSerial": "500SN32626",
         "EmpresaResponsable": "Campuslands",
         "Estado": "0",
-        "Historial": "[]"
+            "Historial": []
     },
     "TEC113": {
         "CodTransaccion": "327",
@@ -6311,7 +6312,7 @@
         "NroSerial": "COM2024CM21070776",
         "EmpresaResponsable": "Campuslands",
         "Estado": "0",
-        "Historial": "[]"
+            "Historial": []
     },
     "MOU113": {
         "CodTransaccion": "327",
@@ -6325,7 +6326,7 @@
         "NroSerial": "CK440U-10933",
         "EmpresaResponsable": "Campuslands",
         "Estado": "0",
-        "Historial": "[]"
+            "Historial": []
     },
     "CPU114": {
         "CodTransaccion": "327",
@@ -6339,7 +6340,7 @@
         "NroSerial": "Sin serial ",
         "EmpresaResponsable": "Campuslands",
         "Estado": "0",
-        "Historial": "[]"
+            "Historial": []
     },
     "MON114": {
         "CodTransaccion": "327",
@@ -6353,7 +6354,7 @@
         "NroSerial": "500SN32596",
         "EmpresaResponsable": "Campuslands",
         "Estado": "0",
-        "Historial": "[]"
+            "Historial": []
     },
     "TEC114": {
         "CodTransaccion": "327",
@@ -6367,7 +6368,7 @@
         "NroSerial": "COM2024CM21070605",
         "EmpresaResponsable": "Campuslands",
         "Estado": "0",
-        "Historial": "[]"
+            "Historial": []
     },
     "MOU114": {
         "CodTransaccion": "327",
@@ -6381,7 +6382,7 @@
         "NroSerial": "CK440U-10928",
         "EmpresaResponsable": "Campuslands",
         "Estado": "0",
-        "Historial": "[]"
+            "Historial": []
     },
     "CPU115": {
         "CodTransaccion": "327",
@@ -6395,7 +6396,7 @@
         "NroSerial": "Sin serial ",
         "EmpresaResponsable": "Campuslands",
         "Estado": "0",
-        "Historial": "[]"
+            "Historial": []
     },
     "MON115": {
         "CodTransaccion": "327",
@@ -6409,7 +6410,7 @@
         "NroSerial": "500SN32567",
         "EmpresaResponsable": "Campuslands",
         "Estado": "0",
-        "Historial": "[]"
+            "Historial": []
     },
     "TEC115": {
         "CodTransaccion": "327",
@@ -6423,7 +6424,7 @@
         "NroSerial": "COM2024CM21070511",
         "EmpresaResponsable": "Campuslands",
         "Estado": "0",
-        "Historial": "[]"
+            "Historial": []
     },
     "MOU115": {
         "CodTransaccion": "327",
@@ -6437,7 +6438,7 @@
         "NroSerial": "CK440U-11024",
         "EmpresaResponsable": "Campuslands",
         "Estado": "0",
-        "Historial": "[]"
+            "Historial": []
     },
     "CPU116": {
         "CodTransaccion": "327",
@@ -6451,7 +6452,7 @@
         "NroSerial": "Sin serial ",
         "EmpresaResponsable": "Campuslands",
         "Estado": "0",
-        "Historial": "[]"
+            "Historial": []
     },
     "MON116": {
         "CodTransaccion": "327",
@@ -6465,7 +6466,7 @@
         "NroSerial": "500SN32585",
         "EmpresaResponsable": "Campuslands",
         "Estado": "0",
-        "Historial": "[]"
+            "Historial": []
     },
     "TEC116": {
         "CodTransaccion": "327",
@@ -6479,7 +6480,7 @@
         "NroSerial": "COM2024CM21070408",
         "EmpresaResponsable": "Campuslands",
         "Estado": "0",
-        "Historial": "[]"
+            "Historial": []
     },
     "MOU116": {
         "CodTransaccion": "327",
@@ -6493,7 +6494,7 @@
         "NroSerial": "CK440U-10931",
         "EmpresaResponsable": "Campuslands",
         "Estado": "0",
-        "Historial": "[]"
+            "Historial": []
     },
     "CPU117": {
         "CodTransaccion": "327",
@@ -6507,7 +6508,7 @@
         "NroSerial": "Sin serial ",
         "EmpresaResponsable": "Campuslands",
         "Estado": "0",
-        "Historial": "[]"
+            "Historial": []
     },
     "MON117": {
         "CodTransaccion": "327",
@@ -6521,7 +6522,7 @@
         "NroSerial": "500SN32572",
         "EmpresaResponsable": "Campuslands",
         "Estado": "0",
-        "Historial": "[]"
+            "Historial": []
     },
     "TEC117": {
         "CodTransaccion": "327",
@@ -6535,7 +6536,7 @@
         "NroSerial": "COM2024CM21070209",
         "EmpresaResponsable": "Campuslands",
         "Estado": "0",
-        "Historial": "[]"
+            "Historial": []
     },
     "MOU117": {
         "CodTransaccion": "327",
@@ -6549,7 +6550,7 @@
         "NroSerial": "CK440U-11023",
         "EmpresaResponsable": "Campuslands",
         "Estado": "0",
-        "Historial": "[]"
+            "Historial": []
     },
     "CPU118": {
         "CodTransaccion": "327",
@@ -6563,7 +6564,7 @@
         "NroSerial": "Sin serial ",
         "EmpresaResponsable": "Campuslands",
         "Estado": "0",
-        "Historial": "[]"
+            "Historial": []
     },
     "MON118": {
         "CodTransaccion": "327",
@@ -6577,7 +6578,7 @@
         "NroSerial": "500SN32599",
         "EmpresaResponsable": "Campuslands",
         "Estado": "0",
-        "Historial": "[]"
+            "Historial": []
     },
     "TEC118": {
         "CodTransaccion": "327",
@@ -6591,7 +6592,7 @@
         "NroSerial": "COM2024CM21070285",
         "EmpresaResponsable": "Campuslands",
         "Estado": "0",
-        "Historial": "[]"
+            "Historial": []
     },
     "MOU118": {
         "CodTransaccion": "327",
@@ -6605,7 +6606,7 @@
         "NroSerial": "CK440U-11026",
         "EmpresaResponsable": "Campuslands",
         "Estado": "0",
-        "Historial": "[]"
+            "Historial": []
     },
     "CPU119": {
         "CodTransaccion": "327",
@@ -6619,7 +6620,7 @@
         "NroSerial": "Sin serial ",
         "EmpresaResponsable": "Campuslands",
         "Estado": "0",
-        "Historial": "[]"
+            "Historial": []
     },
     "MON119": {
         "CodTransaccion": "327",
@@ -6633,7 +6634,7 @@
         "NroSerial": "500SN32581",
         "EmpresaResponsable": "Campuslands",
         "Estado": "0",
-        "Historial": "[]"
+            "Historial": []
     },
     "TEC119": {
         "CodTransaccion": "327",
@@ -6647,7 +6648,7 @@
         "NroSerial": "COM2024CM21070086",
         "EmpresaResponsable": "Campuslands",
         "Estado": "0",
-        "Historial": "[]"
+            "Historial": []
     },
     "MOU119": {
         "CodTransaccion": "327",
@@ -6661,7 +6662,7 @@
         "NroSerial": "CK440U-11025",
         "EmpresaResponsable": "Campuslands",
         "Estado": "0",
-        "Historial": "[]"
+            "Historial": []
     },
     "CPU120": {
         "CodTransaccion": "327",
@@ -6675,7 +6676,7 @@
         "NroSerial": "Sin serial ",
         "EmpresaResponsable": "Campuslands",
         "Estado": "0",
-        "Historial": "[]"
+            "Historial": []
     },
     "MON120": {
         "CodTransaccion": "327",
@@ -6689,7 +6690,7 @@
         "NroSerial": "500SN32619",
         "EmpresaResponsable": "Campuslands",
         "Estado": "0",
-        "Historial": "[]"
+            "Historial": []
     },
     "TEC120": {
         "CodTransaccion": "327",
@@ -6703,7 +6704,7 @@
         "NroSerial": "COM2024CM21070669",
         "EmpresaResponsable": "Campuslands",
         "Estado": "0",
-        "Historial": "[]"
+            "Historial": []
     },
     "MOU120": {
         "CodTransaccion": "327",
@@ -6717,7 +6718,7 @@
         "NroSerial": "CK440U-10930",
         "EmpresaResponsable": "Campuslands",
         "Estado": "0",
-        "Historial": "[]"
+            "Historial": []
     },
     "CPU121": {
         "CodTransaccion": "327",
@@ -6731,7 +6732,7 @@
         "NroSerial": "Sin serial ",
         "EmpresaResponsable": "Campuslands",
         "Estado": "0",
-        "Historial": "[]"
+            "Historial": []
     },
     "MON121": {
         "CodTransaccion": "327",
@@ -6745,7 +6746,7 @@
         "NroSerial": "500SN32575",
         "EmpresaResponsable": "Campuslands",
         "Estado": "0",
-        "Historial": "[]"
+            "Historial": []
     },
     "TEC121": {
         "CodTransaccion": "327",
@@ -6759,7 +6760,7 @@
         "NroSerial": "COM2024CM21070692",
         "EmpresaResponsable": "Campuslands",
         "Estado": "0",
-        "Historial": "[]"
+            "Historial": []
     },
     "MOU121": {
         "CodTransaccion": "327",
@@ -6773,7 +6774,7 @@
         "NroSerial": "CK440U-10929",
         "EmpresaResponsable": "Campuslands",
         "Estado": "0",
-        "Historial": "[]"
+            "Historial": []
     },
     "CPU122": {
         "CodTransaccion": "327",
@@ -6787,7 +6788,7 @@
         "NroSerial": "Sin serial ",
         "EmpresaResponsable": "Campuslands",
         "Estado": "0",
-        "Historial": "[]"
+            "Historial": []
     },
     "MON122": {
         "CodTransaccion": "327",
@@ -6801,7 +6802,7 @@
         "NroSerial": "500SN32595",
         "EmpresaResponsable": "Campuslands",
         "Estado": "0",
-        "Historial": "[]"
+            "Historial": []
     },
     "TEC122": {
         "CodTransaccion": "327",
@@ -6815,7 +6816,7 @@
         "NroSerial": "COM2024CM21070057",
         "EmpresaResponsable": "Campuslands",
         "Estado": "0",
-        "Historial": "[]"
+            "Historial": []
     },
     "MOU122": {
         "CodTransaccion": "327",
@@ -6829,7 +6830,7 @@
         "NroSerial": "CK440U-10760",
         "EmpresaResponsable": "Campuslands",
         "Estado": "0",
-        "Historial": "[]"
+            "Historial": []
     },
     "CPU123": {
         "CodTransaccion": "327",
@@ -6843,7 +6844,7 @@
         "NroSerial": "Sin serial ",
         "EmpresaResponsable": "Campuslands",
         "Estado": "0",
-        "Historial": "[]"
+            "Historial": []
     },
     "MON123": {
         "CodTransaccion": "327",
@@ -6857,7 +6858,7 @@
         "NroSerial": "500SN32604",
         "EmpresaResponsable": "Campuslands",
         "Estado": "0",
-        "Historial": "[]"
+            "Historial": []
     },
     "TEC123": {
         "CodTransaccion": "327",
@@ -6871,7 +6872,7 @@
         "NroSerial": "COM2024CM21070575",
         "EmpresaResponsable": "Campuslands",
         "Estado": "0",
-        "Historial": "[]"
+            "Historial": []
     },
     "MOU123": {
         "CodTransaccion": "327",
@@ -6885,6 +6886,9 @@
         "NroSerial": "CK440U-10656",
         "EmpresaResponsable": "Campuslands",
         "Estado": "0",
-        "Historial": "[]"
+            "Historial": []
     }
+    },
+    "Personal": {},
+    "Zonas": {}
 }
