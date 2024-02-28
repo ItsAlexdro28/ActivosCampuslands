@@ -1,5 +1,5 @@
 import modules.menus as menu
-import modules.import as imp
+import modules.importJson as imp
 data = {}
 
 if __name__ == "__main__":
