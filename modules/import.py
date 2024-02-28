@@ -1,7 +1,14 @@
 import csv
 import json
-data = {}
-with open('data/data.csv', 'r') as file:
+data = {
+    'Activos':{},
+    'Personal': {},
+    'Zonas': {},
+    'Asignacion': {}
+}
+
+DIR = 'data/'
+with open(DIR+'data.csv', 'r') as file:
     reader = csv.reader(file)
     headers = next(reader)
     key_column_index = 2
@@ -9,10 +16,26 @@ with open('data/data.csv', 'r') as file:
         key = row[key_column_index]
         row_dict = {}
         for i, value in enumerate(row):
+            if value == '[]':
+                value = []
             row_dict[headers[i]] = value
-        data[key] = row_dict
+        data['Activos'][key] = row_dict
+#itera en cada fila, asigna el valor de acurdo al primer valor de la columna y agrega con identificacion 'CodCampus'
 
-with open('data/data.json', 'w') as outfile:
-    json.dump(data, outfile, indent=4)  
+def readJson(filename):
+    try:
+        with open(DIR+filename+'.json', 'r') as f:
+            return json.load(f)
+    except FileNotFoundError:
+        raise FileNotFoundError(f"File '{filename}' not found.")
+    except json.JSONDecodeError:
+        raise json.JSONDecodeError(f"Invalid JSON format in file '{filename}'.")
+    
+def writeJson(data, filename):
+    try:
+        with open(DIR+filename+'.json', 'w') as f:
+            json.dump(data, f, indent=4) 
+    except IOError as e:
+        raise IOError(f"Error writing to file '{filename}': {e}")
 
-print(f"Data saved to data/data.json")
+writeJson(data, 'data')  
