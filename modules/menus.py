@@ -1,6 +1,9 @@
 from tabulate import tabulate
 import modules.add as add
+import modules.edit as edit
+import modules.delete as delete
 import main as main 
+
 titulo = """
         +**********************+
         |       OPCIONES       |
@@ -45,9 +48,9 @@ def menuactivos():
     if opcion == "1":
        add.activosAdd(main.data)
     elif opcion == "2":
-        pass
+        edit.activosEdit(main.data)
     elif opcion == "3":
-        pass
+        delete.activosDelete(main.data)
     elif opcion == "4":
         pass
     elif opcion == "5":

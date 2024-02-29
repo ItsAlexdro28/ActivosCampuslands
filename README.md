@@ -12,16 +12,16 @@ data.json
   
 Menus
 - principal (✓)
-- activos
-- personal
-- zonas
-- asignar activos
-- reportes
-- movimiento activos
+- activos (✓)
+- personal (✓)
+- zonas (✓)
+- asignar activos (✓)
+- reportes (✓)
+- movimiento activos (✓)
 
 acciones 
 - agregar (activos, personal, zonas) (✓,0,0)
-- editar (activos, personal, zonas) (0,0,0)
+- editar (activos, personal, zonas) (✓,0,0)
 - eliminar (activos, personal, zonas) (libres de asignaciones) (0,0,0)
 - buscar (activos, personal, zonas)
 - nueva asignacion (excluir dados de baja/garantia/verificar datos completos)

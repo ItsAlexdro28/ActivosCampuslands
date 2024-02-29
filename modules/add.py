@@ -19,6 +19,7 @@ def activosAdd(data:dict):
         data['Activos'].update(new)
     except ValueError as e:
         print(f"Error: El valor de la llave '{e}' no es valido.")
+        activosAdd(data)
 
 # la funcion tiene dos diccionarios, uno para poner todos los datos ingresados por el usuario y otro para poder añadirlo a la base de datos
 # la funcion "for" itera por todos los valores de 'keys' siendo los nombres de las llaves para asignar en el diccionarios
