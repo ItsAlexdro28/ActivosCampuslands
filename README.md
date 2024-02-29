@@ -6,9 +6,9 @@ data.json
 - importar (✓)
 - exportar (✓)
 - activos (✓)
-- personas
-- zonas
-- asignacion
+- personas (✓)
+- zonas (✓)
+- asignacion (✓)
   
 Menus
 - principal (✓)
@@ -22,7 +22,7 @@ Menus
 acciones 
 - agregar (activos, personal, zonas) (✓,0,0)
 - editar (activos, personal, zonas) (✓,0,0)
-- eliminar (activos, personal, zonas) (libres de asignaciones) (0,0,0)
+- eliminar (activos, personal, zonas) (libres de asignaciones) (✓,0,0)
 - buscar (activos, personal, zonas)
 - nueva asignacion (excluir dados de baja/garantia/verificar datos completos)
 - añadir historial (nuevo id, asignar a los activos)

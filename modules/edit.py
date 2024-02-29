@@ -15,9 +15,11 @@ def activosEdit(data:dict):
         if indexToEdit == 0:
                 # Edit todos los valores
                 for key, value in activeToEdit.items():
+                    x = 0
                     if key != 'Historial':  # Saltar el historial
-                        newValue = input(f"Ingresa el nuevo valor para '{key}': ")
+                        newValue = input(f"Ingresa el nuevo valor para '{keysRead[x]}': ")
                         activeToEdit[key] = newValue
+                    x += 1
                 print(f"Activo '{codCampus}' Editado satisfactoriamente.")
                 return
         if indexToEdit == -1:

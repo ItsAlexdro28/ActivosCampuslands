@@ -38,4 +38,6 @@ def writeJson(data, filename):
             json.dump(data, wr, indent=4) 
     except IOError as e:
         raise IOError(f"Error writing to file '{filename}': {e}")
+    
+addCsv()
 

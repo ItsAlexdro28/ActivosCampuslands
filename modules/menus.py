@@ -3,6 +3,9 @@ import modules.add as add
 import modules.edit as edit
 import modules.delete as delete
 import main as main 
+import modules.importJson as imp
+data = imp.readJson('data')
+
 
 titulo = """
         +**********************+
@@ -46,11 +49,14 @@ def menuactivos():
     opcion = input("\n>> ")
     
     if opcion == "1":
-       add.activosAdd(main.data)
+        add.activosAdd(data)
+        imp.writeJson(data, 'data')
     elif opcion == "2":
-        edit.activosEdit(main.data)
+        edit.activosEdit(data)
+        imp.writeJson(data, 'data')
     elif opcion == "3":
-        delete.activosDelete(main.data)
+        delete.activosDelete(data)
+        imp.writeJson(data, 'data')
     elif opcion == "4":
         pass
     elif opcion == "5":
