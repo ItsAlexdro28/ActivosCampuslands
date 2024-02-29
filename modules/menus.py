@@ -6,19 +6,12 @@ import main as main
 import modules.importJson as imp
 data = imp.readJson('data')
 
-def menuPRINCIPAL(): 
-<<<<<<< HEAD
+def menuPRINCIPAL():
     titulo=[["SISTEMA G&C DE INVENTARIO CAMPUSLANDS"]]
-<<<<<<< HEAD
-    print(tabulate(titulo,tablefmt="double_grid"))
-=======
     print(tabulate(titulo,tablefmt="heavy grid"))
     print(titulo)
-=======
     titulo=[["SISTEMA G&C DE INVENTARIO CAMPUSLANDS\n"]]
     print(tabulate(titulo,tablefmt="double_grid"))
->>>>>>> 3277f09be570148639293b467c42ca39d5e92a08
->>>>>>> refs/remotes/origin/main
     opciones = [["1.", "ACTIVOS"], ["2.", "PERSONAL "], ["3.", "ZONAS "], ["4.", "ASIGNACION DE ACTIVOS "], ["5.", "REPORTES"], ["6.", "MOVIMIENTOS DE ACTIVOS"],["7.", "SALIR"]]
     print(tabulate(opciones, tablefmt="fancy_grid"))
     opcion = input("\n>> ")
