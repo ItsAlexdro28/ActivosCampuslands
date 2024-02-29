@@ -1,4 +1,7 @@
+from tabulate import tabulate
 def activosEdit(data:dict):
+    titulo=[["AÑADIR ACTIVOS"]]
+    print(tabulate(titulo,tablefmt="double_grid"))
     codCampus = input("Ingresa el valor del Codigo de campus para editar")
     keysRead = ['Codigo de Transaccion','Numero de Formulario','Codigo Campus','Marca','Categoria','Tipo','ValUnid','Proveedor','Numero Serial','la Empresa Responsable','Estado']
     if codCampus in data['Activos']:

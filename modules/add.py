@@ -2,12 +2,14 @@ from tabulate import tabulate
 import os
 
 def activosAdd(data:dict):
+    os.system('cls')
     try:
         new = {}
         hold = {}
         keys = ['CodTransaccion','NroFormulario','CodCampus','Marca','Categoria','Tipo','ValUnid','Proveedor','NroSerial','EmpresaResponsable','Estado']
         keysRead = ['Codigo de Transaccion','Numero de Formulario','Codigo Campus','Marca','Categoria','Tipo','ValUnid','Proveedor','Numero Serial','la Empresa Responsable','Estado']
-        print('Añadir un nuevo activo')
+        titulo=[["AÑADIR ACTIVOS"]]
+        print(tabulate(titulo,tablefmt="double_grid"))
         for i in range(len(keys)):
             if keys[i] == 'Marca':
                 print('valores sugeridos: LG, COMPUMAX, LOGITECH, BENQ, ASUS, LENOVO, HP')

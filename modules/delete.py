@@ -1,5 +1,11 @@
+from tabulate import tabulate
+import os
+
 def activosDelete(data:dict):
-    codCampus = input("Ingresa el valor del Codigo de campus para eliminar")
+    os.system('cls')
+    titulo=[["ELIMINAR"]]
+    print(tabulate(titulo,tablefmt="double_grid"))
+    codCampus = input("Ingresa el valor del Codigo de campus que desea eliminar")
     if codCampus in data["Activos"]:
         activeToDelete = data["Activos"][codCampus]
         print("Detalles de Activo: ")
