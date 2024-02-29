@@ -8,7 +8,7 @@ data = imp.readJson('data')
 
 def menuPRINCIPAL(): 
     titulo=[["SISTEMA G&C DE INVENTARIO CAMPUSLANDS"]]
-    print(tabulate(titulo,tablefmt="double_grid"))
+    print(tabulate(titulo,tablefmt="heavy grid"))
     print(titulo)
     opciones = [["1.", "ACTIVOS"], ["2.", "PERSONAL "], ["3.", "ZONAS "], ["4.", "ASIGNACION DE ACTIVOS "], ["5.", "REPORTES"], ["6.", "MOVIMIENTOS DE ACTIVOS"],["7.", "SALIR"]]
     print(tabulate(opciones, tablefmt="grid"))
@@ -69,7 +69,8 @@ def menuPERSONAL():
     elif opcion == "2":
         pass
     elif opcion == "3":
-        pass
+        delete.peopleDelete(data)
+        imp.writeJson(data, 'data')
     elif opcion == "4":
         pass
     elif opcion == "5":   
