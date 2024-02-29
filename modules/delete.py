@@ -19,3 +19,9 @@ def activosDelete(data:dict):
             print("Deletion cancelled.")
     else:
         print(f"Activo con Codigo de campus '{codCampus}' no ha sido encontrado")
+# Esta función permite a los usuarios eliminar un activo existente en función de su clave 'CodCampus'.
+# Solicita al usuario que ingrese la clave 'CodCampus' del activo que desea eliminar.
+# Si se encuentra el activo, muestra todos sus detalles.
+# Luego, la función solicita al usuario que confirme la eliminación.
+# Si el usuario confirma, la función elimina el activo del diccionario de datos.
+# Finalmente, muestra un mensaje indicando si el activo se eliminó exitosamente o no.
