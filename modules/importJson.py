@@ -12,9 +12,9 @@ def addCsv():
     with open(DIR+'data.csv', 'r') as file:
         reader = csv.reader(file)
         headers = next(reader)
-        key_column_index = 2
+        keyColumnIndex = 2
         for row in reader:
-            key = row[key_column_index]
+            key = row[keyColumnIndex]
             row_dict = {}
             for i, value in enumerate(row):
                 if value == '[]':

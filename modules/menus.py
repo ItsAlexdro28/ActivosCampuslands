@@ -9,7 +9,6 @@ data = imp.readJson('data')
 def menuPRINCIPAL(): 
     titulo=[["SISTEMA G&C DE INVENTARIO CAMPUSLANDS"]]
     print(tabulate(titulo,tablefmt="double_grid"))
-    print(titulo)
     opciones = [["1.", "ACTIVOS"], ["2.", "PERSONAL "], ["3.", "ZONAS "], ["4.", "ASIGNACION DE ACTIVOS "], ["5.", "REPORTES"], ["6.", "MOVIMIENTOS DE ACTIVOS"],["7.", "SALIR"]]
     print(tabulate(opciones, tablefmt="grid"))
     opcion = input("\n>> ")
