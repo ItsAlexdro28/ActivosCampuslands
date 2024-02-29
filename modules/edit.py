@@ -3,6 +3,7 @@ def activosEdit(data:dict):
     titulo=[["AÑADIR ACTIVOS"]]
     print(tabulate(titulo,tablefmt="double_grid"))
     codCampus = input("Ingresa el valor del Codigo de campus para editar")
+    #LISTA DE LLAVES PARA QUE EL USUARIO LO LEA MAS BONITO
     keysRead = ['Codigo de Transaccion','Numero de Formulario','Codigo Campus','Marca','Categoria','Tipo','ValUnid','Proveedor','Numero Serial','la Empresa Responsable','Estado']
     if codCampus in data['Activos']:
         activeToEdit = data['Activos'][codCampus]
@@ -14,7 +15,7 @@ def activosEdit(data:dict):
             indexToEdit = int(input("Ingrese el numero de identificacion del valor que desea editar (-1 para cancelar o 0 para editarlos todos): "))
         except ValueError:
             print("Invalid input. Escriba un entero.")
-            return
+            return #VOLVER AL MENU PRINCIPAL
         if indexToEdit == 0:
                 # Edit todos los valores
                 for key, value in activeToEdit.items():
