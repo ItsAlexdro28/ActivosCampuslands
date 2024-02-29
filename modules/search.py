@@ -23,7 +23,7 @@ def activosSearch(data:dict, state) :
         
 def personaSearch(data:dict, state) :
     os.system('cls')
-    titulo=[["BUSCAR"]]
+    titulo=[["BUSCAR PERSONA"]]
     print(tabulate(titulo,tablefmt="double_grid"))
     idPersonal = input("Ingresa el numero de identificacion del personal ")
     if idPersonal in data["Personal"]:
@@ -39,7 +39,7 @@ def personaSearch(data:dict, state) :
 
 def zonaSearch(data:dict, state) :
     os.system('cls')
-    titulo=[["BUSCAR"]]
+    titulo=[["BUSCAR ZONA "]]
     print(tabulate(titulo,tablefmt="double_grid"))
     zoneName = input("Ingresa el nombre de la zona ")
     if zoneName in data["Zonas"]:
@@ -52,3 +52,20 @@ def zonaSearch(data:dict, state) :
                 print(f"{key}: {value}")
     else:
         print(f"La zona '{zoneName}' no ha sido encontrada")
+
+
+    def asigSearch(data:dict, state) :
+        os.system("cls")
+        titulo=[["BUSCAR ASIGNACION"]]
+        print(tabulate(titulo,tablefmt="double_grid"))
+        asigNro = input("Ingresa el Nro. de la asignacion ")
+        if asigNro in data["Asignacion"]:
+            asigSearch = data["Asignacion"][asigNro]
+            if state == 1:
+                return(asigSearch)
+            if state == 2:
+                print("Detalles de la asignacion: ")
+                for key, value in asigSearch.items():
+                    print(f"{key}: {value}")
+        else:
+            print(f"La asignacion con Nro.'{asigNro}' no ha sido encontrada")
