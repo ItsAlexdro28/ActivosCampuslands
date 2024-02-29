@@ -6,26 +6,22 @@ import main as main
 import modules.importJson as imp
 data = imp.readJson('data')
 
-
-titulo = """
-        +**********************+
-        |       OPCIONES       |
-        +**********************+
-        """
-def menuprincipal(): 
+def menuPRINCIPAL(): 
+    titulo=[["SISTEMA G&C DE INVENTARIO CAMPUSLANDS"]]
+    print(tabulate(titulo,tablefmt="double_grid"))
     print(titulo)
     opciones = [["1.", "ACTIVOS"], ["2.", "PERSONAL "], ["3.", "ZONAS "], ["4.", "ASIGNACION DE ACTIVOS "], ["5.", "REPORTES"], ["6.", "MOVIMIENTOS DE ACTIVOS"],["7.", "SALIR"]]
     print(tabulate(opciones, tablefmt="grid"))
     opcion = input("\n>> ")
     
     if opcion == "1":
-        menuactivos()
+        menuACTIVOS()
     elif opcion == "2":
-        menupersonal()
+        menuPERSONAL()
     elif opcion == "3":
         menuZONAS()
     elif opcion == "4":
-        menuasigactivos()
+       menuASIGACTIVOS()
     elif opcion == "5":
         menuREPORTES()
     elif opcion == "6":
@@ -34,17 +30,13 @@ def menuprincipal():
         ("Vuelva pronto!")
         exit()
     else:
-      menuprincipal()
+      menuPRINCIPAL()
 
 #OPCION 1
-tituloACTIVOS = """
-        +**********************+
-        |       ACTIVOS        |
-        +**********************+
-        """
-def menuactivos(): 
-    print(tituloACTIVOS)
-    opciones = [["1.", "AGREGAR "], ["2.", "EDITAR "], ["3.", "ELIMINAR "], ["4.", "ASIGNACION DE ACTIVOS "], ["5.", "SALIR"]]
+def menuACTIVOS(): 
+    titulo=[["MENU ACTIVOS"]]
+    print(tabulate(titulo,tablefmt="double_grid"))
+    opciones = [["1.", "AGREGAR "], ["2.", "EDITAR "], ["3.", "ELIMINAR "], ["4.", "BUSCAR "], ["5.", "REGRESAR AL MENU PRINCIPAL"]]
     print(tabulate(opciones, tablefmt="grid"))
     opcion = input("\n>> ")
     
@@ -59,20 +51,15 @@ def menuactivos():
         imp.writeJson(data, 'data')
     elif opcion == "4":
         pass
-    elif opcion == "5":
-        input("\n>>Volver al menu principal (Presione ENTER)") 
-        menuprincipal()
+    elif opcion == "5": 
+        menuPRINCIPAL()
     else:
-      menuactivos()
+      menuACTIVOS()
 
 #OPCION2 
-tituloPERSONAL = """
-        +**********************+
-        |       PERSONAL       |
-        +**********************+
-        """
-def menupersonal(): 
-    print(tituloPERSONAL)
+def menuPERSONAL(): 
+    titulo=[["MENU PERSONAL"]]
+    print(tabulate(titulo,tablefmt="double_grid"))
     opciones = [["1.", "AGREGAR "], ["2.", "EDITAR "], ["3.", "ELIMINAR "], ["4.", "BUSCAR "], ["5.", "REGRESAR AL MENU PRINCIPAL"]]
     print(tabulate(opciones, tablefmt="grid"))
     opcion = input("\n>> ")
@@ -85,20 +72,15 @@ def menupersonal():
         pass
     elif opcion == "4":
         pass
-    elif opcion == "5":
-        input("\n>>Volver al menu principal (Presione ENTER)")   
-        menuprincipal()
+    elif opcion == "5":   
+        menuPRINCIPAL()
     else:
-      menupersonal()
+      menuPERSONAL()
 
 #OPCION3
-tituloZONAS = """
-        +**********************+
-        |       ZONAS          |
-        +**********************+
-        """
 def menuZONAS(): 
-    print(tituloZONAS)
+    titulo=[["MENU ZONAS"]]
+    print(tabulate(titulo,tablefmt="double_grid"))
     opciones = [["1.", "AGREGAR "], ["2.", "EDITAR "], ["3.", "ELIMINAR "], ["4.", " Buscar"], ["5.", "REGRESAR AL MENU PRINCIPAL"]]
     print(tabulate(opciones, tablefmt="grid"))
     opcion = input("\n>> ")
@@ -112,20 +94,15 @@ def menuZONAS():
     elif opcion == "4":
         pass
     elif opcion == "5":
-        input("\n>>Volver al menu principal (Presione ENTER)") 
-        menuprincipal()
+        menuPRINCIPAL()
     else:
      menuZONAS()            
 
 #OPCION4    
-tituloASIGNACTIVOS = """
-        +**********************************+
-        |       ASIGNACION DE ACTIVOS      |
-        +**********************************+ 
-        """
-def menuasigactivos(): 
-    print(tituloASIGNACTIVOS)
-    opciones = [["1.", "CREAR ASIGNACION "], ["2.", "BUSCAR ASIGNACION "], ["3.", "ELIMINAR "], ["4.", "ASIGNACION DE ACTIVOS "], ["5.", "REGRESAR AL MENU PRINCIPAL"]]
+def menuASIGACTIVOS(): 
+    titulo=[["ASIGNACION DE ACTIVOS"]]
+    print(tabulate(titulo,tablefmt="double_grid"))
+    opciones = [["1.", "CREAR ASIGNACION "], ["2.", "BUSCAR ASIGNACION "],["3.", "REGRESAR AL MENU PRINCIPAL"]]
     print(tabulate(opciones, tablefmt="grid"))
     opcion = input("\n>> ")
     
@@ -134,23 +111,14 @@ def menuasigactivos():
     elif opcion == "2":
         pass
     elif opcion == "3":
-        pass
-    elif opcion == "4":
-        pass
-    elif opcion == "5":
-        input("\n>>Volver al menu principal (Presione ENTER)") 
-        menuprincipal()
+        menuPRINCIPAL()
     else:
-      menuasigactivos()
+      menuASIGACTIVOS()
       
 #OPCION5 
-tituloREPORTES = """
-        +**********************+
-        |       REPORTES       |
-        +**********************+
-        """
 def menuREPORTES(): 
-    print(tituloREPORTES)
+    titulo=[["REPORTES"]]
+    print(tabulate(titulo,tablefmt="double_grid"))
     opciones = [["1.", "LISTAR TODOS LOS ACTIVOS"], ["2.", "LISTAR ACTIVOS POR CATEGORIA"], ["3.", "LISTAR ACTIVOS DADOS DE BAJA POR DAÑOS "], ["4.", "LISTAR ACTIVOS Y ASIGNACION "], ["5.", "LISTAR HISTORIAL DE MOV. DE ACTIVO"], ["6.",  "REGRESAR AL MENU PRINCIPAL"]]
     print(tabulate(opciones, tablefmt="grid"))
     opcion = input("\n>> ")
@@ -169,19 +137,15 @@ def menuREPORTES():
         pass
     elif opcion == "7":
      input("\n>>Volver al menu principal (Presione ENTER)") 
-     menuprincipal()
+     menuPRINCIPAL()
     else:
       menuREPORTES()
 
 
 #OPCION5 
-tituloMOVIMIENTOSDEACTIVOS = """
-        +******************************+
-        |    MOVIMIENTOS DE ACTIVOS    |
-        +******************************+
-        """
 def menuMOVIMIENTOSDEACTIVOS(): 
-    print(tituloMOVIMIENTOSDEACTIVOS)
+    titulo=[["MOVIMIENTOS DE ACTIVOS"]]
+    print(tabulate(titulo,tablefmt="double_grid"))
     opciones = [["1.", "LISTAR TODOS LOS ACTIVOS"], ["2.", "LISTAR ACTIVOS POR CATEGORIA"], ["3.", "LISTAR ACTIVOS DADOS DE BAJA POR DAÑOS "], ["4.", "LISTAR ACTIVOS Y ASIGNACION "], ["5.",  "REGRESAR AL MENU PRINCIPAL"]]
     print(tabulate(opciones, tablefmt="grid"))
     opcion = input("\n>> ")
@@ -198,13 +162,12 @@ def menuMOVIMIENTOSDEACTIVOS():
         pass
     elif opcion == "6":
         pass
-    elif opcion == "7":
-        input("\n>>Volver al menu principal (Presione ENTER)")   
-        menuprincipal()
+    elif opcion == "7":   
+        menuPRINCIPAL()
     else:
      menuMOVIMIENTOSDEACTIVOS()
 
-menuprincipal()
+menuPRINCIPAL()
 
 
 

@@ -13,7 +13,7 @@ def activosEdit(data:dict):
         try:
             indexToEdit = int(input("Ingrese el numero de identificacion del valor que desea editar (-1 para cancelar o 0 para editarlos todos): "))
         except ValueError:
-            print("Invalid input. Please enter an integer.")
+            print("Invalid input. Escriba un entero.")
             return
         if indexToEdit == 0:
                 # Edit todos los valores
@@ -38,10 +38,9 @@ def activosEdit(data:dict):
             return
         else:
             print(f"Index invalido: {indexToEdit}. Ingresa un valor valido entre -1 y {len(indexToEdit) - 1}.")
-            activosEdit(data)
+          
     else:
         print(f"Activo con Codigo de campus '{indexToEdit}' no ha sido encontrado.")
-        activosEdit(data)
 
 # Esta función permite a los usuarios editar los detalles de un activo existente en función de su clave 'CodCampus'.
 # Solicita al usuario que ingrese la clave 'CodCampus' del activo que desea editar.
