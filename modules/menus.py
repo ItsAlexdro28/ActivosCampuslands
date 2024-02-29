@@ -7,11 +7,10 @@ import modules.importJson as imp
 data = imp.readJson('data')
 
 def menuPRINCIPAL(): 
-    titulo=[["SISTEMA G&C DE INVENTARIO CAMPUSLANDS"]]
+    titulo=[["SISTEMA G&C DE INVENTARIO CAMPUSLANDS\n"]]
     print(tabulate(titulo,tablefmt="double_grid"))
-    print(titulo)
     opciones = [["1.", "ACTIVOS"], ["2.", "PERSONAL "], ["3.", "ZONAS "], ["4.", "ASIGNACION DE ACTIVOS "], ["5.", "REPORTES"], ["6.", "MOVIMIENTOS DE ACTIVOS"],["7.", "SALIR"]]
-    print(tabulate(opciones, tablefmt="grid"))
+    print(tabulate(opciones, tablefmt="fancy_grid"))
     opcion = input("\n>> ")
     
     if opcion == "1":
@@ -37,7 +36,7 @@ def menuACTIVOS():
     titulo=[["MENU ACTIVOS"]]
     print(tabulate(titulo,tablefmt="double_grid"))
     opciones = [["1.", "AGREGAR "], ["2.", "EDITAR "], ["3.", "ELIMINAR "], ["4.", "BUSCAR "], ["5.", "REGRESAR AL MENU PRINCIPAL"]]
-    print(tabulate(opciones, tablefmt="grid"))
+    print(tabulate(opciones, tablefmt="fancy_grid"))
     opcion = input("\n>> ")
     
     if opcion == "1":
@@ -61,7 +60,7 @@ def menuPERSONAL():
     titulo=[["MENU PERSONAL"]]
     print(tabulate(titulo,tablefmt="double_grid"))
     opciones = [["1.", "AGREGAR "], ["2.", "EDITAR "], ["3.", "ELIMINAR "], ["4.", "BUSCAR "], ["5.", "REGRESAR AL MENU PRINCIPAL"]]
-    print(tabulate(opciones, tablefmt="grid"))
+    print(tabulate(opciones, tablefmt="fancy_grid"))
     opcion = input("\n>> ")
     
     if opcion == "1":
@@ -82,7 +81,7 @@ def menuZONAS():
     titulo=[["MENU ZONAS"]]
     print(tabulate(titulo,tablefmt="double_grid"))
     opciones = [["1.", "AGREGAR "], ["2.", "EDITAR "], ["3.", "ELIMINAR "], ["4.", " Buscar"], ["5.", "REGRESAR AL MENU PRINCIPAL"]]
-    print(tabulate(opciones, tablefmt="grid"))
+    print(tabulate(opciones, tablefmt="fancy_grid"))
     opcion = input("\n>> ")
     
     if opcion == "1":
@@ -103,7 +102,7 @@ def menuASIGACTIVOS():
     titulo=[["ASIGNACION DE ACTIVOS"]]
     print(tabulate(titulo,tablefmt="double_grid"))
     opciones = [["1.", "CREAR ASIGNACION "], ["2.", "BUSCAR ASIGNACION "],["3.", "REGRESAR AL MENU PRINCIPAL"]]
-    print(tabulate(opciones, tablefmt="grid"))
+    print(tabulate(opciones, tablefmt="fancy_grid"))
     opcion = input("\n>> ")
     
     if opcion == "1":
@@ -120,7 +119,7 @@ def menuREPORTES():
     titulo=[["REPORTES"]]
     print(tabulate(titulo,tablefmt="double_grid"))
     opciones = [["1.", "LISTAR TODOS LOS ACTIVOS"], ["2.", "LISTAR ACTIVOS POR CATEGORIA"], ["3.", "LISTAR ACTIVOS DADOS DE BAJA POR DAÑOS "], ["4.", "LISTAR ACTIVOS Y ASIGNACION "], ["5.", "LISTAR HISTORIAL DE MOV. DE ACTIVO"], ["6.",  "REGRESAR AL MENU PRINCIPAL"]]
-    print(tabulate(opciones, tablefmt="grid"))
+    print(tabulate(opciones, tablefmt="fancy_grid"))
     opcion = input("\n>> ")
     
     if opcion == "1":
@@ -134,20 +133,16 @@ def menuREPORTES():
     elif opcion == "5":
         pass
     elif opcion == "6":
-        pass
-    elif opcion == "7":
-     input("\n>>Volver al menu principal (Presione ENTER)") 
-     menuPRINCIPAL()
+        menuPRINCIPAL()
     else:
       menuREPORTES()
-
 
 #OPCION5 
 def menuMOVIMIENTOSDEACTIVOS(): 
     titulo=[["MOVIMIENTOS DE ACTIVOS"]]
     print(tabulate(titulo,tablefmt="double_grid"))
-    opciones = [["1.", "LISTAR TODOS LOS ACTIVOS"], ["2.", "LISTAR ACTIVOS POR CATEGORIA"], ["3.", "LISTAR ACTIVOS DADOS DE BAJA POR DAÑOS "], ["4.", "LISTAR ACTIVOS Y ASIGNACION "], ["5.",  "REGRESAR AL MENU PRINCIPAL"]]
-    print(tabulate(opciones, tablefmt="grid"))
+    opciones = [["1.", "RETORNO DE ACTIVO"], ["2.", "DAR DE BAJA ACTIVO"], ["3.", "CAMBIAR ASIGNACION DE ACTIVO"], ["4.", "ENVIAR A GARANTIA ACTIVO"], ["5.",  "REGRESAR AL MENU PRINCIPAL"]]
+    print(tabulate(opciones, tablefmt="fancy_grid"))
     opcion = input("\n>> ")
     
     if opcion == "1":
@@ -159,15 +154,11 @@ def menuMOVIMIENTOSDEACTIVOS():
     elif opcion == "4":
         pass
     elif opcion == "5":
-        pass
-    elif opcion == "6":
-        pass
-    elif opcion == "7":   
         menuPRINCIPAL()
     else:
      menuMOVIMIENTOSDEACTIVOS()
 
-menuPRINCIPAL()
+
 
 
 

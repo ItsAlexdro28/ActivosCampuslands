@@ -12,6 +12,7 @@ def addCsv():
     with open(DIR+'data.csv', 'r') as file:
         reader = csv.reader(file)
         headers = next(reader)
+        #PARA QUE EL IDENTIFICADOR POR ACTIVO SEA EL CODIGO
         key_column_index = 2
         for row in reader:
             key = row[key_column_index]
