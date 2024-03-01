@@ -6,6 +6,7 @@ data = {
     'Asignacion': {},
     'Activos':{}
 }
+history = {}
 
 DIR = 'data/'
 def addCsv():
@@ -39,6 +40,8 @@ def writeJson(data, filename):
             json.dump(data, wr, indent=4) 
     except IOError as e:
         raise IOError(f"Error writing to file '{filename}': {e}")
-    
+
 addCsv()
+writeJson(data, 'data')
+
 

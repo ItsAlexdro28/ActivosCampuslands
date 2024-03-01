@@ -74,10 +74,39 @@ def addzone(data:dict):
     except ValueError as e:
         print(f"Error: El valor de la llave '{e}' no es valido.")
 
-# def addHistory(data:dict):
-#     last = list(data['Asignacion'].keys())[-1]
-#     for i in range(len(data['Asignacion'][last]['Activos'])):
-#         data['Activos'][i].append(last)
+def addHistoryAssing(data:dict, history:dict):
+     last = list(data['Asignacion'].keys())[-1]
+     Responsable = input('Id de quien efectuo el movimiento? ')
+     addHistory = {}
+     try:
+         #sumar el ultimo id y hacer dict de historial
+         history = list(history.keys())[-1]
+         nroid = history+1
+         fecha = last['FechaAsignacion']
+         newHistory = {
+             'NroId':nroid,
+             'Fecha':fecha,
+             'TipoMov':1,
+             'IdRespMov':Responsable 
+         }
+         addHistory[nroid] = newHistory
+         history.update(addHistory)
+     except IndexError as i:
+         #crear el id 0001
+         x = 0
+         nroid = x.zfill(3)
+         fecha = last['FechaAsignacion']
+         newHistory = {
+             'NroId':nroid,
+             'Fecha':fecha,
+             'TipoMov':1,
+             'IdRespMov':Responsable 
+         }
+         addHistory[nroid] = newHistory
+         history.update(addHistory)
+     for i in range(len(data['Asignacion'][last]['Activos'])):
+         data['Activos'][i]['Historial'].append(nroid)
+
         
 
 

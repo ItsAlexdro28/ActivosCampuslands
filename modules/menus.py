@@ -8,6 +8,7 @@ import modules.assingnations as assg
 import main as main 
 import modules.importJson as imp
 data = imp.readJson('data')
+history = imp.readJson('history')
 
 def menuPRINCIPAL():
     os.system('cls')
