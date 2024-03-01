@@ -6,9 +6,9 @@ def newAssing(data:dict):
     new = {}
     titulo=[["AÑADIR ASIGNACIÓN"]]
     print(tabulate(titulo,tablefmt="double_grid"))
-    NroAsignacion = input('Ingresa el numero de asignación ')
-    FechaAsignacion = input('Ingresa la fecha de asignación ')
     try:
+        NroAsignacion = int(input('Ingresa el numero de asignación '))
+        FechaAsignacion = input('Ingresa la fecha de asignación ')
         tipo = int('Tipo de asignación: \n1. Personal \n2. Zona')
     except ValueError:
         print('El valor ingresado no es un numero')

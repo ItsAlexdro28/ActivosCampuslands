@@ -1,4 +1,5 @@
 from tabulate import tabulate
+import modules.search as search
 import os
 
 def activosAdd(data:dict):
@@ -21,7 +22,7 @@ def activosAdd(data:dict):
             hold[keys[i]] = value
         hold['Historial'] = []
         new[hold['CodCampus']] = hold
-        data['Activos'].update(new)
+        data['Activos'].update(new) 
     except ValueError as e:
         print(f"Error: El valor de la llave '{e}' no es valido.")
 
@@ -72,6 +73,12 @@ def addzone(data:dict):
         data['Zonas'].update(hold3)
     except ValueError as e:
         print(f"Error: El valor de la llave '{e}' no es valido.")
+
+# def addHistory(data:dict):
+#     last = list(data['Asignacion'].keys())[-1]
+#     for i in range(len(data['Asignacion'][last]['Activos'])):
+#         data['Activos'][i].append(last)
+        
 
 
     
