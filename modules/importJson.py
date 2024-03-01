@@ -19,7 +19,7 @@ def addCsv():
             row_dict = {}
             for i, value in enumerate(row):
                 if value == '[]':
-                    value = {}
+                    value = []
                 row_dict[headers[i]] = value
             data['Activos'][key] = row_dict
 #itera en cada fila, asigna el valor de acurdo al primer valor de la columna y agrega con identificacion 'CodCampus'

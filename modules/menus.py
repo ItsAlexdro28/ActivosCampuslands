@@ -3,6 +3,8 @@ import os
 import modules.add as add
 import modules.edit as edit
 import modules.delete as delete
+import modules.search as search
+import modules.assingnations as assg
 import main as main 
 import modules.importJson as imp
 data = imp.readJson('data')
@@ -11,7 +13,8 @@ def menuPRINCIPAL():
     os.system('cls')
     titulo=[["SISTEMA G&C DE INVENTARIO CAMPUSLANDS"]]
     print(tabulate(titulo,tablefmt="heavy grid"))
-    opciones = [["1.", "ACTIVOS"], ["2.", "PERSONAL "], ["3.", "ZONAS "], ["4.", "ASIGNACION DE ACTIVOS "], ["5.", "REPORTES"], ["6.", "MOVIMIENTOS DE ACTIVOS"],["7.", "SALIR"]]
+    opciones = [["1.", "ACTIVOS"], ["2.", "PERSONAL "], ["3.", "ZONAS "], ["4.", "ASIGNACION DE ACTIVOS "],
+                 ["5.", "REPORTES"], ["6.", "MOVIMIENTOS DE ACTIVOS"],["7.", "SALIR"]]
     print(tabulate(opciones, tablefmt="fancy_grid"))
     opcion = input("\n>> ")
     
@@ -24,7 +27,7 @@ def menuPRINCIPAL():
     elif opcion == "4":
        menuASIGACTIVOS()
     elif opcion == "5":
-        menuREPORTES()
+        menuRep()
     elif opcion == "6":
         menuMOVIMIENTOSDEACTIVOS()
     elif opcion == "7":
@@ -43,7 +46,7 @@ def menuACTIVOS():
     opcion = input("\n>> ")
     
     if opcion == "1":
-        add.activosAdd(data)
+        add.addactivos(data)
         imp.writeJson(data, 'data')
     elif opcion == "2":
         edit.activosEdit(data)
@@ -52,7 +55,8 @@ def menuACTIVOS():
         delete.activosDelete(data)
         imp.writeJson(data, 'data')
     elif opcion == "4":
-        pass
+        search.activosSearch(data)
+        imp.writeJson(data, 'data')
     elif opcion == "5": 
         menuPRINCIPAL()
     else:
@@ -68,14 +72,16 @@ def menuPERSONAL():
     opcion = input("\n>> ")
     
     if opcion == "1":
-        pass 
+        add.addpeople(data)
+        imp.writeJson(data, 'data') 
     elif opcion == "2":
-        pass
+        edit.peopleEdit()
     elif opcion == "3":
         delete.peopleDelete(data)
         imp.writeJson(data, 'data')
     elif opcion == "4":
-        pass
+        search.personaSearch(data)
+        imp.writeJson(data, 'data')
     elif opcion == "5":   
         menuPRINCIPAL()
     else:
@@ -91,13 +97,17 @@ def menuZONAS():
     opcion = input("\n>> ")
     
     if opcion == "1":
-        pass 
+        add.addzone(data)
+        imp.writeJson(data, 'data') 
     elif opcion == "2":
-        pass
+        edit.zonaEdit(data)
+        imp.writeJson(data, 'data')
     elif opcion == "3":
-        pass
+        delete.zonDelete(data)
+        imp.writeJson(data, 'data')
     elif opcion == "4":
-        pass
+        search.zonaSearch(data)
+        imp.writeJson(data, 'data')
     elif opcion == "5":
         menuPRINCIPAL()
     else:
@@ -113,44 +123,54 @@ def menuASIGACTIVOS():
     opcion = input("\n>> ")
     
     if opcion == "1":
-        pass 
+        assg.newAssing(data)
+        imp.writeJson(data, 'data')
     elif opcion == "2":
-        pass
+        search.asigSearch(data)
+        imp.writeJson(data, 'data')
     elif opcion == "3":
         menuPRINCIPAL()
     else:
       menuASIGACTIVOS()
       
-#OPCION5 
-def menuREPORTES(): 
+#OPCION5
+def menuRep():
     os.system('cls')
-    titulo=[["REPORTES"]]
-    print(tabulate(titulo,tablefmt="double_grid"))
-    opciones = [["1.", "LISTAR TODOS LOS ACTIVOS"], ["2.", "LISTAR ACTIVOS POR CATEGORIA"], ["3.", "LISTAR ACTIVOS DADOS DE BAJA POR DAÑOS "], ["4.", "LISTAR ACTIVOS Y ASIGNACION "], ["5.", "LISTAR HISTORIAL DE MOV. DE ACTIVO"], ["6.",  "REGRESAR AL MENU PRINCIPAL"]]
-    print(tabulate(opciones, tablefmt="fancy_grid"))
-    opcion = input("\n>> ")
-    
-    if opcion == "1":
-        pass
-    elif opcion == "2":
-        pass
-    elif opcion == "3":
-        pass
-    elif opcion == "4":
-        pass
-    elif opcion == "5":
-        pass
-    elif opcion == "6":
-        menuPRINCIPAL()
-    else:
-      menuREPORTES()
+    titulo=[["MENU REPORTES"]]
+    bandera= True
+    global op 
+    while op!="6":
+        os.system('cls')
+        print(tabulate(titulo,tablefmt="double_grid"))
+        opciones = [["1.","LISTAR TODOS LOS ACTIVOS: \n>>"],["2.","LISTAR ACTIVOS POR CATEGORIA: \n>> "],["3.","LISTAR ACTIVOS DADOS DE BAJA POR DAÑO: \n>>"],
+                    ["4.","LISTAR ACTIVOS Y ASIGNACION:\n>>"],["5.","LISTAR HISTORIAL DE MOV. DE ACTIVO: \n>>"],["6.","REGRESAR AL MENU PRINCIPAL: \n>>"]]
+        print(tabulate(opciones, tablefmt="fancy_grid"))
+        op=input("\n>> ")
+        if op == "1":
+            pass
+        elif op == "2":
+            pass      
+        elif op == "3":
+            pass
+        elif op == "4":
+            pass
+        elif op == "5":
+            pass
+        elif op =="6":
+            menuPRINCIPAL()
+        else:
+            menuRep()
+            print('Valor no encontrado\n')
+        bandera=bool(input('Desea revisar otro reporte? enter(no) X(si)\n'))
+   
 
 #OPCION5 
 def menuMOVIMIENTOSDEACTIVOS(): 
     os.system('cls')
     titulo=[["MOVIMIENTOS DE ACTIVOS"]]
     print(tabulate(titulo,tablefmt="double_grid"))
-    opciones = [["1.", "RETORNO DE ACTIVO"], ["2.", "DAR DE BAJA ACTIVO"], ["3.", "CAMBIAR ASIGNACION DE ACTIVO"], ["4.", "ENVIAR A GARANTIA ACTIVO"], ["5.",  "REGRESAR AL MENU PRINCIPAL"]]
+    opciones = [["1.", "RETORNO DE ACTIVO"], ["2.", "DAR DE BAJA ACTIVO"], ["3.", "CAMBIAR ASIGNACION DE ACTIVO"],
+                 ["4.", "ENVIAR A GARANTIA ACTIVO"], ["5.",  "REGRESAR AL MENU PRINCIPAL"]]
     print(tabulate(opciones, tablefmt="fancy_grid"))
     opcion = input("\n>> ")
     

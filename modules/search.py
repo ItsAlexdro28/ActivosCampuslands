@@ -54,18 +54,18 @@ def zonaSearch(data:dict, state) :
         print(f"La zona '{zoneName}' no ha sido encontrada")
 
 
-    def asigSearch(data:dict, state) :
-        os.system("cls")
-        titulo=[["BUSCAR ASIGNACION"]]
-        print(tabulate(titulo,tablefmt="double_grid"))
-        asigNro = input("Ingresa el Nro. de la asignacion ")
-        if asigNro in data["Asignacion"]:
-            asigSearch = data["Asignacion"][asigNro]
-            if state == 1:
-                return(asigSearch)
-            if state == 2:
-                print("Detalles de la asignacion: ")
-                for key, value in asigSearch.items():
-                    print(f"{key}: {value}")
-        else:
-            print(f"La asignacion con Nro.'{asigNro}' no ha sido encontrada")
+def asigSearch(data:dict, state) :
+    os.system("cls")
+    titulo=[["BUSCAR ASIGNACION"]]
+    print(tabulate(titulo,tablefmt="double_grid"))
+    asigNro = input("Ingresa el Nro. de la asignacion ")
+    if asigNro in data["Asignacion"]:
+        asigSearch = data["Asignacion"][asigNro]
+        if state == 1:
+            return(asigSearch)
+        if state == 2:
+            print("Detalles de la asignacion: ")
+            for key, value in asigSearch.items():
+                print(f"{key}: {value}")
+    else:
+        print(f"La asignacion con Nro.'{asigNro}' no ha sido encontrada")

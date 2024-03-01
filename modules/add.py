@@ -2,7 +2,7 @@ from tabulate import tabulate
 import modules.search as search
 import os
 
-def activosAdd(data:dict):
+def addactivos(data:dict):
     os.system('cls')
     try:
         new = {}
