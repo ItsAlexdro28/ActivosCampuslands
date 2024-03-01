@@ -18,7 +18,7 @@ def activosAdd(data:dict):
                 print('valores sugeridos: Equipo de computo, Electrodomestico, Juego')
             elif keys[i] == 'Tipo':
                 print('valores sugeridos: Monitor, CPU, Teclado, Mouse, Aire Acondicionado, Portatil, Impresora')
-            value = input(f'Valor para {keysRead[i]}')
+            value = input(f'Valor para {keysRead[i]}\n>>')
             hold[keys[i]] = value
         hold['Historial'] = []
         new[hold['CodCampus']] = hold
@@ -38,11 +38,11 @@ def addpeople(data:dict):
         hold2={}
         titulo=[["AÑADIR PERSONAS"]]
         print(tabulate(titulo,tablefmt="double_grid"))
-        id=input('Ingrese id:\n').upper()
-        nombre=input('Ingrese un nombre:\n').upper()
-        email=input('Ingrese un email:\n').upper()
-        telefono=input('Ingrese un telfono:\n').upper()
-        celular=input('Ingrese un celular:\n').upper()
+        id=input('Ingrese id:\n>>').upper()
+        nombre=input('Ingrese un nombre:\n>>').upper()
+        email=input('Ingrese un email:\n>>').upper()
+        telefono=input('Ingrese un telfono:\n>>').upper()
+        celular=input('Ingrese un celular:\n>>').upper()
         people={
             "Nombre":nombre,
             "Id":id,
@@ -61,9 +61,9 @@ def addzone(data:dict):
         hold3={}
         titulo=[["AÑADIR ZONAS"]]
         print(tabulate(titulo,tablefmt="double_grid"))
-        nrozona=input('Ingrese el nro zona:\n').upper()
-        nombrezona=input('Ingrese el nombre de la zona:\n').upper()
-        totalcapacidad=input('Ingrese la capacidad de la zona\n').upper()
+        nrozona=input('Ingrese el nro zona:\n>>').upper()
+        nombrezona=input('Ingrese el nombre de la zona:\n>>').upper()
+        totalcapacidad=input('Ingrese la capacidad de la zona:\n>>').upper()
         zon={
             "NroZona":nrozona,
             "NombreZona":nombrezona,

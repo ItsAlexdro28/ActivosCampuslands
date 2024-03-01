@@ -138,3 +138,7 @@ def zonaEdit(data:dict):
           
     else:
         print(f"La zona '{indexToEdit}' no ha sido encontrada.")
+
+# def estadoedit(data:dict):
+    
+
