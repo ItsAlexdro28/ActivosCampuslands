@@ -1,5 +1,6 @@
 from tabulate import tabulate
 def activosEdit(data:dict):
+    os.system('cls')
     titulo=[["EDITAR ACTIVOS"]]
     print(tabulate(titulo,tablefmt="double_grid"))
     codCampus = input("Ingresa el valor del Codigo de campus para editar")
@@ -52,6 +53,7 @@ def activosEdit(data:dict):
 # Finalmente muestra un mensaje indicando si el activo se actualizó exitosamente o no.
 
 def peopleEdit(data:dict):
+    os.system('cls')
     titulo=[["EDITAR PERSONAL"]]
     print(tabulate(titulo,tablefmt="double_grid"))
     id = input("Ingresa el id de la persona para editar")
@@ -96,6 +98,7 @@ def peopleEdit(data:dict):
         print(f"El personal con id#{id} '{indexToEdit}' no ha sido encontrado.")
 
 def zonaEdit(data:dict):
+    os.system('cls')
     titulo=[["EDITAR ZONAS"]]
     print(tabulate(titulo,tablefmt="double_grid"))
     nombre= input("Ingrese el nombre de la zona para editar")

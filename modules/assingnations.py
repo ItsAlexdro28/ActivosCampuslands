@@ -3,6 +3,7 @@ import modules.search as search
 import os
 
 def newAssing(data:dict):
+    os.system('cls')
     new = {}
     titulo=[["AÑADIR ASIGNACIÓN"]]
     print(tabulate(titulo,tablefmt="double_grid"))

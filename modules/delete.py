@@ -45,8 +45,6 @@ def peopleDelete(data:dict):
     else:
         print(f"Persona con id de campus '{idpersonal}' no ha sido encontrado")
 
-
-
 def zonDelete(data:dict):
     os.system('cls')
     titulo=[["ELIMINAR ZONAS"]]
