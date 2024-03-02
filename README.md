@@ -21,12 +21,12 @@ Menus
 
 acciones 
 - agregar (activos, personal, zonas) (✓,✓,✓)
-- editar (activos, personal, zonas) (✓,0,0)
+- editar (activos, personal, zonas) (✓,✓,✓)
 - eliminar (activos, personal, zonas) (libres de asignaciones) (✓,✓,✓)
 - buscar (activos, personal, zonas) (✓,✓,✓)
 - nueva asignacion (excluir dados de baja/garantia/verificar datos completos) (✓)
 - añadir historial (nuevo id, asignar a los activos)
-- buscar asignacion
+- buscar asignacion (✓)
 - retornar activo
 - dar de baja
 - cambiar asignacion ('reciclar nueva asignacion')
