@@ -1,4 +1,5 @@
 from tabulate import tabulate
+import os
 def activosEdit(data:dict):
     os.system('cls')
     titulo=[["EDITAR ACTIVOS"]]
@@ -142,6 +143,42 @@ def zonaEdit(data:dict):
     else:
         print(f"La zona '{indexToEdit}' no ha sido encontrada.")
 
-# def estadoedit(data:dict):
-    
+def estadoEdit(data:dict, estado):
+    os.system('cls')
+    titulo=[["EDITAR ESTADO DE ACTIVO"]]
+    print(tabulate(titulo,tablefmt="double_grid"))
+    codCampus = input("Ingresa el valor del Codigo de campus para editar")
+    #LISTA DE LLAVES PARA QUE EL USUARIO LO LEA MAS BONITO
+    if codCampus in data['Activos']:
+        activeToEdit = data['Activos'][str(codCampus)]
+        activeToEdit['Estado'] = str(estado)
+        if estado == 2:
+            print(f"Activo '{activeToEdit}' actualizado a 'dado de baja por daño' ") 
+        elif estado == 3:
+            print(f"Activo '{activeToEdit}' actualizado a 'reparacion por garantia' ")   
+    return(data['Activos'][str(codCampus)])   
+
+def returnEdit(data:dict, history:dict):
+    os.system('cls')
+    titulo=[["RETORNAR ACTIVO"]]
+    print(tabulate(titulo,tablefmt="double_grid"))
+    codCampus = input("Ingresa el valor del Codigo de campus para editar")
+    if codCampus in data['Activos']:
+        ultHistorial = data['Activos'][str(codCampus)]['Historial'][-1]
+        ultAssing = history[str(ultHistorial)]['IdAssing']
+        data['Assignaciones'][str(ultAssing)].remove(codCampus)
+        data['Activos'][str(codCampus)]['Estado'] = '0'
+
+def activeAssingEdit(data:dict, history:dict):
+    os.system('cls')
+    titulo=[["CAMBIAR ASIGNACION ACTIVO"]]
+    print(tabulate(titulo,tablefmt="double_grid"))
+    codCampus = input("Ingresa el valor del Codigo de campus para editar")
+    if codCampus in data['Activos']:
+        ultHistorial = data['Activos'][str(codCampus)]['Historial'][-1]
+        ultAssing = history[str(ultHistorial)]['IdAssing']
+        data['Asignaciones'][str(ultAssing)].remove(codCampus)
+    newAssing = input("Ingresa el numero de asignacion para agregar cambiar el activo ")
+    data['Asignaciones'][str(newAssing)]['Activos'].append(codCampus)
+
 

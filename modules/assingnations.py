@@ -25,7 +25,8 @@ def newAssing(data:dict):
         'FechaAsignacion':FechaAsignacion,
         'Tipo':tipo,
         'Asignado':Asignado,
-        'Activos':[]
+        'Activos':[],
+        'HistorialId':0
     }
     while True:
         activo = search.activosSearch(data, 1)
@@ -34,7 +35,9 @@ def newAssing(data:dict):
         elif activo['Estado'] == 3:
             print('El Activo esta en garantia, necesotas actualizar su estado')
         else:
-            blueprint['Activos'].append(activo['CodCampus'])
+            if not activo == oldActivo:
+                blueprint['Activos'].append(activo['CodCampus'])
+        oldActivo = activo
         continueAsk = input('Deseas añadir otro activo')
         if continueAsk.lower() == "s":
             pass
