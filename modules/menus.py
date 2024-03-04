@@ -1,19 +1,20 @@
-from tabulate import tabulate
 import os
+from tabulate import tabulate
+import modules.importJson as imp
 import modules.add as add
 import modules.edit as edit
 import modules.delete as delete
 import modules.search as search
 import modules.assingnations as assg
-import main as main 
-import modules.importJson as imp
+import modules.reports as list 
+
 data = imp.readJson('data')
 history = imp.readJson('history')
 
 def menuPRINCIPAL():
     os.system('cls')
     titulo=[["SISTEMA G&C DE INVENTARIO CAMPUSLANDS"]]
-    print(tabulate(titulo,tablefmt="heavy grid"))
+    print(tabulate(titulo,tablefmt="double_grid"))
     opciones = [["1.", "ACTIVOS"], ["2.", "PERSONAL "], ["3.", "ZONAS "], ["4.", "ASIGNACION DE ACTIVOS "],
                  ["5.", "REPORTES"], ["6.", "MOVIMIENTOS DE ACTIVOS"],["7.", "SALIR"]]
     print(tabulate(opciones, tablefmt="fancy_grid"))
@@ -139,7 +140,7 @@ def menuRep():
     os.system('cls')
     titulo=[["MENU REPORTES"]]
     bandera= True
-    global op 
+    op = 0 
     while op!="6":
         os.system('cls')
         print(tabulate(titulo,tablefmt="double_grid"))
@@ -148,9 +149,21 @@ def menuRep():
         print(tabulate(opciones, tablefmt="fancy_grid"))
         op=input("\n>> ")
         if op == "1":
-            pass
+           pass
         elif op == "2":
-            pass      
+            print('1.Monitores\n2.CPU\n3.Teclado\n4.Mouse')
+            op=int(input('>>'))
+            if op == 1:
+                list.listactivoscate1(data)
+            elif op == 2:
+                list.listactivoscate2(data)
+            elif op == 3:
+                list.listactivoscate3(data)
+            elif op == 4:
+                list.listactivoscate4(data)
+            else:
+               menuRep() 
+
         elif op == "3":
             pass
         elif op == "4":

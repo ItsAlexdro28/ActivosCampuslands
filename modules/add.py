@@ -15,9 +15,9 @@ def addactivos(data:dict):
             if keys[i] == 'Marca':
                 print('valores sugeridos: LG, COMPUMAX, LOGITECH, BENQ, ASUS, LENOVO, HP')
             elif keys[i] == 'Categoria':
-                print('valores sugeridos: Equipo de computo, Electrodomestico, Juego')
+                print('Elija la categoria de su activo: Equipo de computo, Electrodomestico, Juego')
             elif keys[i] == 'Tipo':
-                print('valores sugeridos: Monitor, CPU, Teclado, Mouse, Aire Acondicionado, Portatil, Impresora')
+                print('Elija el tipo de activo: Monitor, CPU, Teclado, Mouse, Aire Acondicionado, Portatil, Impresora')
             value = input(f'Valor para {keysRead[i]}\n>>')
             hold[keys[i]] = value
         hold['Historial'] = []
