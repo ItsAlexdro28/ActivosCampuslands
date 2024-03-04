@@ -178,8 +178,6 @@ def menuRep():
             menuRep()
             print('Valor no encontrado\n')
        
-   
-
 #OPCION5 
 def menuMOVIMIENTOSDEACTIVOS(): 
     os.system('cls')
@@ -191,7 +189,8 @@ def menuMOVIMIENTOSDEACTIVOS():
     opcion = input("\n>> ")
     
     if opcion == "1":
-        edit.returnEdit(data, history)
+        activoEdit = edit.returnEdit(data, history)
+        add.addHistoryState(data, history, activoEdit)
         imp.writeJson(data, 'data')
         imp.writeJson(history, 'history')
     elif opcion == "2":

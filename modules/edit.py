@@ -1,5 +1,6 @@
 from tabulate import tabulate
 import os
+import modules.add as add
 def activosEdit(data:dict):
     try:
         os.system('cls')
@@ -204,7 +205,7 @@ def returnEdit(data:dict, history:dict):
         ultAssing = history[str(ultHistorial)]['IdAssing']
         data['Assignaciones'][str(ultAssing)].remove(codCampus)
         data['Activos'][str(codCampus)]['Estado'] = '0'
-    return
+    return(data['Activos'][str(codCampus)])
 
 def activeAssingEdit(data:dict, history:dict):
     os.system('cls')

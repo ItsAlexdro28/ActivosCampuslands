@@ -18,7 +18,7 @@ def addactivos(data:dict):
                 print('Elija la categoria de su activo: Equipo de computo, Electrodomestico, Juego')
             elif keys[i] == 'Tipo':
                 print('Elija el tipo de activo: Monitor, CPU, Teclado, Mouse, Aire Acondicionado, Portatil, Impresora')
-            value = input(f'Valor para {keysRead[i]}\n>>').upper()
+            value = input(f'{keysRead[i]}\n>>')
             hold[keys[i]] = value
         hold['Estado'] = '0'
         hold['Historial'] = []
@@ -103,9 +103,11 @@ def addHistoryState(data:dict, history:dict, activo:dict):
     fecha = input('Fecha del movimiento: ').upper()
     # 2 dado de baja / 3 garantia
     if activo['Estado'] == '2':
-        nroid = nroid = historyIndex(history, fecha, 2, Responsable, 'NA')
+        nroid = historyIndex(history, fecha, 2, Responsable, 'NA')
     elif activo['Estado'] == '3':
-        nroid = nroid = historyIndex(history, fecha, 3, Responsable, 'NA')     
+        nroid = historyIndex(history, fecha, 3, Responsable, 'NA')
+    elif activo['Estado'] == '0':
+        nroid = historyIndex(history, fecha, 0, Responsable, 'NA')      
     data['Activos'][activo['CodCampus']]['Historial'].append(nroid)
     os.system('pause')
     return
@@ -113,18 +115,18 @@ def addHistoryState(data:dict, history:dict, activo:dict):
 def historyIndex(history:dict, fecha, tipo, Responsable, id):
     addHistory = {}
     try:
-         #sumar el ultimo id y hacer dict de historial
-         history = list(history.keys())[-1]
-         nroid = history+1
-         newHistory = {
-             'NroId':nroid,
-             'Fecha':fecha,
-             'TipoMov':tipo,
-             'IdRespMov':Responsable,
-             'IdAssing':id 
-         }
-         addHistory[nroid] = newHistory
-         history.update(addHistory)
+        #sumar el ultimo id y hacer dict de historial
+        history = list(history.keys())[-1]
+        nroid = history+1
+        newHistory = {
+            'NroId':nroid,
+            'Fecha':fecha,
+            'TipoMov':tipo,
+            'IdRespMov':Responsable,
+            'IdAssing':id 
+        }
+        addHistory[nroid] = newHistory
+        history.update(addHistory)
     except IndexError as i:
         #crear el id 0001
         x = 0
