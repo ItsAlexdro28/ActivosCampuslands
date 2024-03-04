@@ -78,6 +78,7 @@ def menuPERSONAL():
         imp.writeJson(data, 'data') 
     elif opcion == "2":
         edit.peopleEdit()
+        imp.writeJson(data, 'data')
     elif opcion == "3":
         delete.peopleDelete(data)
         imp.writeJson(data, 'data')
@@ -127,6 +128,7 @@ def menuASIGACTIVOS():
     if opcion == "1":
         assg.newAssing(data)
         imp.writeJson(data, 'data')
+        imp.writeJson(history, 'history')
     elif opcion == "2":
         search.asigSearch(data)
         imp.writeJson(data, 'data')
@@ -177,13 +179,23 @@ def menuMOVIMIENTOSDEACTIVOS():
     opcion = input("\n>> ")
     
     if opcion == "1":
-        pass
+        edit.returnEdit(data, history)
+        imp.writeJson(data, 'data')
+        imp.writeJson(history, 'history')
     elif opcion == "2":
-        pass
+        activoEdit = edit.estadoEdit(data, 2)
+        add.addHistoryState(data, history, activoEdit)
+        imp.writeJson(data, 'data')
+        imp.writeJson(history, 'history')
     elif opcion == "3":
-        pass
+        edit.activeAssingEdit(data, history)
+        imp.writeJson(data, 'data')
+        imp.writeJson(history, 'history')
     elif opcion == "4":
-        pass
+        activoEdit = edit.estadoEdit(data, 3)
+        add.addHistoryState(data, history, activoEdit)
+        imp.writeJson(data, 'data')
+        imp.writeJson(history, 'history')
     elif opcion == "5":
         menuPRINCIPAL()
     else:

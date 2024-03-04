@@ -25,12 +25,12 @@ acciones
 - eliminar (activos, personal, zonas) (libres de asignaciones) (✓,✓,✓)
 - buscar (activos, personal, zonas) (✓,✓,✓)
 - nueva asignacion (excluir dados de baja/garantia/verificar datos completos) (✓)
-- añadir historial (nuevo id, asignar a los activos)
+- añadir historial (nuevo id, asignar a los activos) (✓)
 - buscar asignacion (✓)
-- retornar activo
-- dar de baja
-- cambiar asignacion ('reciclar nueva asignacion')
-- enviar a garantia
+- retornar activo (✓)
+- dar de baja (✓)
+- cambiar asignacion ('reciclar nueva asignacion') (✓)
+- enviar a garantia (✓)
 
 reportes
 - todos activos
