@@ -149,21 +149,9 @@ def menuRep():
         print(tabulate(opciones, tablefmt="fancy_grid"))
         op=input("\n>> ")
         if op == "1":
-           pass
+           list.listactivosall(data)
         elif op == "2":
-            print('1.Monitores\n2.CPU\n3.Teclado\n4.Mouse')
-            op=int(input('>>'))
-            if op == 1:
-                list.listactivoscate1(data)
-            elif op == 2:
-                list.listactivoscate2(data)
-            elif op == 3:
-                list.listactivoscate3(data)
-            elif op == 4:
-                list.listactivoscate4(data)
-            else:
-               menuRep() 
-
+            list.listActivosCategoria(data)
         elif op == "3":
             pass
         elif op == "4":
@@ -175,7 +163,7 @@ def menuRep():
         else:
             menuRep()
             print('Valor no encontrado\n')
-        bandera=bool(input('Desea revisar otro reporte? enter(no) X(si)\n'))
+       
    
 
 #OPCION5 
