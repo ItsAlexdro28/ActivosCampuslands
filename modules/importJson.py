@@ -23,6 +23,7 @@ def addCsv():
                     value = []
                 row_dict[headers[i]] = value
             data['Activos'][key] = row_dict
+    return
 #itera en cada fila, asigna el valor de acurdo al primer valor de la columna y agrega con identificacion 'CodCampus'
 
 def readJson(filename):
@@ -33,6 +34,7 @@ def readJson(filename):
         raise FileNotFoundError(f"File '{filename}' not found.")
     except json.JSONDecodeError:
         raise json.JSONDecodeError(f"Invalid JSON format in file '{filename}'.")
+    return
     
 def writeJson(data, filename):
     try:
@@ -40,6 +42,7 @@ def writeJson(data, filename):
             json.dump(data, wr, indent=4) 
     except IOError as e:
         raise IOError(f"Error writing to file '{filename}': {e}")
+    return
 
 addCsv()
 writeJson(data, 'data')

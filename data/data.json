@@ -6890,6 +6890,20 @@
             "EmpresaResponsable": "Campuslands",
             "Estado": "0",
             "Historial": []
+        },
+        "9999": {
+            "CodTransaccion": "327",
+            "NroFormulario": "111",
+            "CodCampus": "9999",
+            "Marca": "JBL",
+            "Categoria": "AUDIO",
+            "Tipo": "BOCINA DE AUDIO ",
+            "ValUnid": "3000000",
+            "Proveedor": "\tELKIN",
+            "NroSerial": "8888 8888 8888 8888",
+            "EmpresaResponsable": "CAMPUSLAND",
+            "Estado": "0",
+            "Historial": []
         }
     }
 }

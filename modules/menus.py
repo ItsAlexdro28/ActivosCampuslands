@@ -12,31 +12,43 @@ data = imp.readJson('data')
 history = imp.readJson('history')
 
 def menuPRINCIPAL():
-    os.system('cls')
-    titulo=[["SISTEMA G&C DE INVENTARIO CAMPUSLANDS"]]
-    print(tabulate(titulo,tablefmt="double_grid"))
-    opciones = [["1.", "ACTIVOS"], ["2.", "PERSONAL "], ["3.", "ZONAS "], ["4.", "ASIGNACION DE ACTIVOS "],
-                 ["5.", "REPORTES"], ["6.", "MOVIMIENTOS DE ACTIVOS"],["7.", "SALIR"]]
-    print(tabulate(opciones, tablefmt="fancy_grid"))
-    opcion = input("\n>> ")
-    
-    if opcion == "1":
-        menuACTIVOS()
-    elif opcion == "2":
-        menuPERSONAL()
-    elif opcion == "3":
-        menuZONAS()
-    elif opcion == "4":
-       menuASIGACTIVOS()
-    elif opcion == "5":
-        menuRep()
-    elif opcion == "6":
-        menuMOVIMIENTOSDEACTIVOS()
-    elif opcion == "7":
-        ("Vuelva pronto!")
-        exit()
-    else:
-      menuPRINCIPAL()
+    try:
+        os.system('cls')
+        titulo=[["SISTEMA G&C DE INVENTARIO CAMPUSLANDS"]]
+        print(tabulate(titulo,tablefmt="double_grid"))
+        opciones = [["1.", "ACTIVOS"], ["2.", "PERSONAL "], ["3.", "ZONAS "], ["4.", "ASIGNACION DE ACTIVOS "],
+                    ["5.", "REPORTES"], ["6.", "MOVIMIENTOS DE ACTIVOS"],["7.", "SALIR"]]
+        print(tabulate(opciones, tablefmt="fancy_grid"))
+        opcion = input("\n>> ")
+        
+        if opcion == "1":
+            menuACTIVOS()
+        elif opcion == "2":
+            menuPERSONAL()
+        elif opcion == "3":
+            menuZONAS()
+        elif opcion == "4":
+            menuASIGACTIVOS()
+        elif opcion == "5":
+            menuRep()
+        elif opcion == "6":
+            menuMOVIMIENTOSDEACTIVOS()
+        elif opcion == "7":
+            ("Vuelva pronto!")
+            exit()
+        else:
+            menuPRINCIPAL()
+    except KeyboardInterrupt as i:
+        print('El valor ingresado no es valido')
+        os.system('pause')
+    except ValueError as i:
+        print('El valor ingresado no es valido')
+        os.system('pause')
+    except EOFError as i:
+        print('El valor ingresado no es valido')
+        os.system('pause')
+
+
 
 #OPCION 1
 def menuACTIVOS(): 
@@ -57,7 +69,7 @@ def menuACTIVOS():
         delete.activosDelete(data)
         imp.writeJson(data, 'data')
     elif opcion == "4":
-        search.activosSearch(data)
+        search.activosSearch(data, 2)
         imp.writeJson(data, 'data')
     elif opcion == "5": 
         menuPRINCIPAL()
@@ -77,13 +89,13 @@ def menuPERSONAL():
         add.addpeople(data)
         imp.writeJson(data, 'data') 
     elif opcion == "2":
-        edit.peopleEdit()
+        edit.peopleEdit(data)
         imp.writeJson(data, 'data')
     elif opcion == "3":
         delete.peopleDelete(data)
         imp.writeJson(data, 'data')
     elif opcion == "4":
-        search.personaSearch(data)
+        search.personaSearch(data, 2)
         imp.writeJson(data, 'data')
     elif opcion == "5":   
         menuPRINCIPAL()
@@ -109,7 +121,7 @@ def menuZONAS():
         delete.zonDelete(data)
         imp.writeJson(data, 'data')
     elif opcion == "4":
-        search.zonaSearch(data)
+        search.zonaSearch(data, 2)
         imp.writeJson(data, 'data')
     elif opcion == "5":
         menuPRINCIPAL()
@@ -130,7 +142,7 @@ def menuASIGACTIVOS():
         imp.writeJson(data, 'data')
         imp.writeJson(history, 'history')
     elif opcion == "2":
-        search.asigSearch(data)
+        search.asigSearch(data, 2)
         imp.writeJson(data, 'data')
     elif opcion == "3":
         menuPRINCIPAL()

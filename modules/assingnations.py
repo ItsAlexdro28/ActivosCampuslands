@@ -42,8 +42,11 @@ def newAssing(data:dict):
         if continueAsk.lower() == "s":
             pass
         else:
-            print(f'{len(blueprint['Activos'])} activos añadidos satisfactoriamente')
+            length = len(blueprint['Activos'])
+            print(f'{length} activos añadidos satisfactoriamente')
             break
     new[NroAsignacion] = blueprint
     data['Asignacion'].update(new)
+    os.system('pause')
+    return
 

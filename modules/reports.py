@@ -13,7 +13,8 @@ def listactivosall(data:dict):
             print(tabulate(listall, headers=["CODIGO", "NOMBRE", "NUMERO SERIAL"], tablefmt="fancy_grid"))
             os.system('pause')
         else:
-            print(f"No hay activos en la categoría ") 
+            print(f"No hay activos en la categoría ")
+             
 
 def listActivosCategoria(data:dict): 
     while True:
