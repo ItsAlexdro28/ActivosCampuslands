@@ -1,1 +1,9 @@
-{}
+{
+    "0001": {
+        "NroId": "0001",
+        "Fecha": "789",
+        "TipoMov": 3,
+        "IdRespMov": "789",
+        "IdAssing": "NA"
+    }
+}

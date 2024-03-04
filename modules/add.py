@@ -55,7 +55,7 @@ def addpeople(data:dict):
             "Telefono":telefono,
             "Celular":celular
         }
-        hold2[people[id]]=people
+        hold2[people['Id']]=people
         data['Personal'].update(hold2)
         os.system('pause')
         return
@@ -78,7 +78,7 @@ def addzone(data:dict):
             "NombreZona":nombrezona,
             "totalCapacidad":totalcapacidad
         }
-        hold3[zon[nombrezona]]=zon
+        hold3[zon['NombreZona']]=zon
         data['Zonas'].update(hold3)
         os.system('pause')
         return
@@ -90,11 +90,12 @@ def addzone(data:dict):
 def addHistoryAssing(data:dict, history:dict):
     last = list(data['Asignacion'].keys())[-1]
     Responsable = input('Id de quien efectuo el movimiento? ')
-    nroid = historyIndex(history, last['FechaAsignacion'], 1, Responsable, last)
-    for i in range(len(data['Asignacion'][str(last)]['Activos'])):
-        data['Activos'][str(i)]['Historial'].append(nroid)
-        data['Activos'][str(i)]['Estado'] = '1'
-    data['Asignacion'][str(last)]['HistorialId'] = nroid
+    nroid = historyIndex(history, data['Asignacion'][last]['FechaAsignacion'], 1, Responsable, last)
+    for i in range(len(data['Asignacion'][last]['Activos'])):
+        addKeysActivos = list(data['Asignacion'][last]['Activos'])
+        data['Activos'][addKeysActivos[i]]['Historial'].append(nroid)
+        data['Activos'][addKeysActivos[i]]['Estado'] = '1'
+    data['Asignacion'][last]['HistorialId'] = nroid
     os.system('pause')
     return
 
@@ -129,8 +130,8 @@ def historyIndex(history:dict, fecha, tipo, Responsable, id):
         history.update(addHistory)
     except IndexError as i:
         #crear el id 0001
-        x = 0
-        nroid = x.zfill(3)
+        x = '1'
+        nroid = x.zfill(4)
         newHistory = {
             'NroId':nroid,
             'Fecha':fecha,

@@ -71,7 +71,7 @@ def asigSearch(data:dict, state) :
     titulo=[["BUSCAR ASIGNACION"]]
     print(tabulate(titulo,tablefmt="double_grid"))
     asigNro = input("Ingresa el Nro. de la asignacion ")
-    if asigNro in data["Asignacion"]:
+    if asigNro in data["Asignacion"].keys():
         asigSearch = data["Asignacion"][asigNro]
         if state == 1:
             return(asigSearch)
