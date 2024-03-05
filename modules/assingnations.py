@@ -31,11 +31,13 @@ def newAssing(data:dict):
                 activo = search.activosSearch(data, 1)
             except TypeError:
                 print('La zona o persona no esta en la base de datos')
-                pass
+                return
             if activo['Estado'] == 2:
                 print('El Activo esta dado de baja')
+                return
             elif activo['Estado'] == 3:
                 print('El Activo esta en garantia, necesitas actualizar su estado')
+                return
             else:
                 if not activo == oldActivo:
                     blueprint['Activos'].append(activo['CodCampus'])

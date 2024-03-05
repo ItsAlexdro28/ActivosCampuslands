@@ -39,13 +39,17 @@ def activosEdit(data:dict):
                 return
 
             if 0 < indexToEdit < len(list(activeToEdit.items())):
-                keyToEdit = list(activeToEdit.items())[indexToEdit-1]  # Extraer llave
-                keyToPrint = list(keysRead[indexToEdit-1])
-                newValue = input(f"Ingresa el nuevo valor para '{keyToPrint}': \n>> ")
+                keyToEdit = list(activeToEdit.keys())[indexToEdit-1]  # Extraer llave
+                newValue = input(f"Ingresa el nuevo valor para '{keyToEdit}'\n>>")
+                if keyToEdit == 'CodCampus':
+                    data["Activos"][newValue] = data["Activos"][codCampus]
+                    del data["Activos"][codCampus]
+                else:
+                    activeToEdit[keyToEdit] = newValue
                 activeToEdit[keyToEdit] = newValue
-                print(f"Activo '{activeToEdit}' Actualizado.\n>> ")
+                print(f"Activo '{activeToEdit['CodCampus']}' Actualizado.")
                 os.system('pause')
-                m.menuPRINCIPAL() 
+                return
             else:
                 print(f"Index invalido: {indexToEdit}. Ingresa un valor valido entre -1 y {len(indexToEdit) - 1}.\n>> ")
                 os.system('pause')
@@ -103,11 +107,15 @@ def peopleEdit(data:dict):
                 return
 
             if 0 < indexToEdit < len(list(peopleToEdit.items())):
-                keyToEdit = list(peopleToEdit.items())[indexToEdit-1]  # Extraer llave
-                keyToPrint = list(info[indexToEdit-1])
-                newValue = input(f"Ingresa el nuevo valor para '{keyToPrint}':\n>>  ")
+                keyToEdit = list(peopleToEdit.keys())[indexToEdit-1]  # Extraer llave
+                newValue = input(f"Ingresa el nuevo valor para '{keyToEdit}'\n>>")
+                if keyToEdit == 'Id':
+                    data["Personal"][newValue] = data["Personal"][id]
+                    del data["Personal"][id]
+                else:
+                    peopleToEdit[keyToEdit] = newValue
                 peopleToEdit[keyToEdit] = newValue
-                print(f"Activo '{peopleToEdit}' Actualizado.\n>> ")
+                print(f"Personal '{peopleToEdit['Id']}' Actualizado.")
                 os.system('pause')
                 return
             else:
@@ -160,7 +168,7 @@ def zonaEdit(data:dict):
             if 0 < indexToEdit < len(list(zoneToEdit.items())):
                 keyToEdit = list(zoneToEdit.keys())[indexToEdit-1]  # Extraer llave
                 newValue = input(f"Ingresa el nuevo valor para '{keyToEdit}'\n>>")
-                if keyToEdit == 'Id':
+                if keyToEdit == 'NombreZona':
                     data["Zonas"][newValue] = data["Zonas"][nombre]
                     del data["Zonas"][nombre]
                 else:
