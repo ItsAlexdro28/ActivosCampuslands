@@ -7,8 +7,8 @@ def addactivos(data:dict):
     try:
         new = {}
         hold = {}
-        keys = ['CodTransaccion','NroFormulario','CodCampus','Marca','Categoria','Tipo','ValUnid','Proveedor','NroSerial','EmpresaResponsable','Estado']
-        keysRead = ['Codigo de Transaccion','Numero de Formulario','Codigo Campus','Marca','Categoria','Tipo','ValUnid','Proveedor','Numero Serial','la Empresa Responsable','Estado']
+        keys = ['CodTransaccion','NroFormulario','CodCampus','Marca','Categoria','Tipo','ValUnid','Proveedor','NroSerial','EmpresaResponsable']
+        keysRead = ['Codigo de Transaccion','Numero de Formulario','Codigo Campus','Marca','Categoria','Tipo','Valor Unidad','Nombre del Proveedor','Numero Serial','la Empresa Responsable']
         titulo=[["AÑADIR ACTIVOS"]]
         print(tabulate(titulo,tablefmt="double_grid"))
         for i in range(len(keys)):
@@ -17,12 +17,14 @@ def addactivos(data:dict):
             elif keys[i] == 'Categoria':
                 print('Opciones sugeridas: Equipo de computo, Electrodomestico, Juego')
             elif keys[i] == 'Tipo':
-                print('Opciones sugeridas: Monitor, CPU, Teclado, Mouse, Aire Acondicionado, Portatil, Impresora')
+                print('valores sugeridos: Monitor, CPU, Teclado, Mouse, Aire Acondicionado, Portatil, Impresora')
             value = input(f'Valor para {keysRead[i]}\n>>')
             hold[keys[i]] = value
+        hold['Estado'] = '0'    
         hold['Historial'] = []
         new[hold['CodCampus']] = hold
         data['Activos'].update(new) 
+        return
     except ValueError as e:
         print(f"Error:La llave ingresada '{e}' no es valida.")
 
@@ -52,8 +54,12 @@ def addpeople(data:dict):
         }
         hold2[people['Id']]=people
         data['Personal'].update(hold2)
+        os.system('pause')
+        return
     except ValueError as e:
-        print(f"Error: La llave ingresada '{e}' no es valida.")
+        print(f"Error: El valor de la llave '{e}' no es valido.")
+        os.system('pause')
+        return
 
 def addzone(data:dict):
     try:
@@ -71,8 +77,13 @@ def addzone(data:dict):
         }
         hold3[zon['NombreZona']]=zon
         data['Zonas'].update(hold3)
+        os.system('pause')
+        return
     except ValueError as e:
-        print(f"Error: La llave ingresada '{e}' no es valida.")
+        print(f"Error: El valor de la llave '{e}' no es valido.")
+        os.system('pause')
+        return
+        
 
 def addHistoryAssing(data:dict, history:dict):
     last = list(data['Asignacion'].keys())[-1]

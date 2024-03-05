@@ -53,9 +53,11 @@ def newAssing(data:dict):
         return
     except ValueError:
         print('El valor ingresado no es un numero')
+        os.system('pause')
         return
     except TypeError:
         print('La zona o persona no esta en la base de datos')
+        os.system('pause')
         return
 
 
