@@ -34,13 +34,13 @@ def menuPRINCIPAL():
         elif opcion == "6":
             menuMOVIMIENTOSDEACTIVOS()
         elif opcion == "7":
-            ("Vuelva pronto!")
+            print("Vuelva pronto!")
+            os.system('pause')
             exit()
         else:
             menuPRINCIPAL()
     except KeyboardInterrupt as i:
-        print('El valor ingresado no es valido')
-        os.system('pause')
+        exit()
     except ValueError as i:
         print('El valor ingresado no es valido')
         os.system('pause')
@@ -77,8 +77,7 @@ def menuACTIVOS():
         else:
             menuACTIVOS()
     except KeyboardInterrupt as i:
-        print('El valor ingresado no es valido')
-        os.system('pause')
+        exit()
     except ValueError as i:
         print('El valor ingresado no es valido')
         os.system('pause')
@@ -113,8 +112,7 @@ def menuPERSONAL():
         else:
             menuPERSONAL()
     except KeyboardInterrupt as i:
-        print('El valor ingresado no es valido')
-        os.system('pause')
+        exit()
     except ValueError as i:
         print('El valor ingresado no es valido')
         os.system('pause')
@@ -149,8 +147,7 @@ def menuZONAS():
         else:
             menuZONAS()
     except KeyboardInterrupt as i:
-        print('El valor ingresado no es valido')
-        os.system('pause')
+        exit()
     except ValueError as i:
         print('El valor ingresado no es valido')
         os.system('pause')
@@ -183,8 +180,7 @@ def menuASIGACTIVOS():
         else:
             menuASIGACTIVOS()
     except KeyboardInterrupt as i:
-        print('El valor ingresado no es valido')
-        os.system('pause')
+        exit()
     except ValueError as i:
         print('El valor ingresado no es valido')
         os.system('pause')
@@ -223,8 +219,7 @@ def menuRep():
                 menuRep()
                 print('Valor no encontrado\n')
     except KeyboardInterrupt as i:
-        print('El valor ingresado no es valido')
-        os.system('pause')
+        exit()
     except ValueError as i:
         print('El valor ingresado no es valido')
         os.system('pause')
@@ -267,8 +262,7 @@ def menuMOVIMIENTOSDEACTIVOS():
         else:
             menuMOVIMIENTOSDEACTIVOS()
     except KeyboardInterrupt as i:
-        print('El valor ingresado no es valido')
-        os.system('pause')
+        exit()
     except ValueError as i:
         print('El valor ingresado no es valido')
         os.system('pause')

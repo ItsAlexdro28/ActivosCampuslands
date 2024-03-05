@@ -91,9 +91,8 @@ def peopleEdit(data:dict):
                     # Edit todos los valores
                     x = 0
                     for key, value in peopleToEdit.items():
-                        if key != 'Historial':  # Saltar el historial
-                            newValue = input(f"Ingresa el nuevo valor para '{info[x]}': \n>>  ")
-                            peopleToEdit[key] = newValue
+                        newValue = input(f"Ingresa el nuevo valor para '{info[x]}'\n>>")
+                        peopleToEdit[key] = newValue
                         x += 1
                     print(f"El personal con id #'{id}' fue editado satisfactoriamente.\n>> ")
                     os.system('pause')
@@ -129,7 +128,7 @@ def zonaEdit(data:dict):
         os.system('cls')
         titulo=[["EDITAR ZONAS"]]
         print(tabulate(titulo,tablefmt="double_grid"))
-        nombre= input("Ingrese el nombre de la zona para editar \n>> ").upper()
+        nombre = input("Ingrese el nombre de la zona para editar").upper()
         #LISTA DE LLAVES PARA QUE EL USUARIO LO LEA MAS BONITO
         info2 = ['NroZona','NombreZona','totalCapacidad']
         if nombre in data['Zonas']:      
@@ -141,17 +140,16 @@ def zonaEdit(data:dict):
             try:
                 indexToEdit = int(input("Ingrese el numero de identificacion del valor que desea editar (-1 para cancelar o 0 para editarlos todos):\n>>  "))
             except ValueError:
-                print("Invalid input. Escriba un entero.\n>> ")
-                return #VOLVER AL MENU PRINCIPAL
+                print("Invalid input. Escriba un entero.")
+                return #VOLVER AL MENU PRINCIPAL       
             if indexToEdit == 0:
                     # Edit todos los valores
+                    x = 0
                     for key, value in zoneToEdit.items():
-                        x = 0
-                        if key != 'Historial':  # Saltar el historial
-                            newValue = input(f"Ingresa el nuevo valor para '{info2[x]}': \n>> ")
-                            zoneToEdit[key] = newValue
+                        newValue = input(f"Ingresa el nuevo valor para '{info[x]}'\n>>")
+                        zoneToEdit[key] = newValue
                         x += 1
-                    print(f"La zona '{nombre}' fue editada satisfactoriamente.\n>> ")
+                    print(f"Zona '{nombre}' fue editada satisfactoriamente.")
                     os.system('pause')
                     return
             if indexToEdit == -1:
@@ -160,11 +158,15 @@ def zonaEdit(data:dict):
                 return
 
             if 0 < indexToEdit < len(list(zoneToEdit.items())):
-                keyToEdit = list(zoneToEdit.items())[indexToEdit-1]  # Extraer llave
-                keyToPrint = list(info2[indexToEdit-1])
-                newValue = input(f"Ingresa el nuevo valor para '{keyToPrint}':\n>>  ")
+                keyToEdit = list(zoneToEdit.keys())[indexToEdit-1]  # Extraer llave
+                newValue = input(f"Ingresa el nuevo valor para '{keyToEdit}'\n>>")
+                if keyToEdit == 'Id':
+                    data["Zonas"][newValue] = data["Zonas"][nombre]
+                    del data["Zonas"][nombre]
+                else:
+                    zoneToEdit[keyToEdit] = newValue
                 zoneToEdit[keyToEdit] = newValue
-                print(f"Zona '{zoneToEdit}' Actualizada.\n>> ")
+                print(f"Zona '{zoneToEdit['NombreZona']}' Actualizada.")
                 os.system('pause')
                 return
             else:
