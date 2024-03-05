@@ -71,7 +71,7 @@ def addzone(data:dict):
         nombrezona=input('Ingrese el nombre de la zona:\n>>').upper()
         totalcapacidad=input('Ingrese la capacidad de la zona:\n>>').upper()
         zon={
-            "NroZona":nrozona,
+            "NroZona":nrozona.upper(),
             "NombreZona":nombrezona,
             "totalCapacidad":totalcapacidad
         }
