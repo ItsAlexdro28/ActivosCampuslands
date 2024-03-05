@@ -23,8 +23,8 @@ def activosEdit(data:dict):
                 return #VOLVER AL MENU PRINCIPAL
             if indexToEdit == 0:
                     # Edit todos los valores
+                    x = 0
                     for key, value in activeToEdit.items():
-                        x = 0
                         if key != 'Historial':  # Saltar el historial
                             newValue = input(f"Ingresa el nuevo valor para '{{str(keysRead[x])}}':\n>> ")
                             activeToEdit[key] = newValue
@@ -85,10 +85,11 @@ def peopleEdit(data:dict):
             except ValueError:
                 print("Invalid input. Escriba un entero.\n>> ")
                 return #VOLVER AL MENU PRINCIPAL
+            
             if indexToEdit == 0:
                     # Edit todos los valores
+                    x = 0
                     for key, value in peopleToEdit.items():
-                        x = 0
                         if key != 'Historial':  # Saltar el historial
                             newValue = input(f"Ingresa el nuevo valor para '{info[x]}': \n>>  ")
                             peopleToEdit[key] = newValue
