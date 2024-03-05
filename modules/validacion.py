@@ -43,3 +43,18 @@ def validacionKeyNew2(data:dict,tipo):
     except KeyError:
         return x
     
+def OutOfRange(range):
+    try:
+        x=int(input('>>'))
+        if x<0:
+            print('Solo positivos')
+            return OutOfRange(range)
+        if x>range:
+            print('Numero esta afuera del rango')
+            return OutOfRange(range)
+        else:
+            return x
+    except ValueError:
+        print('Solo numeros, ingrese nuevamente')
+        return validacionInt()    
+    

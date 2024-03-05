@@ -1,5 +1,4 @@
 from tabulate import tabulate
-import modules.search as search
 import modules.validacion as v
 import os
 
@@ -21,7 +20,7 @@ def addactivos(data:dict):
                     cont+=1
                     print(f'{cont}. {j} ')
                 print('Ingrese la opcion')
-                opcion=v.validacionInt()
+                opcion=v.OutOfRange(cont)
                 value=listOp[opcion-1]
             elif keys[i] == 'Categoria':
                 listOp=["Equipo de computo", "Electrodomestico", "Juego"]
@@ -31,7 +30,10 @@ def addactivos(data:dict):
                     cont+=1
                     print(f'{cont}. {j} ')
                 print('Ingrese la opcion')
-                opcion=v.validacionInt()
+                opcion=v.OutOfRange(cont)
+                if opcion > cont:
+                    print('Opcion no valida ')
+                    
                 value=listOp[opcion-1]
             elif keys[i] == 'Tipo':
                 listOp=[ "Monitor", "CPU", "Teclado", "Mouse", "Aire Acondicionado", "Portatil", "Impresora"]
@@ -41,7 +43,7 @@ def addactivos(data:dict):
                     cont+=1
                     print(f'{cont}. {j} ')
                 print('Ingrese la opcion')
-                opcion=v.validacionInt()
+                opcion=v.OutOfRange(cont)
                 value=listOp[opcion-1]
             elif keys[i]=='CodCampus':
                 print(keysRead[i])
@@ -60,6 +62,7 @@ def addactivos(data:dict):
         return
     except ValueError as e:
         print(f"Error:La llave ingresada '{e}' no es valida.")
+        #!permite añadir activos
 
 # la funcion tiene dos diccionarios, uno para poner todos los datos ingresados por el usuario y otro para poder añadirlo a la base de datos
 # la funcion "for" itera por todos los valores de 'keys' siendo los nombres de las llaves para asignar en el diccionarios
@@ -67,6 +70,8 @@ def addactivos(data:dict):
 # cuando termine el "for" se agregaran los datos a el diccionario 'new' con la llave del codigo campus para identificarlo
 # cuando pregunte por 'marca, categoria y tipo' imprimira valores sugeridos segun los requerimientos del cliente
 # el historial no se pregunta porque no hay record del activo hasta ahora, y se añade la lista donde luego estaran las identificaciones de activo
+        
+        
 def addpeople(data:dict):
     try:
         os.system('cls')
@@ -96,6 +101,7 @@ def addpeople(data:dict):
         print(f"Error: El valor de la llave '{e}' no es valido.")
         os.system('pause')
         return
+#!permite añadir personal
 
 def addzone(data:dict):
     try:
@@ -122,7 +128,7 @@ def addzone(data:dict):
         print(f"Error: El valor de la llave '{e}' no es valido.")
         os.system('pause')
         return
-        
+        #!permite añadir zona
 
 def addHistoryAssing(data:dict, history:dict):
     last = list(data['Asignacion'].keys())[-1]

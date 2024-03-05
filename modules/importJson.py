@@ -44,7 +44,9 @@ def writeJson(data, filename):
         raise IOError(f"Error writing to file '{filename}': {e}")
     return
 
-#addCsv()
-#writeJson(data, 'data')
+addCsv()
+writeJson(data, 'data')
+
+
 
 
