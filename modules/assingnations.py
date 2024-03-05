@@ -9,8 +9,8 @@ def newAssing(data:dict):
     oldActivo = 000
     print(tabulate(titulo,tablefmt="double_grid"))
     try:
-        NroAsignacion = int(input('Ingresa el numero de asignación '))
-        FechaAsignacion = input('Ingresa la fecha de asignación ')
+        NroAsignacion = int(input('Ingresa el numero de asignación:\n>> '))
+        FechaAsignacion = input('Ingresa la fecha de asignación \n>>')
         tipo = int(input('Tipo de asignación: \n1. Personal \n2. Zona\n>>'))
         if tipo == 1:
             tipo = 'Personal'
@@ -51,7 +51,7 @@ def newAssing(data:dict):
         data['Asignacion'].update(new)
         os.system('pause')
         return
-    #except ValueError:
+    except ValueError:
         print('El valor ingresado no es un numero')
         return
     except TypeError:

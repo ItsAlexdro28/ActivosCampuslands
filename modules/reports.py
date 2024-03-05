@@ -23,7 +23,7 @@ def listActivosall(data:dict):
             for idx in range(totalPag):
                 os.system('cls')
                 subset_data = listall[idx * linesforPages: (idx + 1) * linesforPages]
-                print(tabulate(subset_data, headers=["CODIGO", "NOMBRE", "NUMERO SERIAL"], tablefmt="fancy_grid"))
+                print(tabulate(subset_data, headers=["Codcampus", "NOMBRE", "NUMERO SERIAL"], tablefmt="fancy_grid"))
                 print(f'Pagina {idx + 1} de {totalPag}')
                 os.system('pause')
                 os.system('cls')
@@ -42,7 +42,7 @@ def listActivoscategoria(data:dict):
         opcion=('1. EQUIPOS DE COMPUTO \n2. ELECTRODOMESTICOS \n3. JUEGOS\n4. REGRESAR A MENU REPORTES\n  ')
         print(tabulate(opcion, tablefmt="fancy_grid"))
         #EQUIPOS DE COMPUTO
-        op = input('>> ')
+        op = input('\n>> ')
         if op == "1": 
             list_equipos = []
             for keys, activo in data["Activos"].items():

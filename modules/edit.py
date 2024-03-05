@@ -1,6 +1,6 @@
 from tabulate import tabulate
 import os
-import modules.add as add
+import modules.menus as m
 def activosEdit(data:dict):
     try:
         os.system('cls')
@@ -20,7 +20,8 @@ def activosEdit(data:dict):
             except ValueError:
                 print("Invalid input. Escriba un entero.\n>> ")
                 os.system('pause')
-                return #VOLVER AL MENU PRINCIPAL
+                m.menuPRINCIPAL() 
+                #VOLVER AL MENU PRINCIPAL
             if indexToEdit == 0:
                     # Edit todos los valores
                     x = 0
@@ -44,16 +45,16 @@ def activosEdit(data:dict):
                 activeToEdit[keyToEdit] = newValue
                 print(f"Activo '{activeToEdit}' Actualizado.\n>> ")
                 os.system('pause')
-                return
+                m.menuPRINCIPAL() 
             else:
                 print(f"Index invalido: {indexToEdit}. Ingresa un valor valido entre -1 y {len(indexToEdit) - 1}.\n>> ")
                 os.system('pause')
-                return
+                m.menuPRINCIPAL() 
             
         else:
             print(f"Activo con Codigo de campus '{indexToEdit}' no ha sido encontrado. \n>> ")
             os.system('pause')
-            return
+            m.menuPRINCIPAL() 
     except UnboundLocalError as i:
         print('El valor ingresado no es valido\n>>' )
         os.system('pause')

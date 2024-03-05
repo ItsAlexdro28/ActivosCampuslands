@@ -13,18 +13,18 @@ def addactivos(data:dict):
         print(tabulate(titulo,tablefmt="double_grid"))
         for i in range(len(keys)):
             if keys[i] == 'Marca':
-                print('valores sugeridos: LG, COMPUMAX, LOGITECH, BENQ, ASUS, LENOVO, HP')
+                print('Opciones sugeridas: LG, COMPUMAX, LOGITECH, BENQ, ASUS, LENOVO, HP')
             elif keys[i] == 'Categoria':
-                print('valores sugeridos: Equipo de computo, Electrodomestico, Juego')
+                print('Opciones sugeridas: Equipo de computo, Electrodomestico, Juego')
             elif keys[i] == 'Tipo':
-                print('valores sugeridos: Monitor, CPU, Teclado, Mouse, Aire Acondicionado, Portatil, Impresora')
+                print('Opciones sugeridas: Monitor, CPU, Teclado, Mouse, Aire Acondicionado, Portatil, Impresora')
             value = input(f'Valor para {keysRead[i]}\n>>')
             hold[keys[i]] = value
         hold['Historial'] = []
         new[hold['CodCampus']] = hold
         data['Activos'].update(new) 
     except ValueError as e:
-        print(f"Error: El valor de la llave '{e}' no es valido.")
+        print(f"Error:La llave ingresada '{e}' no es valida.")
 
 # la funcion tiene dos diccionarios, uno para poner todos los datos ingresados por el usuario y otro para poder añadirlo a la base de datos
 # la funcion "for" itera por todos los valores de 'keys' siendo los nombres de las llaves para asignar en el diccionarios
@@ -53,7 +53,7 @@ def addpeople(data:dict):
         hold2[people['Id']]=people
         data['Personal'].update(hold2)
     except ValueError as e:
-        print(f"Error: El valor de la llave '{e}' no es valido.")
+        print(f"Error: La llave ingresada '{e}' no es valida.")
 
 def addzone(data:dict):
     try:
@@ -72,7 +72,7 @@ def addzone(data:dict):
         hold3[zon['NombreZona']]=zon
         data['Zonas'].update(hold3)
     except ValueError as e:
-        print(f"Error: El valor de la llave '{e}' no es valido.")
+        print(f"Error: La llave ingresada '{e}' no es valida.")
 
 def addHistoryAssing(data:dict, history:dict):
     last = list(data['Asignacion'].keys())[-1]
@@ -87,7 +87,7 @@ def addHistoryAssing(data:dict, history:dict):
     return
 
 def addHistoryState(data:dict, history:dict, activo:dict):
-    Responsable = input('Id de quien efectuo el movimiento? ')
+    Responsable = input('Id de quien efectuo el movimiento: ')
     fecha = input('Fecha del movimiento: ').upper()
     # 2 dado de baja / 3 garantia
     if activo['Estado'] == '2':
