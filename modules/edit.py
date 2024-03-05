@@ -6,19 +6,19 @@ def activosEdit(data:dict):
         os.system('cls')
         titulo=[["EDITAR ACTIVOS"]]
         print(tabulate(titulo,tablefmt="double_grid"))
-        codCampus = input("Ingresa el valor del Codigo de campus para editar").upper()
+        codCampus = input("Ingresa el valor del Codigo de campus para editar \n>> ").upper()
         #LISTA DE LLAVES PARA QUE EL USUARIO LO LEA MAS BONITO
         keysRead = ['Codigo de Transaccion','Numero de Formulario','Codigo Campus','Marca','Categoria','Tipo','ValUnid','Proveedor','Numero Serial','la Empresa Responsable','Estado']
         if codCampus in data['Activos']:
             activeToEdit = data['Activos'][codCampus]
-            print("Detalles de Activo:")
+            print("Detalles de Activo:\n>> ")
             for i, (key, value) in enumerate(activeToEdit.items()):
                 if key != 'Historial':  # Saltar el historial
                     print(f"{i+1}. {keysRead[i]}: {value}")
             try:
-                indexToEdit = int(input("Ingrese el numero de identificacion del valor que desea editar (-1 para cancelar o 0 para editarlos todos): ")).upper()
+                indexToEdit = int(input("Ingrese el numero de identificacion del valor que desea editar (-1 para cancelar o 0 para editarlos todos):\n>> "))
             except ValueError:
-                print("Invalid input. Escriba un entero.")
+                print("Invalid input. Escriba un entero.\n>> ")
                 os.system('pause')
                 return #VOLVER AL MENU PRINCIPAL
             if indexToEdit == 0:
@@ -26,10 +26,10 @@ def activosEdit(data:dict):
                     for key, value in activeToEdit.items():
                         x = 0
                         if key != 'Historial':  # Saltar el historial
-                            newValue = input(f"Ingresa el nuevo valor para '{keysRead[x]}': ")
+                            newValue = input(f"Ingresa el nuevo valor para '{{str(keysRead[x])}}':\n>> ")
                             activeToEdit[key] = newValue
                         x += 1
-                    print(f"Activo '{codCampus}' fue editado satisfactoriamente.")
+                    print(f"Activo '{codCampus}' fue editado satisfactoriamente.\n>> ")
                     os.system('pause')
                     return
             if indexToEdit == -1:
@@ -40,22 +40,22 @@ def activosEdit(data:dict):
             if 0 < indexToEdit < len(list(activeToEdit.items())):
                 keyToEdit = list(activeToEdit.items())[indexToEdit-1]  # Extraer llave
                 keyToPrint = list(keysRead[indexToEdit-1])
-                newValue = input(f"Ingresa el nuevo valor para '{keyToPrint}': ")
+                newValue = input(f"Ingresa el nuevo valor para '{keyToPrint}': \n>> ")
                 activeToEdit[keyToEdit] = newValue
-                print(f"Activo '{activeToEdit}' Actualizado.")
+                print(f"Activo '{activeToEdit}' Actualizado.\n>> ")
                 os.system('pause')
                 return
             else:
-                print(f"Index invalido: {indexToEdit}. Ingresa un valor valido entre -1 y {len(indexToEdit) - 1}.")
+                print(f"Index invalido: {indexToEdit}. Ingresa un valor valido entre -1 y {len(indexToEdit) - 1}.\n>> ")
                 os.system('pause')
                 return
             
         else:
-            print(f"Activo con Codigo de campus '{indexToEdit}' no ha sido encontrado.")
+            print(f"Activo con Codigo de campus '{indexToEdit}' no ha sido encontrado. \n>> ")
             os.system('pause')
             return
     except UnboundLocalError as i:
-        print('El valor ingresado no es valido')
+        print('El valor ingresado no es valido\n>>' )
         os.system('pause')
 
 # Esta función permite a los usuarios editar los detalles de un activo existente en función de su clave 'CodCampus'.
@@ -71,7 +71,7 @@ def peopleEdit(data:dict):
         os.system('cls')
         titulo=[["EDITAR PERSONAL"]]
         print(tabulate(titulo,tablefmt="double_grid"))
-        id = input("Ingresa el id de la persona para editar").upper()
+        id = input("Ingresa el id de la persona para editar \n>> ").upper()
         #LISTA DE LLAVES PARA QUE EL USUARIO LO LEA MAS BONITO
         info = ['Nombre','Id','Email','Telefono','Celular']
         if id in data['Personal']:
@@ -81,19 +81,19 @@ def peopleEdit(data:dict):
                 if key != 'Historial':  # Saltar el historial
                     print(f"{i+1}. {info[i]}: {value}")
             try:
-                indexToEdit = int(input("Ingrese el numero de identificacion del valor que desea editar (-1 para cancelar o 0 para editarlos todos): "))
+                indexToEdit = int(input("Ingrese el numero de identificacion del valor que desea editar (-1 para cancelar o 0 para editarlos todos): \n>> "))
             except ValueError:
-                print("Invalid input. Escriba un entero.")
+                print("Invalid input. Escriba un entero.\n>> ")
                 return #VOLVER AL MENU PRINCIPAL
             if indexToEdit == 0:
                     # Edit todos los valores
                     for key, value in peopleToEdit.items():
                         x = 0
                         if key != 'Historial':  # Saltar el historial
-                            newValue = input(f"Ingresa el nuevo valor para '{info[x]}': ")
+                            newValue = input(f"Ingresa el nuevo valor para '{info[x]}': \n>>  ")
                             peopleToEdit[key] = newValue
                         x += 1
-                    print(f"El personal con id #'{id}' fue editado satisfactoriamente.")
+                    print(f"El personal con id #'{id}' fue editado satisfactoriamente.\n>> ")
                     os.system('pause')
                     return
             if indexToEdit == -1:
@@ -104,22 +104,22 @@ def peopleEdit(data:dict):
             if 0 < indexToEdit < len(list(peopleToEdit.items())):
                 keyToEdit = list(peopleToEdit.items())[indexToEdit-1]  # Extraer llave
                 keyToPrint = list(info[indexToEdit-1])
-                newValue = input(f"Ingresa el nuevo valor para '{keyToPrint}': ")
+                newValue = input(f"Ingresa el nuevo valor para '{keyToPrint}':\n>>  ")
                 peopleToEdit[keyToEdit] = newValue
-                print(f"Activo '{peopleToEdit}' Actualizado.")
+                print(f"Activo '{peopleToEdit}' Actualizado.\n>> ")
                 os.system('pause')
                 return
             else:
-                print(f"Index invalido: {indexToEdit}. Ingresa un valor valido entre -1 y {len(indexToEdit) - 1}.")
+                print(f"Index invalido: {indexToEdit}. Ingresa un valor valido entre -1 y {len(indexToEdit) - 1}.\n>> ")
                 os.system('pause')
                 return
             
         else:
-            print(f"El personal con id#{id} '{indexToEdit}' no ha sido encontrado.")
+            print(f"El personal con id#{id} '{indexToEdit}' no ha sido encontrado.\n>> ")
             os.system('pause')
             return
     except UnboundLocalError as i:
-        print('El valor ingresado no es valido')
+        print('El valor ingresado no es valido\n>> ')
         os.system('pause')
 
 def zonaEdit(data:dict):
@@ -127,7 +127,7 @@ def zonaEdit(data:dict):
         os.system('cls')
         titulo=[["EDITAR ZONAS"]]
         print(tabulate(titulo,tablefmt="double_grid"))
-        nombre= input("Ingrese el nombre de la zona para editar").upper()
+        nombre= input("Ingrese el nombre de la zona para editar \n>> ").upper()
         #LISTA DE LLAVES PARA QUE EL USUARIO LO LEA MAS BONITO
         info2 = ['NroZona','NombreZona','totalCapacidad']
         if nombre in data['Zonas']:      
@@ -137,19 +137,19 @@ def zonaEdit(data:dict):
                 if key != 'Historial':  # Saltar el historial
                     print(f"{i+1}. {info2[i]}: {value}")
             try:
-                indexToEdit = int(input("Ingrese el numero de identificacion del valor que desea editar (-1 para cancelar o 0 para editarlos todos): "))
+                indexToEdit = int(input("Ingrese el numero de identificacion del valor que desea editar (-1 para cancelar o 0 para editarlos todos):\n>>  "))
             except ValueError:
-                print("Invalid input. Escriba un entero.")
+                print("Invalid input. Escriba un entero.\n>> ")
                 return #VOLVER AL MENU PRINCIPAL
             if indexToEdit == 0:
                     # Edit todos los valores
                     for key, value in zoneToEdit.items():
                         x = 0
                         if key != 'Historial':  # Saltar el historial
-                            newValue = input(f"Ingresa el nuevo valor para '{info2[x]}': ")
+                            newValue = input(f"Ingresa el nuevo valor para '{info2[x]}': \n>> ")
                             zoneToEdit[key] = newValue
                         x += 1
-                    print(f"La zona '{nombre}' fue editada satisfactoriamente.")
+                    print(f"La zona '{nombre}' fue editada satisfactoriamente.\n>> ")
                     os.system('pause')
                     return
             if indexToEdit == -1:
@@ -160,38 +160,38 @@ def zonaEdit(data:dict):
             if 0 < indexToEdit < len(list(zoneToEdit.items())):
                 keyToEdit = list(zoneToEdit.items())[indexToEdit-1]  # Extraer llave
                 keyToPrint = list(info2[indexToEdit-1])
-                newValue = input(f"Ingresa el nuevo valor para '{keyToPrint}': ")
+                newValue = input(f"Ingresa el nuevo valor para '{keyToPrint}':\n>>  ")
                 zoneToEdit[keyToEdit] = newValue
-                print(f"Zona '{zoneToEdit}' Actualizada.")
+                print(f"Zona '{zoneToEdit}' Actualizada.\n>> ")
                 os.system('pause')
                 return
             else:
-                print(f"Index invalido: {indexToEdit}. Ingresa un valor valido entre -1 y {len(indexToEdit) - 1}.")
+                print(f"Index invalido: {indexToEdit}. Ingresa un valor valido entre -1 y {len(indexToEdit) - 1}.\n>> ")
                 os.system('pause')
                 return
             
         else:
-            print(f"La zona '{indexToEdit}' no ha sido encontrada.")
+            print(f"La zona '{indexToEdit}' no ha sido encontrada.\n>> ")
             os.system('pause')
             return
     except UnboundLocalError as i:
-        print('El valor ingresado no es valido')
+        print('El valor ingresado no es valido\n>> ')
         os.system('pause')
 
 def estadoEdit(data:dict, estado):
     os.system('cls')
     titulo=[["EDITAR ESTADO DE ACTIVO"]]
     print(tabulate(titulo,tablefmt="double_grid"))
-    codCampus = input("Ingresa el valor del Codigo de campus para editar").upper()
+    codCampus = input("Ingresa el valor del Codigo de campus para editar\n>> ").upper()
     #LISTA DE LLAVES PARA QUE EL USUARIO LO LEA MAS BONITO
     if codCampus in data['Activos']:
         activeToEdit = data['Activos'][str(codCampus)]
         activeToEdit['Estado'] = str(estado)
         if estado == 2:
-            print(f"Activo '{activeToEdit}' actualizado a 'dado de baja por daño' ")
+            print(f"Activo '{activeToEdit}' actualizado a 'dado de baja por daño'\n>>  ")
             os.system('pause') 
         elif estado == 3:
-            print(f"Activo '{activeToEdit}' actualizado a 'reparacion por garantia' ")
+            print(f"Activo '{activeToEdit}' actualizado a 'reparacion por garantia'\n>>  ")
             os.system('pause')   
     return(data['Activos'][str(codCampus)])   
 
@@ -199,7 +199,7 @@ def returnEdit(data:dict, history:dict):
     os.system('cls')
     titulo=[["RETORNAR ACTIVO"]]
     print(tabulate(titulo,tablefmt="double_grid"))
-    codCampus = input("Ingresa el valor del Codigo de campus para editar").upper()
+    codCampus = input("Ingresa el valor del Codigo de campus para editar\n>> ").upper()
     if codCampus in data['Activos']:
         ultHistorial = data['Activos'][str(codCampus)]['Historial'][-1]
         ultAssing = history[str(ultHistorial)]['IdAssing']
@@ -211,12 +211,12 @@ def activeAssingEdit(data:dict, history:dict):
     os.system('cls')
     titulo=[["CAMBIAR ASIGNACION ACTIVO"]]
     print(tabulate(titulo,tablefmt="double_grid"))
-    codCampus = input("Ingresa el valor del Codigo de campus para editar").upper()
+    codCampus = input("Ingresa el valor del Codigo de campus para editar\n>> ").upper()
     if codCampus in data['Activos']:
         ultHistorial = data['Activos'][str(codCampus)]['Historial'][-1]
         ultAssing = history[str(ultHistorial)]['IdAssing']
         data['Asignaciones'][str(ultAssing)].remove(codCampus)
-    newAssing = input("Ingresa el numero de asignacion para agregar cambiar el activo ")
+    newAssing = input("Ingresa el numero de asignacion para agregar cambiar el activo\n>>  ")
     data['Asignaciones'][str(newAssing)]['Activos'].append(codCampus)
     return
 

@@ -208,15 +208,15 @@ def menuRep():
             print(tabulate(opciones, tablefmt="fancy_grid"))
             op=input("\n>> ")
             if op == "1":
-                list.listactivosall(data)
+                list.listActivosall(data)
             elif op == "2":
-                list.listActivosCategoria(data)
+                list.listActivoscategoria(data)
             elif op == "3":
-                pass
+                list.listActivosdaño(data)
             elif op == "4":
-                pass
+                list.listActivos_asg(data)
             elif op == "5":
-                pass
+                list.listHist(data)
             elif op =="6":
                 menuPRINCIPAL()
             else:
