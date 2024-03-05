@@ -1,9 +1,23 @@
 {
     "0001": {
         "NroId": "0001",
-        "Fecha": "789",
+        "Fecha": "798",
+        "TipoMov": 2,
+        "IdRespMov": "798",
+        "IdAssing": "TEC001"
+    },
+    "0002": {
+        "NroId": "0002",
+        "Fecha": "46",
+        "TipoMov": 2,
+        "IdRespMov": "465",
+        "IdAssing": "MON001"
+    },
+    "0003": {
+        "NroId": "0003",
+        "Fecha": "5",
         "TipoMov": 3,
-        "IdRespMov": "789",
-        "IdAssing": "NA"
+        "IdRespMov": "879",
+        "IdAssing": "CPU001"
     }
 }

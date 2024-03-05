@@ -6,7 +6,7 @@ def activosEdit(data:dict):
         os.system('cls')
         titulo=[["EDITAR ACTIVOS"]]
         print(tabulate(titulo,tablefmt="double_grid"))
-        codCampus = input("Ingresa el valor del Codigo de campus para editar").upper()
+        codCampus = input("Ingresa el valor del Codigo de campus para editar\n>>").upper()
         #LISTA DE LLAVES PARA QUE EL USUARIO LO LEA MAS BONITO
         keysRead = ['Codigo de Transaccion','Numero de Formulario','Codigo Campus','Marca','Categoria','Tipo','ValUnid','Proveedor','Numero Serial','la Empresa Responsable','Estado']
         if codCampus in data['Activos']:
@@ -16,17 +16,17 @@ def activosEdit(data:dict):
                 if key != 'Historial':  # Saltar el historial
                     print(f"{i+1}. {keysRead[i]}: {value}")
             try:
-                indexToEdit = int(input("Ingrese el numero de identificacion del valor que desea editar (-1 para cancelar o 0 para editarlos todos): ")).upper()
+                indexToEdit = int(input("Ingrese el numero de identificacion del valor que desea editar (-1 para cancelar o 0 para editarlos todos): "))
             except ValueError:
                 print("Invalid input. Escriba un entero.")
                 os.system('pause')
                 return #VOLVER AL MENU PRINCIPAL
             if indexToEdit == 0:
                     # Edit todos los valores
+                    x = 0
                     for key, value in activeToEdit.items():
-                        x = 0
                         if key != 'Historial':  # Saltar el historial
-                            newValue = input(f"Ingresa el nuevo valor para '{keysRead[x]}': ")
+                            newValue = input(f"Ingresa el nuevo valor para '{keysRead[x]}'\n>>")
                             activeToEdit[key] = newValue
                         x += 1
                     print(f"Activo '{codCampus}' fue editado satisfactoriamente.")
@@ -38,15 +38,19 @@ def activosEdit(data:dict):
                 return
 
             if 0 < indexToEdit < len(list(activeToEdit.items())):
-                keyToEdit = list(activeToEdit.items())[indexToEdit-1]  # Extraer llave
-                keyToPrint = list(keysRead[indexToEdit-1])
-                newValue = input(f"Ingresa el nuevo valor para '{keyToPrint}': ")
+                keyToEdit = list(activeToEdit.keys())[indexToEdit-1]  # Extraer llave
+                newValue = input(f"Ingresa el nuevo valor para '{keyToEdit}'\n>>")
+                if keyToEdit == 'CodCampus':
+                    data["Activos"][newValue] = data["Activos"][codCampus]
+                    del data["Activos"][codCampus]
+                else:
+                    activeToEdit[keyToEdit] = newValue
                 activeToEdit[keyToEdit] = newValue
-                print(f"Activo '{activeToEdit}' Actualizado.")
+                print(f"Activo '{activeToEdit['CodCampus']}' Actualizado.")
                 os.system('pause')
                 return
             else:
-                print(f"Index invalido: {indexToEdit}. Ingresa un valor valido entre -1 y {len(indexToEdit) - 1}.")
+                print(f"Index invalido: {indexToEdit}. Ingresa un valor valido entre -1 y {len(list(activeToEdit.items()))-1}.")
                 os.system('pause')
                 return
             
@@ -85,15 +89,16 @@ def peopleEdit(data:dict):
             except ValueError:
                 print("Invalid input. Escriba un entero.")
                 return #VOLVER AL MENU PRINCIPAL
+            
             if indexToEdit == 0:
                     # Edit todos los valores
+                    x = 0
                     for key, value in peopleToEdit.items():
-                        x = 0
                         if key != 'Historial':  # Saltar el historial
-                            newValue = input(f"Ingresa el nuevo valor para '{info[x]}': ")
+                            newValue = input(f"Ingresa el nuevo valor para '{info[x]}'\n>>")
                             peopleToEdit[key] = newValue
                         x += 1
-                    print(f"El personal con id #'{id}' fue editado satisfactoriamente.")
+                    print(f"Personal '{id}' fue editado satisfactoriamente.")
                     os.system('pause')
                     return
             if indexToEdit == -1:
@@ -102,11 +107,15 @@ def peopleEdit(data:dict):
                 return
 
             if 0 < indexToEdit < len(list(peopleToEdit.items())):
-                keyToEdit = list(peopleToEdit.items())[indexToEdit-1]  # Extraer llave
-                keyToPrint = list(info[indexToEdit-1])
-                newValue = input(f"Ingresa el nuevo valor para '{keyToPrint}': ")
+                keyToEdit = list(peopleToEdit.keys())[indexToEdit-1]  # Extraer llave
+                newValue = input(f"Ingresa el nuevo valor para '{keyToEdit}'\n>>")
+                if keyToEdit == 'Id':
+                    data["Personal"][newValue] = data["Personal"][id]
+                    del data["Personal"][id]
+                else:
+                    peopleToEdit[keyToEdit] = newValue
                 peopleToEdit[keyToEdit] = newValue
-                print(f"Activo '{peopleToEdit}' Actualizado.")
+                print(f"Personal '{peopleToEdit['Id']}' Actualizado.")
                 os.system('pause')
                 return
             else:
@@ -158,11 +167,10 @@ def zonaEdit(data:dict):
                 return
 
             if 0 < indexToEdit < len(list(zoneToEdit.items())):
-                keyToEdit = list(zoneToEdit.items())[indexToEdit-1]  # Extraer llave
-                keyToPrint = list(info2[indexToEdit-1])
-                newValue = input(f"Ingresa el nuevo valor para '{keyToPrint}': ")
+                keyToEdit = list(zoneToEdit.keys())[indexToEdit-1]  # Extraer llave
+                newValue = input(f"Ingresa el nuevo valor para '{keyToEdit}': ")
                 zoneToEdit[keyToEdit] = newValue
-                print(f"Zona '{zoneToEdit}' Actualizada.")
+                print(f"Activo '{zoneToEdit['CodCampus']}' Actualizado.")
                 os.system('pause')
                 return
             else:
@@ -182,17 +190,15 @@ def estadoEdit(data:dict, estado):
     os.system('cls')
     titulo=[["EDITAR ESTADO DE ACTIVO"]]
     print(tabulate(titulo,tablefmt="double_grid"))
-    codCampus = input("Ingresa el valor del Codigo de campus para editar").upper()
+    codCampus = input("Ingresa el valor del Codigo de campus para editar ").upper()
     #LISTA DE LLAVES PARA QUE EL USUARIO LO LEA MAS BONITO
     if codCampus in data['Activos']:
         activeToEdit = data['Activos'][str(codCampus)]
         activeToEdit['Estado'] = str(estado)
         if estado == 2:
-            print(f"Activo '{activeToEdit}' actualizado a 'dado de baja por daño' ")
-            os.system('pause') 
+            print(f"Activo '{activeToEdit['CodCampus']}' actualizado a 'dado de baja por daño' ")
         elif estado == 3:
-            print(f"Activo '{activeToEdit}' actualizado a 'reparacion por garantia' ")
-            os.system('pause')   
+            print(f"Activo '{activeToEdit['CodCampus']}' actualizado a 'reparacion por garantia' ")
     return(data['Activos'][str(codCampus)])   
 
 def returnEdit(data:dict, history:dict):

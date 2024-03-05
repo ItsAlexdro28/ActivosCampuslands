@@ -1,5 +1,13 @@
 {
-    "Personal": {},
+    "Personal": {
+        "112233": {
+            "Nombre": "JHOLVER",
+            "Id": "112233",
+            "Email": "@@@",
+            "Telefono": "4",
+            "Celular": "56"
+        }
+    },
     "Zonas": {},
     "Asignacion": {},
     "Activos": {
@@ -16,7 +24,7 @@
             "EmpresaResponsable": "Campuslands",
             "Estado": "3",
             "Historial": [
-                "0001"
+                "0003"
             ]
         },
         "MON001": {
@@ -30,8 +38,11 @@
             "Proveedor": "Compumax Computer ",
             "NroSerial": "COM2024CM21070723",
             "EmpresaResponsable": "Campuslands",
-            "Estado": "0",
-            "Historial": []
+            "Estado": "2",
+            "Historial": [
+                2,
+                "0002"
+            ]
         },
         "TEC001": {
             "CodTransaccion": "327",
@@ -44,8 +55,10 @@
             "Proveedor": "Compumax Computer ",
             "NroSerial": "KBM130091706",
             "EmpresaResponsable": "Campuslands",
-            "Estado": "0",
-            "Historial": []
+            "Estado": "2",
+            "Historial": [
+                "0001"
+            ]
         },
         "MOU001": {
             "CodTransaccion": "327",
@@ -57,20 +70,6 @@
             "ValUnid": "",
             "Proveedor": "Compumax Computer ",
             "NroSerial": "Sin serial ",
-            "EmpresaResponsable": "Campuslands",
-            "Estado": "0",
-            "Historial": []
-        },
-        "CPU002": {
-            "CodTransaccion": "327",
-            "NroFormulario": "966217823",
-            "CodCampus": "CPU002",
-            "Marca": "Compumax",
-            "Categoria": "Equipo de computo",
-            "Tipo": "Cpu",
-            "ValUnid": "",
-            "Proveedor": "Compumax Computer ",
-            "NroSerial": "400SN39208",
             "EmpresaResponsable": "Campuslands",
             "Estado": "0",
             "Historial": []
@@ -566,7 +565,7 @@
             "Historial": []
         },
         "CPU011": {
-            "CodTransaccion": "327",
+            "CodTransaccion": "3327",
             "NroFormulario": "966217823",
             "CodCampus": "CPU011",
             "Marca": "Compumax",
@@ -6892,6 +6891,36 @@
             "EmpresaResponsable": "Campuslands",
             "Estado": "0",
             "Historial": []
+        },
+        "1": {
+            "CodTransaccion": "1",
+            "NroFormulario": "1",
+            "CodCampus": "969696969",
+            "Marca": "1",
+            "Categoria": "1",
+            "Tipo": "1",
+            "ValUnid": "1",
+            "Proveedor": "1",
+            "NroSerial": "1",
+            "EmpresaResponsable": "1",
+            "Estado": "1",
+            "Historial": []
+        },
+        "CPPU002": {
+            "CodTransaccion": "327",
+            "NroFormulario": "966217823",
+            "CodCampus": "CPPU002",
+            "Marca": "Compumax",
+            "Categoria": "Equipo de computo",
+            "Tipo": "Cpu",
+            "ValUnid": "",
+            "Proveedor": "Compumax Computer ",
+            "NroSerial": "400SN39208",
+            "EmpresaResponsable": "Campuslands",
+            "Estado": "2",
+            "Historial": [
+                2
+            ]
         }
     }
 }
