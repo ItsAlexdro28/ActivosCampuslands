@@ -42,7 +42,7 @@ def activosEdit(data:dict):
                 keyToEdit = list(activeToEdit.keys())[indexToEdit-1]  # Extraer llave
                 newValue = input(f"Ingresa el nuevo valor para '{keyToEdit}'\n>>")
                 if keyToEdit == 'CodCampus':
-                    data["Activos"][newValue] = data["Activos"][codCampus]
+                    data["Activos"][newValue.upper()] = data["Activos"][codCampus]
                     del data["Activos"][codCampus]
                 else:
                     activeToEdit[keyToEdit] = newValue
@@ -169,7 +169,7 @@ def zonaEdit(data:dict):
                 keyToEdit = list(zoneToEdit.keys())[indexToEdit-1]  # Extraer llave
                 newValue = input(f"Ingresa el nuevo valor para '{keyToEdit}'\n>>")
                 if keyToEdit == 'NombreZona':
-                    data["Zonas"][newValue] = data["Zonas"][nombre]
+                    data["Zonas"][newValue.upper()] = data["Zonas"][nombre]
                     del data["Zonas"][nombre]
                 else:
                     zoneToEdit[keyToEdit] = newValue
