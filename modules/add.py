@@ -18,7 +18,7 @@ def addactivos(data:dict):
                 print('Opciones sugeridas: Equipo de computo, Electrodomestico, Juego')
             elif keys[i] == 'Tipo':
                 print('Opciones sugeridas: Monitor, CPU, Teclado, Mouse, Aire Acondicionado, Portatil, Impresora')
-            value = input(f'Valor para {keysRead[i]}\n>>')
+            value = input(f'{keysRead[i]}\n>>')
             hold[keys[i]] = value
         hold['Historial'] = []
         new[hold['CodCampus']] = hold

@@ -221,3 +221,4 @@ def listHist(data:dict):
         print(f"No hay historial de movimientos disponibles.")
         os.system('pause')
         os.system('cls')            
+        
