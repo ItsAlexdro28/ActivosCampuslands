@@ -27,7 +27,7 @@ def activosEdit(data:dict):
                     x = 0
                     for key, value in activeToEdit.items():
                         if key != 'Historial':  # Saltar el historial
-                            newValue = input(f"Ingresa el nuevo valor para '{{str(keysRead[x])}}':\n>> ")
+                            newValue = input(f"Ingresa el nuevo valor para '{str(keysRead[x])}':\n>> ")
                             activeToEdit[key] = newValue
                         x += 1
                     print(f"Activo '{codCampus}' fue editado satisfactoriamente.\n>> ")
@@ -146,7 +146,7 @@ def zonaEdit(data:dict):
                     # Edit todos los valores
                     x = 0
                     for key, value in zoneToEdit.items():
-                        newValue = input(f"Ingresa el nuevo valor para '{info[x]}'\n>>")
+                        newValue = input(f"Ingresa el nuevo valor para '{info2[x]}'\n>>")
                         zoneToEdit[key] = newValue
                         x += 1
                     print(f"Zona '{nombre}' fue editada satisfactoriamente.")
