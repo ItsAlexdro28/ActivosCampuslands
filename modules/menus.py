@@ -7,6 +7,7 @@ import modules.delete as delete
 import modules.search as search
 import modules.assingnations as assg
 import modules.reports as list 
+import modules.validacion as v
 
 data = imp.readJson('data')
 history = imp.readJson('history')
@@ -19,8 +20,8 @@ def menuPRINCIPAL():
         opciones = [["1.", "ACTIVOS"], ["2.", "PERSONAL "], ["3.", "ZONAS "], ["4.", "ASIGNACION DE ACTIVOS "],
                     ["5.", "REPORTES"], ["6.", "MOVIMIENTOS DE ACTIVOS"],["7.", "SALIR"]]
         print(tabulate(opciones, tablefmt="fancy_grid"))
-        opcion = input("\n>> ")
-        
+        opcion =v.validacionInt2()
+
         if opcion == "1":
             menuACTIVOS()
         elif opcion == "2":
@@ -58,7 +59,7 @@ def menuACTIVOS():
         print(tabulate(titulo,tablefmt="double_grid"))
         opciones = [["1.", "AGREGAR "], ["2.", "EDITAR "], ["3.", "ELIMINAR "], ["4.", "BUSCAR "], ["5.", "REGRESAR AL MENU PRINCIPAL"]]
         print(tabulate(opciones, tablefmt="fancy_grid"))
-        opcion = input("\n>> ")
+        opcion =v.validacionInt2()
         
         if opcion == "1":
             add.addactivos(data)
@@ -93,7 +94,7 @@ def menuPERSONAL():
         print(tabulate(titulo,tablefmt="double_grid"))
         opciones = [["1.", "AGREGAR "], ["2.", "EDITAR "], ["3.", "ELIMINAR "], ["4.", "BUSCAR "], ["5.", "REGRESAR AL MENU PRINCIPAL"]]
         print(tabulate(opciones, tablefmt="fancy_grid"))
-        opcion = input("\n>> ")
+        opcion =v.validacionInt2()
         
         if opcion == "1":
             add.addpeople(data)
@@ -128,7 +129,7 @@ def menuZONAS():
         print(tabulate(titulo,tablefmt="double_grid"))
         opciones = [["1.", "AGREGAR "], ["2.", "EDITAR "], ["3.", "ELIMINAR "], ["4.", " Buscar"], ["5.", "REGRESAR AL MENU PRINCIPAL"]]
         print(tabulate(opciones, tablefmt="fancy_grid"))
-        opcion = input("\n>> ")
+        opcion =v.validacionInt2()
         
         if opcion == "1":
             add.addzone(data)
@@ -163,7 +164,7 @@ def menuASIGACTIVOS():
         print(tabulate(titulo,tablefmt="double_grid"))
         opciones = [["1.", "CREAR ASIGNACION "], ["2.", "BUSCAR ASIGNACION "],["3.", "REGRESAR AL MENU PRINCIPAL"]]
         print(tabulate(opciones, tablefmt="fancy_grid"))
-        opcion = input("\n>> ")
+        opcion =v.validacionInt2()
         
         if opcion == "1":
             assg.newAssing(data)
@@ -202,7 +203,7 @@ def menuRep():
             opciones = [["1.","LISTAR TODOS LOS ACTIVOS: \n>>"],["2.","LISTAR ACTIVOS POR CATEGORIA: \n>> "],["3.","LISTAR ACTIVOS DADOS DE BAJA POR DAÑO: \n>>"],
                         ["4.","LISTAR ACTIVOS Y ASIGNACION:\n>>"],["5.","LISTAR HISTORIAL DE MOV. DE ACTIVO: \n>>"],["6.","REGRESAR AL MENU PRINCIPAL: \n>>"]]
             print(tabulate(opciones, tablefmt="fancy_grid"))
-            op=input("\n>> ")
+            op =v.validacionInt2()
             if op == "1":
                 list.listActivosall(data)
             elif op == "2":
@@ -236,7 +237,7 @@ def menuMOVIMIENTOSDEACTIVOS():
         opciones = [["1.", "RETORNO DE ACTIVO"], ["2.", "DAR DE BAJA ACTIVO"], ["3.", "CAMBIAR ASIGNACION DE ACTIVO"],
                     ["4.", "ENVIAR A GARANTIA ACTIVO"], ["5.",  "REGRESAR AL MENU PRINCIPAL"]]
         print(tabulate(opciones, tablefmt="fancy_grid"))
-        opcion = input("\n>> ")
+        opcion =v.validacionInt2()
         
         if opcion == "1":
             activoEdit = edit.returnEdit(data, history)

@@ -1,5 +1,6 @@
 from tabulate import tabulate
 import modules.search as search
+import modules.validacion as v
 import os
 
 def addactivos(data:dict):
@@ -13,17 +14,49 @@ def addactivos(data:dict):
         print(tabulate(titulo,tablefmt="double_grid"))
         for i in range(len(keys)):
             if keys[i] == 'Marca':
-                print('Opciones sugeridas: LG, COMPUMAX, LOGITECH, BENQ, ASUS, LENOVO, HP')
+                listOp=["LG", "COMPUMAX", "LOGITECH", "BENQ", "ASUS", "LENOVO", "HP"]
+                print('Opciones sugeridas: ')
+                cont=0
+                for j in listOp:
+                    cont+=1
+                    print(f'{cont}. {j} ')
+                print('Ingrese la opcion')
+                opcion=v.validacionInt()
+                value=listOp[opcion-1]
             elif keys[i] == 'Categoria':
-                print('Opciones sugeridas: Equipo de computo, Electrodomestico, Juego')
+                listOp=["Equipo de computo", "Electrodomestico", "Juego"]
+                print('Opciones sugeridas: ')
+                cont=0
+                for j in listOp:
+                    cont+=1
+                    print(f'{cont}. {j} ')
+                print('Ingrese la opcion')
+                opcion=v.validacionInt()
+                value=listOp[opcion-1]
             elif keys[i] == 'Tipo':
-                print('Opciones sugeridas: Monitor, CPU, Teclado, Mouse, Aire Acondicionado, Portatil, Impresora')
-            value = input(f'{keysRead[i]}\n>>')
+                listOp=[ "Monitor", "CPU", "Teclado", "Mouse", "Aire Acondicionado", "Portatil", "Impresora"]
+                print('Opciones sugeridas:')
+                cont=0
+                for j in listOp:
+                    cont+=1
+                    print(f'{cont}. {j} ')
+                print('Ingrese la opcion')
+                opcion=v.validacionInt()
+                value=listOp[opcion-1]
+            elif keys[i]=='CodCampus':
+                print(keysRead[i])
+                value=v.validacionKeyNew(data,"Activos")
+            elif keys[i]=='CodTransaccion' or keys[i]=='NroFormulario' or keys[i]=='ValUnid':
+                print(keysRead[i])
+                value=v.validacionInt()
+            else:
+                value = input(f'{keysRead[i]}\n>>')
             hold[keys[i]] = value
         hold['Estado'] = '0'    
         hold['Historial'] = []
         new[hold['CodCampus']] = hold
         data['Activos'].update(new) 
+
         return
     except ValueError as e:
         print(f"Error:La llave ingresada '{e}' no es valida.")
@@ -40,14 +73,17 @@ def addpeople(data:dict):
         hold2={}
         titulo=[["AÑADIR PERSONAS"]]
         print(tabulate(titulo,tablefmt="double_grid"))
-        id=input('Ingrese id:\n>>').upper()
+        print('Ingrese id:')
+        idp=v.validacionKeyNew2(data,"Personal")
         nombre=input('Ingrese un nombre:\n>>').upper()
         email=input('Ingrese un email:\n>>').upper()
-        telefono=input('Ingrese un telfono:\n>>').upper()
-        celular=input('Ingrese un celular:\n>>').upper()
+        print('Ingrese un telfono:')
+        telefono=v.validacionInt()
+        print('Ingrese un celular:')
+        celular=v.validacionInt()
         people={
             "Nombre":nombre,
-            "Id":id,
+            "Id":idp,
             "Email":email,
             "Telefono":telefono,
             "Celular":celular
@@ -67,11 +103,14 @@ def addzone(data:dict):
         hold3={}
         titulo=[["AÑADIR ZONAS"]]
         print(tabulate(titulo,tablefmt="double_grid"))
-        nrozona=input('Ingrese el nro zona:\n>>').upper()
+        print('Ingrese el numero de zona:')
+        nrozona=v.validacionKeyNew2(data,"Zonas")
         nombrezona=input('Ingrese el nombre de la zona:\n>>').upper()
-        totalcapacidad=input('Ingrese la capacidad de la zona:\n>>').upper()
+        print('Ingrese la capacidad de la zona:')
+        totalcapacidad=v.validacionInt()
+        
         zon={
-            "NroZona":nrozona.upper(),
+            "NroZona":nrozona,
             "NombreZona":nombrezona,
             "totalCapacidad":totalcapacidad
         }

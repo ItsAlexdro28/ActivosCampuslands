@@ -2,6 +2,7 @@ from tabulate import tabulate
 from modules.importJson import readJson
 import os
 import modules.menus as menu
+import modules.validacion as v
 os.system('cls')
 def listActivosall(data:dict):  
         listall = []
@@ -42,7 +43,7 @@ def listActivoscategoria(data:dict):
         opcion=('1. EQUIPOS DE COMPUTO \n2. ELECTRODOMESTICOS \n3. JUEGOS\n4. REGRESAR A MENU REPORTES\n  ')
         print(tabulate(opcion, tablefmt="fancy_grid"))
         #EQUIPOS DE COMPUTO
-        op = input('\n>> ')
+        op =v.validacionInt22()
         if op == "1": 
             list_equipos = []
             for keys, activo in data["Activos"].items():
