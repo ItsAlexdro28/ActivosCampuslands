@@ -139,9 +139,9 @@ def listActivoscategoria(data:dict):
 def listActivosdaño(data:dict):
     listbreak = []
     for codigo, activo in data["activos"].items():
-        if activo["estado"] == "dado de baja por daño":
+        if activo["estado"] == "Dado de baja por daño":
             nombre = activo["CodCampus"]
-            estado = activo["estado"]
+            estado = activo["Estado"]
             numero_serial = activo["NroSerial"]
             subLista = [codigo, nombre, estado, numero_serial]
             listbreak.append(subLista)
